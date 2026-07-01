@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111316">
+  <title>Music Radar</title>
+  <link rel="stylesheet" href="assets/css/music.css?v=1">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1 id="title">Music Radar</h1>
+      <p id="subtitle">Future chill, garage, chillstep, ambient electronic</p>
+    </div>
+    <div class="status">
+      <span id="updated">Loading</span>
+      <a id="youtube-search" href="https://www.youtube.com/results?search_query=future+chill+emotional+instrumental" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="player-shell" aria-label="Selected track">
+      <iframe id="player" title="YouTube player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div id="empty-player" class="empty-player">Select a track</div>
+    </section>
+
+    <section class="controls" aria-label="Music controls">
+      <nav id="tabs" class="tabs" aria-label="Categories"></nav>
+      <label class="search">
+        <span>Search</span>
+        <input id="filter" type="search" autocomplete="off">
+      </label>
+    </section>
+
+    <section id="tracks" class="tracks" aria-label="Tracks"></section>
+  </main>
+
+  <script src="assets/js/music.js?v=1"></script>
+</body>
+</html>
+

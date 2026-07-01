@@ -1,0 +1,102 @@
+{
+  "portal": {
+    "title": "Music Radar",
+    "subtitle": "Future chill, garage, chillstep, ambient electronic",
+    "timezone": "Asia/Kolkata",
+    "locale": "en-IN",
+    "default_category": "all",
+    "max_tracks": 64,
+    "max_results_per_query": 12
+  },
+  "searches": [
+    {
+      "id": "future_chill",
+      "label": "Future Chill",
+      "query": "future chill emotional instrumental",
+      "weight": 1.35
+    },
+    {
+      "id": "marion",
+      "label": "MARION",
+      "query": "MARION style music",
+      "weight": 1.25
+    },
+    {
+      "id": "chillstep",
+      "label": "Chillstep",
+      "query": "chillstep atmospheric electronic",
+      "weight": 1.25
+    },
+    {
+      "id": "future_garage",
+      "label": "Future Garage",
+      "query": "future garage emotional mix",
+      "weight": 1.2
+    },
+    {
+      "id": "cinematic",
+      "label": "Cinematic",
+      "query": "cinematic chill electronic background music",
+      "weight": 1.15
+    },
+    {
+      "id": "downtempo",
+      "label": "Downtempo",
+      "query": "melodic downtempo emotional electronic",
+      "weight": 1.1
+    },
+    {
+      "id": "ambient",
+      "label": "Ambient",
+      "query": "ambient electronic night drive reflective",
+      "weight": 1.1
+    },
+    {
+      "id": "liquid",
+      "label": "Liquid",
+      "query": "liquid chill liquid drum and bass atmospheric",
+      "weight": 0.85
+    }
+  ],
+  "positive_terms": [
+    "future chill",
+    "future garage",
+    "chillstep",
+    "ambient",
+    "emotional",
+    "cinematic",
+    "atmospheric",
+    "melodic",
+    "downtempo",
+    "instrumental",
+    "night drive",
+    "reflective",
+    "background music",
+    "liquid chill",
+    "liquid drum",
+    "marion",
+    "mix"
+  ],
+  "negative_terms": [
+    "reaction",
+    "tutorial",
+    "explained",
+    "lyrics",
+    "karaoke",
+    "cover",
+    "rap",
+    "hip hop",
+    "trap",
+    "type beat",
+    "live radio",
+    "lofi hip hop radio",
+    "sleep music",
+    "rain sounds",
+    "white noise",
+    "10 hours",
+    "8 hours"
+  ],
+  "blocked_channels": [
+    "future"
+  ]
+}
