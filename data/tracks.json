@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T07:28:28.723572+05:30",
+  "generated_at": "2026-07-01T07:39:26.420468+05:30",
   "tracks": [
     {
       "id": "Oi38lb4H6gQ",
@@ -559,6 +559,6 @@
       "weight": 0.85
     }
   ],
-  "error": null,
-  "stale": false
+  "error": "Refresh failed; kept previous tracks. future chill emotional instrumental: CalledProcessError: Command '['yt-dlp', '--dump-single-json', '--flat-playlist', '--ignore-errors', '--no-warnings', '--quiet', 'ytsearchdate12:future chill emotional instrumental']' returned non-zero exit status 1.; MARION style music: CalledProcessError: Command '['yt-dlp', '--dump-single-json', '--flat-playlist', '--ignore-errors', '--no-warnings', '--quiet', 'ytsearchdate12:MARION style music']' returned non-zero exit status 1.; chillstep atmospheric electronic: CalledProcessError: Command '['yt-dlp', '--dump-single-json', '--flat-playlist', '--ignore-errors', '--no-warnings', '--quiet', 'ytsearchdate12:chillstep atmospheric electronic']' returned non-zero exit status 1.; future garage emotional mix: CalledProcessError: Command '['yt-dlp', '--dump-single-json', '--flat-playlist', '--ignore-errors', '--no-warnings', '--quiet', 'ytsearchdate12:future garage emotional mix']' returned non-zero exit status 1.; cinematic chill electronic background music: CalledProcessError: Command '['yt-dlp', '--dump-single-json', '--flat-playlist', '--ignore-errors', '--no-warnings', '--quiet', 'ytsearchdate12:cinematic chill electronic background music']' returned non-zero exit status 1.; melodic downtempo emotional electronic: CalledProcessError: Command '['yt-dlp', '--dump-single-json', '--flat-playlist', '--ignore-errors', '--no-warnings', '--quiet', 'ytsearchdate12:melodic downtempo emotional electronic']' returned non-zero exit status 1.; ambient electronic night drive reflective: CalledProcessError: Command '['yt-dlp', '--dump-single-json', '--flat-playlist', '--ignore-errors', '--no-warnings', '--quiet', 'ytsearchdate12:ambient electronic night drive reflective']' returned non-zero exit status 1.; liquid chill liquid drum and bass atmospheric: CalledProcessError: Command '['yt-dlp', '--dump-single-json', '--flat-playlist', '--ignore-errors', '--no-warnings', '--quiet', 'ytsearchdate12:liquid chill liquid drum and bass atmospheric']' returned non-zero exit status 1.",
+  "stale": true
 }
