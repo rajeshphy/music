@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-07-02T23:31:43.763581+05:30",
+  "generated_at": "2026-07-02T23:37:26.939062+05:30",
   "mode": "latest",
   "search_sort": "date",
   "recent_hours": 24,
-  "cutoff_time": "2026-07-01T23:31:43.763581+05:30",
-  "tracks": [
-    {
-      "id": "m6XuDPEjDjU",
-      "title": "Cool Down 🌿 | Organic House & Nature Trance Mix | Relaxing Electronic Forest Music",
-      "channel": "Musicoo",
-      "url": "https://www.youtube.com/watch?v=m6XuDPEjDjU",
-      "embed_url": "https://www.youtube.com/embed/m6XuDPEjDjU",
-      "thumbnail": "https://i.ytimg.com/vi/m6XuDPEjDjU/hqdefault.jpg",
-      "duration": "143",
-      "duration_text": "2:23",
-      "published": "20260702",
-      "published_at": "2026-07-02T14:15:16+05:30",
-      "published_ts": 1782981916,
-      "latest_rank": 6,
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "query": "cinematic chill electronic background music",
-      "score": 14.5,
-      "categories": [
-        "cinematic"
-      ],
-      "category_labels": [
-        "Cinematic"
-      ],
-      "queries": [
-        "cinematic chill electronic background music"
-      ]
-    }
-  ],
+  "cutoff_time": "2026-07-01T23:37:26.939062+05:30",
+  "tracks": [],
   "searches": [
     {
       "id": "future_chill",
@@ -83,6 +55,6 @@
       "weight": 0.85
     }
   ],
-  "error": "liquid chill liquid drum and bass atmospheric: RuntimeError: ERROR: [youtube] J5bKdjl2xKo: The page needs to be reloaded.\nERROR: [youtube] rkVTYYOAWtY: The page needs to be reloaded.\nERROR: [youtube] vXCJy7t8ulM: The page needs to be reloaded.\nERROR: [youtube] qnIjptlnFcU: The page needs to be reloaded.\nERROR: [youtube] t_CUskpG_lk: The page needs to be reloaded.\nERROR: [youtube] C6oMSbq9UHw: The page needs to be reloaded.\nERROR: [youtube] wKEeVPfK8nw: The page needs to be reloaded.\nERROR: [youtube] Ktc23EfaMHg: The page needs to be reloaded.",
+  "error": "future chill emotional instrumental: RuntimeError: ERROR: Unable to handle request: Unsupported url scheme: \"ytsearchdate8\" (urllib); MARION style music: RuntimeError: ERROR: Unable to handle request: Unsupported url scheme: \"ytsearchdate8\" (urllib); chillstep atmospheric electronic: RuntimeError: ERROR: Unable to handle request: Unsupported url scheme: \"ytsearchdate8\" (urllib); future garage emotional mix: RuntimeError: ERROR: Unable to handle request: Unsupported url scheme: \"ytsearchdate8\" (urllib); cinematic chill electronic background music: RuntimeError: ERROR: Unable to handle request: Unsupported url scheme: \"ytsearchdate8\" (urllib); melodic downtempo emotional electronic: RuntimeError: ERROR: Unable to handle request: Unsupported url scheme: \"ytsearchdate8\" (urllib); ambient electronic night drive reflective: RuntimeError: ERROR: Unable to handle request: Unsupported url scheme: \"ytsearchdate8\" (urllib); liquid chill liquid drum and bass atmospheric: RuntimeError: ERROR: Unable to handle request: Unsupported url scheme: \"ytsearchdate8\" (urllib)",
   "stale": false
 }
