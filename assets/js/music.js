@@ -49,8 +49,13 @@
     tabs.replaceChildren();
     const allButton = tabButton("all", "All");
     tabs.append(allButton);
+    const activeCategories = new Set(tracks.flatMap(track => track.categories || []));
     for (const search of searches) {
+      if (!activeCategories.has(search.id)) continue;
       tabs.append(tabButton(search.id, search.label));
+    }
+    if (activeCategory !== "all" && !activeCategories.has(activeCategory)) {
+      activeCategory = "all";
     }
   }
 
@@ -183,4 +188,3 @@
     tracksElement.replaceChildren(empty);
   });
 })();
-

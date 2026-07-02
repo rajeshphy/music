@@ -1,12 +1,14 @@
 {
   "portal": {
     "title": "Music Radar",
-    "subtitle": "Future chill, garage, chillstep, ambient electronic",
+    "subtitle": "Latest 24-hour future chill, garage, chillstep, ambient electronic",
     "timezone": "Asia/Kolkata",
     "locale": "en-IN",
     "default_category": "all",
     "max_tracks": 64,
-    "max_results_per_query": 12
+    "max_results_per_query": 8,
+    "search_sort": "date",
+    "recent_hours": 24
   },
   "searches": [
     {

@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import os
 import re
 import subprocess
-import sys
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -46,28 +45,57 @@ def seconds_to_clock(seconds: object) -> str:
     return f"{minutes}:{secs:02d}"
 
 
-def run_search(query: str, max_results: int, timeout: int) -> list[dict]:
-    target = f"ytsearchdate{max_results}:{query}"
+def parse_timestamp(value: object, timezone: str):
+    text = clean_text(value)
+    if not re.fullmatch(r"\d+(?:\.\d+)?", text):
+        return None
+    try:
+        return datetime.fromtimestamp(float(text), tz=ZoneInfo(timezone))
+    except (OverflowError, OSError, ValueError):
+        return None
+
+
+def run_search(query: str, max_results: int, timeout: int, sort_mode: str) -> list[dict]:
+    prefix = "ytsearchdate" if sort_mode == "date" else "ytsearch"
+    target = f"{prefix}{max_results}:{query}"
+    fields = "%(id)s\t%(title)s\t%(channel)s\t%(duration)s\t%(upload_date)s\t%(timestamp)s\t%(webpage_url)s"
     command = [
         "yt-dlp",
-        "--dump-single-json",
-        "--flat-playlist",
+        "--skip-download",
         "--ignore-errors",
         "--no-warnings",
         "--quiet",
+        "--playlist-end", str(max_results),
+        "--print", fields,
         target,
     ]
     completed = subprocess.run(
         command,
         cwd=ROOT,
-        check=True,
+        check=False,
         capture_output=True,
         text=True,
         timeout=timeout,
     )
-    payload = json.loads(completed.stdout or "{}")
-    entries = payload.get("entries") or []
-    return [entry for entry in entries if isinstance(entry, dict)]
+    entries = []
+    for line in completed.stdout.splitlines():
+        parts = line.split("\t", 6)
+        if len(parts) != 7:
+            continue
+        video_id, title, channel, duration, upload_date, timestamp, webpage_url = parts
+        entries.append({
+            "id": clean_text(video_id),
+            "title": clean_text(title),
+            "channel": clean_text(channel),
+            "duration": None if duration == "NA" else duration,
+            "upload_date": "" if upload_date == "NA" else clean_text(upload_date),
+            "timestamp": "" if timestamp == "NA" else clean_text(timestamp),
+            "webpage_url": clean_text(webpage_url),
+        })
+
+    if not entries and completed.returncode:
+        raise RuntimeError((completed.stderr or "yt-dlp returned no entries").strip())
+    return entries
 
 
 def term_score(text: str, terms: list[str], value: float) -> float:
@@ -115,7 +143,7 @@ def score_entry(entry: dict, search: dict, config: dict, rank: int) -> float:
     return round(score, 3)
 
 
-def item_from_entry(entry: dict, search: dict, config: dict, rank: int) -> dict | None:
+def item_from_entry(entry: dict, search: dict, config: dict, rank: int, cutoff_time, timezone: str) -> dict | None:
     video_id = clean_text(entry.get("id"))
     if not video_id:
         url = clean_text(entry.get("url") or entry.get("webpage_url"))
@@ -133,6 +161,10 @@ def item_from_entry(entry: dict, search: dict, config: dict, rank: int) -> dict 
     if normalize_key(channel) in blocked_channels:
         return None
 
+    published_at = parse_timestamp(entry.get("timestamp"), timezone)
+    if not published_at or published_at < cutoff_time:
+        return None
+
     duration = entry.get("duration")
     score = score_entry(entry, search, config, rank)
     return {
@@ -144,7 +176,10 @@ def item_from_entry(entry: dict, search: dict, config: dict, rank: int) -> dict 
         "thumbnail": YOUTUBE_THUMB.format(video_id=video_id),
         "duration": duration,
         "duration_text": seconds_to_clock(duration),
-        "published": clean_text(entry.get("upload_date") or entry.get("timestamp")),
+        "published": clean_text(entry.get("upload_date")),
+        "published_at": published_at.isoformat(),
+        "published_ts": int(published_at.timestamp()),
+        "latest_rank": rank,
         "category": search.get("id"),
         "category_label": search.get("label"),
         "query": search.get("query"),
@@ -178,7 +213,10 @@ def main() -> int:
     max_results = int(os.environ.get("MUSIC_MAX_RESULTS_PER_QUERY") or portal.get("max_results_per_query") or 12)
     max_tracks = int(os.environ.get("MUSIC_MAX_TRACKS") or portal.get("max_tracks") or 64)
     timeout = int(os.environ.get("MUSIC_SEARCH_TIMEOUT") or 90)
-    previous = load_json(OUTPUT_PATH, {})
+    sort_mode = str(os.environ.get("MUSIC_SEARCH_SORT") or portal.get("search_sort") or "date").lower()
+    recent_hours = int(os.environ.get("MUSIC_RECENT_HOURS") or portal.get("recent_hours") or 24)
+    now = datetime.now(ZoneInfo(timezone))
+    cutoff_time = now - timedelta(hours=recent_hours)
 
     tracks_by_id: dict[str, dict] = {}
     errors = []
@@ -188,13 +226,13 @@ def main() -> int:
         if not query:
             continue
         try:
-            entries = run_search(query, max_results, timeout)
+            entries = run_search(query, max_results, timeout, sort_mode)
         except Exception as exc:
             errors.append(f"{query}: {type(exc).__name__}: {exc}")
             continue
 
         for rank, entry in enumerate(entries, start=1):
-            item = item_from_entry(entry, search, config, rank)
+            item = item_from_entry(entry, search, config, rank, cutoff_time, timezone)
             if not item:
                 continue
             existing = tracks_by_id.get(item["id"])
@@ -205,21 +243,23 @@ def main() -> int:
                 "queries": [item["query"]],
             }
 
-    tracks = sorted(tracks_by_id.values(), key=lambda item: item.get("score", 0), reverse=True)[:max_tracks]
+    tracks = sorted(
+        tracks_by_id.values(),
+        key=lambda item: (item.get("published_ts", 0), item.get("score", 0)),
+        reverse=True,
+    )[:max_tracks]
 
-    if not tracks and previous.get("tracks"):
-        output = dict(previous)
-        output["generated_at"] = datetime.now(ZoneInfo(timezone)).isoformat()
-        output["stale"] = True
-        output["error"] = "Refresh failed; kept previous tracks. " + "; ".join(errors)
-    else:
-        output = {
-            "generated_at": datetime.now(ZoneInfo(timezone)).isoformat(),
-            "tracks": tracks,
-            "searches": config.get("searches", []),
-            "error": "; ".join(errors) if errors else None,
-            "stale": False,
-        }
+    output = {
+        "generated_at": now.isoformat(),
+        "mode": "latest",
+        "search_sort": sort_mode,
+        "recent_hours": recent_hours,
+        "cutoff_time": cutoff_time.isoformat(),
+        "tracks": tracks,
+        "searches": config.get("searches", []),
+        "error": "; ".join(errors) if errors else None,
+        "stale": False,
+    }
 
     OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {len(output.get('tracks') or [])} tracks to {OUTPUT_PATH.relative_to(ROOT)}")
@@ -227,7 +267,7 @@ def main() -> int:
         print("Warnings:")
         for error in errors:
             print(f"- {error}")
-    return 0 if output.get("tracks") else 1
+    return 0
 
 
 if __name__ == "__main__":
