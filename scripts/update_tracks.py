@@ -55,12 +55,14 @@ def parse_timestamp(value: object, timezone: str):
         return None
 
 
-def run_search(query: str, max_results: int, timeout: int, sort_mode: str) -> list[dict]:
-    prefix = "ytsearchdate" if sort_mode == "date" else "ytsearch"
-    target = f"{prefix}{max_results}:{query}"
+def run_search(query: str, max_results: int, timeout: int, sort_mode: str, cutoff_time: datetime) -> list[dict]:
+    if sort_mode == "date":
+        query = f"{query} after:{cutoff_time.date().isoformat()}"
+    target = f"ytsearch{max_results}:{query}"
     fields = "%(id)s\t%(title)s\t%(channel)s\t%(duration)s\t%(upload_date)s\t%(timestamp)s\t%(webpage_url)s"
     command = [
         "yt-dlp",
+        "--extractor-args", "youtube:player_client=android",
         "--skip-download",
         "--ignore-errors",
         "--no-warnings",
@@ -106,6 +108,11 @@ def term_score(text: str, terms: list[str], value: float) -> float:
         if normalized and normalized in padded:
             score += value
     return score
+
+
+def has_any_term(text: str, terms: list[str]) -> bool:
+    padded = f" {text} "
+    return any((normalized in padded) for term in terms if (normalized := normalize_key(term)))
 
 
 def duration_score(duration: object, text: str) -> float:
@@ -157,8 +164,14 @@ def item_from_entry(entry: dict, search: dict, config: dict, rank: int, cutoff_t
         return None
 
     channel = clean_text(entry.get("channel") or entry.get("uploader"))
+    text = normalize_key(f"{title} {channel}")
     blocked_channels = {normalize_key(channel) for channel in config.get("blocked_channels", [])}
     if normalize_key(channel) in blocked_channels:
+        return None
+    if has_any_term(text, config.get("hard_block_terms", [])):
+        return None
+    required_terms = config.get("required_terms", [])
+    if required_terms and not has_any_term(text, required_terms):
         return None
 
     published_at = parse_timestamp(entry.get("timestamp"), timezone)
@@ -167,6 +180,8 @@ def item_from_entry(entry: dict, search: dict, config: dict, rank: int, cutoff_t
 
     duration = entry.get("duration")
     score = score_entry(entry, search, config, rank)
+    if score < float(config.get("minimum_score", 8.0)):
+        return None
     return {
         "id": video_id,
         "title": title,
@@ -226,7 +241,7 @@ def main() -> int:
         if not query:
             continue
         try:
-            entries = run_search(query, max_results, timeout, sort_mode)
+            entries = run_search(query, max_results, timeout, sort_mode, cutoff_time)
         except Exception as exc:
             errors.append(f"{query}: {type(exc).__name__}: {exc}")
             continue
@@ -257,7 +272,8 @@ def main() -> int:
         "cutoff_time": cutoff_time.isoformat(),
         "tracks": tracks,
         "searches": config.get("searches", []),
-        "error": "; ".join(errors) if errors else None,
+        "warning": "; ".join(errors) if errors and tracks else None,
+        "error": "; ".join(errors) if errors and not tracks else None,
         "stale": False,
     }
 
