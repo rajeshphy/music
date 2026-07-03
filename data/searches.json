@@ -7,8 +7,10 @@
     "default_category": "all",
     "max_tracks": 64,
     "max_results_per_query": 8,
+    "max_items_per_feed": 3,
     "search_sort": "date",
-    "recent_hours": 24
+    "recent_hours": 24,
+    "youtube_search_enabled": false
   },
   "searches": [
     {
@@ -58,6 +60,183 @@
       "label": "Liquid",
       "query": "liquid chill liquid drum and bass atmospheric",
       "weight": 0.85
+    }
+  ],
+  "rss_feeds": [
+    {
+      "id": "velvet_energy",
+      "label": "Velvet Energy",
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC4djlmp19rQ3-9rnmTddtQ"
+    },
+    {
+      "id": "groove_nomada",
+      "label": "Groove Nomada",
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA"
+    },
+    {
+      "id": "chill_deep_society",
+      "label": "Chill Deep Society",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w"
+    },
+    {
+      "id": "veloura_smoke",
+      "label": "Veloura Smoke",
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg"
+    },
+    {
+      "id": "neonwalker",
+      "label": "NeonWalker",
+      "category": "future_chill",
+      "category_label": "Future Chill",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg"
+    },
+    {
+      "id": "sylvia_ray",
+      "label": "Sylvia Ray",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqHxoJEUklCIRsmfHqMyKpQ"
+    },
+    {
+      "id": "sovreix",
+      "label": "SOVREIX",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ"
+    },
+    {
+      "id": "healing_sounds",
+      "label": "HealingSounds",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg"
+    },
+    {
+      "id": "seriq",
+      "label": "SERIQ",
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA"
+    },
+    {
+      "id": "astracore",
+      "label": "ASTRACORE",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw"
+    },
+    {
+      "id": "soundscape_bladerunner",
+      "label": "Soundscape BladeRunner",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC45cKsW6esslhbcIO9EhdIQ"
+    },
+    {
+      "id": "sound_regend",
+      "label": "Sound Regend",
+      "category": "chillstep",
+      "category_label": "Chillstep",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw"
+    },
+    {
+      "id": "space_dnb",
+      "label": "SPACE DnB",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g"
+    },
+    {
+      "id": "infraction",
+      "label": "Infraction",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkRrhwhJ2Ia_ZlkTQ4XFWJA"
+    },
+    {
+      "id": "bumer_slava",
+      "label": "bumer_slava",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg"
+    },
+    {
+      "id": "liquid_sound_drop",
+      "label": "Liquid Sound Drop",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJa9AltEOis0fc2vDi9aHiw"
+    },
+    {
+      "id": "dune_pulse",
+      "label": "Dune Pulse",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw"
+    },
+    {
+      "id": "the_angle",
+      "label": "The angle",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1OUqTFOe1umJrWxlq_4MJg"
+    },
+    {
+      "id": "gas_station",
+      "label": "Gas Station",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpX0B1lL2l1yX1ACU51ywg"
+    },
+    {
+      "id": "liquid_kemistry",
+      "label": "Liquid Kemistry",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcCJhavo4umeVR3Phr1AntA"
+    },
+    {
+      "id": "midnight_horizon",
+      "label": "Midnight Horizon",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ"
+    },
+    {
+      "id": "trance_mix",
+      "label": "Trance mix",
+      "category": "chillstep",
+      "category_label": "Chillstep",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w"
+    },
+    {
+      "id": "musicoo",
+      "label": "Musicoo",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCh_540MtcrFRBS1PMUIVykg"
+    },
+    {
+      "id": "afrohouse",
+      "label": "Afrohousechannel",
+      "category": "future_garage",
+      "category_label": "Future Garage",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCupD2zem2F0UptBqbvE-TwA"
+    },
+    {
+      "id": "persian_jazz",
+      "label": "Persian Jazz",
+      "category": "future_chill",
+      "category_label": "Future Chill",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q"
     }
   ],
   "positive_terms": [

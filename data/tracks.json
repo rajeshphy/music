@@ -1,10 +1,1062 @@
 {
-  "generated_at": "2026-07-03T08:11:19.214009+05:30",
+  "generated_at": "2026-07-03T08:18:12.603034+05:30",
   "mode": "latest",
   "search_sort": "date",
   "recent_hours": 24,
-  "cutoff_time": "2026-07-02T08:11:19.214009+05:30",
-  "tracks": [],
+  "cutoff_time": "2026-07-02T08:18:12.603034+05:30",
+  "youtube_search_enabled": false,
+  "tracks": [
+    {
+      "id": "2NV_Ei1RbmY",
+      "title": "Cymbal Thunder #music #deephouse #motivationalbeats #party #dance #disco #driving",
+      "channel": "Velvet Energy",
+      "url": "https://www.youtube.com/watch?v=2NV_Ei1RbmY",
+      "embed_url": "https://www.youtube.com/embed/2NV_Ei1RbmY",
+      "thumbnail": "https://i.ytimg.com/vi/2NV_Ei1RbmY/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T06:42:42+05:30",
+      "published_ts": 1783041162,
+      "latest_rank": 1,
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "query": "Velvet Energy",
+      "score": 12.95,
+      "method": "rss",
+      "feed_id": "velvet_energy",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC4djlmp19rQ3-9rnmTddtQ",
+      "categories": [
+        "downtempo"
+      ],
+      "category_labels": [
+        "Downtempo"
+      ],
+      "queries": [
+        "Velvet Energy"
+      ]
+    },
+    {
+      "id": "DwyXq2VsluM",
+      "title": "EDM Chill Dark Night Drive Mix 2026 - Relaxing Party Dance Electronic Music for Deep Vibes",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=DwyXq2VsluM",
+      "embed_url": "https://www.youtube.com/embed/DwyXq2VsluM",
+      "thumbnail": "https://i.ytimg.com/vi/DwyXq2VsluM/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T05:07:48+05:30",
+      "published_ts": 1783035468,
+      "latest_rank": 1,
+      "category": "chillstep",
+      "category_label": "Chillstep",
+      "query": "Sound Regend",
+      "score": 15.15,
+      "method": "rss",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "chillstep"
+      ],
+      "category_labels": [
+        "Chillstep"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "F6vpyqiEo4w",
+      "title": "EDM Chill Infinite Drive Mix 2026 - Relaxing Party Dance Electronic Music for Smooth Energy",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=F6vpyqiEo4w",
+      "embed_url": "https://www.youtube.com/embed/F6vpyqiEo4w",
+      "thumbnail": "https://i.ytimg.com/vi/F6vpyqiEo4w/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T05:07:42+05:30",
+      "published_ts": 1783035462,
+      "latest_rank": 3,
+      "category": "chillstep",
+      "category_label": "Chillstep",
+      "query": "Sound Regend",
+      "score": 13.15,
+      "method": "rss",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "chillstep"
+      ],
+      "category_labels": [
+        "Chillstep"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "0HdSFUCEJrM",
+      "title": "EDM Chill Cosmic Night Drive Mix 2026 - Relaxing Party Dance Electronic Music for Driving Vibes",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=0HdSFUCEJrM",
+      "embed_url": "https://www.youtube.com/embed/0HdSFUCEJrM",
+      "thumbnail": "https://i.ytimg.com/vi/0HdSFUCEJrM/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T05:07:34+05:30",
+      "published_ts": 1783035454,
+      "latest_rank": 2,
+      "category": "chillstep",
+      "category_label": "Chillstep",
+      "query": "Sound Regend",
+      "score": 14.7,
+      "method": "rss",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "chillstep"
+      ],
+      "category_labels": [
+        "Chillstep"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "Rn_B2UDLnG8",
+      "title": "Magillian feat. Groove Nomada - Falling Into a Dream | Melodic Techno",
+      "channel": "Groove Nomada",
+      "url": "https://www.youtube.com/watch?v=Rn_B2UDLnG8",
+      "embed_url": "https://www.youtube.com/embed/Rn_B2UDLnG8",
+      "thumbnail": "https://i.ytimg.com/vi/Rn_B2UDLnG8/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T04:45:06+05:30",
+      "published_ts": 1783034106,
+      "latest_rank": 1,
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "query": "Groove Nomada",
+      "score": 14.05,
+      "method": "rss",
+      "feed_id": "groove_nomada",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA",
+      "categories": [
+        "downtempo"
+      ],
+      "category_labels": [
+        "Downtempo"
+      ],
+      "queries": [
+        "Groove Nomada"
+      ]
+    },
+    {
+      "id": "1jomM7-1azg",
+      "title": "Mirrors Open Late Late Night Chill Deep House Mix for Rainy Apartments, Quiet Reflection & Emotional",
+      "channel": "Chill Deep Society",
+      "url": "https://www.youtube.com/watch?v=1jomM7-1azg",
+      "embed_url": "https://www.youtube.com/embed/1jomM7-1azg",
+      "thumbnail": "https://i.ytimg.com/vi/1jomM7-1azg/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T04:40:45+05:30",
+      "published_ts": 1783033845,
+      "latest_rank": 1,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "Chill Deep Society",
+      "score": 15.15,
+      "method": "rss",
+      "feed_id": "chill_deep_society",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w",
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "Chill Deep Society"
+      ]
+    },
+    {
+      "id": "qE6X8RNFKe0",
+      "title": "Luxury Deep House for Late Night Cruising",
+      "channel": "Veloura Smoke",
+      "url": "https://www.youtube.com/watch?v=qE6X8RNFKe0",
+      "embed_url": "https://www.youtube.com/embed/qE6X8RNFKe0",
+      "thumbnail": "https://i.ytimg.com/vi/qE6X8RNFKe0/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T03:30:36+05:30",
+      "published_ts": 1783029636,
+      "latest_rank": 1,
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "query": "Veloura Smoke",
+      "score": 12.95,
+      "method": "rss",
+      "feed_id": "veloura_smoke",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
+      "categories": [
+        "downtempo"
+      ],
+      "category_labels": [
+        "Downtempo"
+      ],
+      "queries": [
+        "Veloura Smoke"
+      ]
+    },
+    {
+      "id": "FZ3JfO7ZNxg",
+      "title": "Alan Walker Style–Endless Midnight Journey | Emotional EDM, Future Bass & Cinematic Night Drive 2026",
+      "channel": "NeonWalker",
+      "url": "https://www.youtube.com/watch?v=FZ3JfO7ZNxg",
+      "embed_url": "https://www.youtube.com/embed/FZ3JfO7ZNxg",
+      "thumbnail": "https://i.ytimg.com/vi/FZ3JfO7ZNxg/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T03:30:00+05:30",
+      "published_ts": 1783029600,
+      "latest_rank": 1,
+      "category": "future_chill",
+      "category_label": "Future Chill",
+      "query": "NeonWalker",
+      "score": 16.25,
+      "method": "rss",
+      "feed_id": "neonwalker",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
+      "categories": [
+        "future_chill"
+      ],
+      "category_labels": [
+        "Future Chill"
+      ],
+      "queries": [
+        "NeonWalker"
+      ]
+    },
+    {
+      "id": "doo4v8EFmnY",
+      "title": "Falling in Love | Techno Song",
+      "channel": "Sylvia Ray",
+      "url": "https://www.youtube.com/watch?v=doo4v8EFmnY",
+      "embed_url": "https://www.youtube.com/embed/doo4v8EFmnY",
+      "thumbnail": "https://i.ytimg.com/vi/doo4v8EFmnY/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T03:00:07+05:30",
+      "published_ts": 1783027807,
+      "latest_rank": 1,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "Sylvia Ray",
+      "score": 12.95,
+      "method": "rss",
+      "feed_id": "sylvia_ray",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqHxoJEUklCIRsmfHqMyKpQ",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "Sylvia Ray"
+      ]
+    },
+    {
+      "id": "-aZIyWdeArw",
+      "title": "ILLUMINATED - Emotional Deep House | Night Drive",
+      "channel": "SOVREIX",
+      "url": "https://www.youtube.com/watch?v=-aZIyWdeArw",
+      "embed_url": "https://www.youtube.com/embed/-aZIyWdeArw",
+      "thumbnail": "https://i.ytimg.com/vi/-aZIyWdeArw/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T02:30:36+05:30",
+      "published_ts": 1783026036,
+      "latest_rank": 1,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "SOVREIX",
+      "score": 15.15,
+      "method": "rss",
+      "feed_id": "sovreix",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ",
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "SOVREIX"
+      ]
+    },
+    {
+      "id": "z5NrDAxyhDQ",
+      "title": "Twin Flame – Deep Ambient Music for Relaxation - Cinematic Pads & Atmospheric Textures",
+      "channel": "HealingSounds",
+      "url": "https://www.youtube.com/shorts/z5NrDAxyhDQ",
+      "embed_url": "https://www.youtube.com/embed/z5NrDAxyhDQ",
+      "thumbnail": "https://i.ytimg.com/vi/z5NrDAxyhDQ/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T02:30:10+05:30",
+      "published_ts": 1783026010,
+      "latest_rank": 1,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "HealingSounds",
+      "score": 16.25,
+      "method": "rss",
+      "feed_id": "healing_sounds",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "HealingSounds"
+      ]
+    },
+    {
+      "id": "64TujhrHoqw",
+      "title": "Twin Flame – Deep Ambient Music for Relaxation - Cinematic Pads & Atmospheric Textures",
+      "channel": "HealingSounds",
+      "url": "https://www.youtube.com/watch?v=64TujhrHoqw",
+      "embed_url": "https://www.youtube.com/embed/64TujhrHoqw",
+      "thumbnail": "https://i.ytimg.com/vi/64TujhrHoqw/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T02:30:06+05:30",
+      "published_ts": 1783026006,
+      "latest_rank": 2,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "HealingSounds",
+      "score": 15.8,
+      "method": "rss",
+      "feed_id": "healing_sounds",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "HealingSounds"
+      ]
+    },
+    {
+      "id": "L5wH0woH7l0",
+      "title": "OMER BALIK - I'm Dying (Seriq Remix)",
+      "channel": "SERIQ",
+      "url": "https://www.youtube.com/watch?v=L5wH0woH7l0",
+      "embed_url": "https://www.youtube.com/embed/L5wH0woH7l0",
+      "thumbnail": "https://i.ytimg.com/vi/L5wH0woH7l0/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T02:16:33+05:30",
+      "published_ts": 1783025193,
+      "latest_rank": 1,
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "query": "SERIQ",
+      "score": 14.05,
+      "method": "rss",
+      "feed_id": "seriq",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA",
+      "categories": [
+        "downtempo"
+      ],
+      "category_labels": [
+        "Downtempo"
+      ],
+      "queries": [
+        "SERIQ"
+      ]
+    },
+    {
+      "id": "TCyw2IQuVRU",
+      "title": "Dreamcast 1999 | Atmospheric Liquid DnB Mix for Work & Focus",
+      "channel": "ASTRACORE",
+      "url": "https://www.youtube.com/watch?v=TCyw2IQuVRU",
+      "embed_url": "https://www.youtube.com/embed/TCyw2IQuVRU",
+      "thumbnail": "https://i.ytimg.com/vi/TCyw2IQuVRU/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T02:04:52+05:30",
+      "published_ts": 1783024492,
+      "latest_rank": 1,
+      "category": "liquid",
+      "category_label": "Liquid",
+      "query": "ASTRACORE",
+      "score": 15.15,
+      "method": "rss",
+      "feed_id": "astracore",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid"
+      ],
+      "queries": [
+        "ASTRACORE"
+      ]
+    },
+    {
+      "id": "UyM9AqtMG-M",
+      "title": "Artificial Dawn | Blade Runner Cyberpunk Synth | Dark Ambient Sci-Fi Mix | Focus & Night Drive | 3H",
+      "channel": "Soundscape BladeRunner",
+      "url": "https://www.youtube.com/watch?v=UyM9AqtMG-M",
+      "embed_url": "https://www.youtube.com/embed/UyM9AqtMG-M",
+      "thumbnail": "https://i.ytimg.com/vi/UyM9AqtMG-M/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T00:15:15+05:30",
+      "published_ts": 1783017915,
+      "latest_rank": 1,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "Soundscape BladeRunner",
+      "score": 16.25,
+      "method": "rss",
+      "feed_id": "soundscape_bladerunner",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC45cKsW6esslhbcIO9EhdIQ",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "Soundscape BladeRunner"
+      ]
+    },
+    {
+      "id": "bzNldsIWmio",
+      "title": "Neon Rain in the Future 🌆 #Cyberpunk #Synthwave #Shorts",
+      "channel": "Soundscape BladeRunner",
+      "url": "https://www.youtube.com/shorts/bzNldsIWmio",
+      "embed_url": "https://www.youtube.com/embed/bzNldsIWmio",
+      "thumbnail": "https://i.ytimg.com/vi/bzNldsIWmio/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T00:15:08+05:30",
+      "published_ts": 1783017908,
+      "latest_rank": 2,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "Soundscape BladeRunner",
+      "score": 12.5,
+      "method": "rss",
+      "feed_id": "soundscape_bladerunner",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC45cKsW6esslhbcIO9EhdIQ",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "Soundscape BladeRunner"
+      ]
+    },
+    {
+      "id": "BzhbWT3rQbg",
+      "title": "CATACLYSM - Emotional Deep House | Night Drive",
+      "channel": "SOVREIX",
+      "url": "https://www.youtube.com/watch?v=BzhbWT3rQbg",
+      "embed_url": "https://www.youtube.com/embed/BzhbWT3rQbg",
+      "thumbnail": "https://i.ytimg.com/vi/BzhbWT3rQbg/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260703",
+      "published_at": "2026-07-03T00:01:29+05:30",
+      "published_ts": 1783017089,
+      "latest_rank": 2,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "SOVREIX",
+      "score": 14.7,
+      "method": "rss",
+      "feed_id": "sovreix",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ",
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "SOVREIX"
+      ]
+    },
+    {
+      "id": "Byn5uU34YEM",
+      "title": "deep space frequencies | Stellar Rush #Shorts",
+      "channel": "SPACE DnB",
+      "url": "https://www.youtube.com/shorts/Byn5uU34YEM",
+      "embed_url": "https://www.youtube.com/embed/Byn5uU34YEM",
+      "thumbnail": "https://i.ytimg.com/vi/Byn5uU34YEM/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T22:30:07+05:30",
+      "published_ts": 1783011607,
+      "latest_rank": 1,
+      "category": "liquid",
+      "category_label": "Liquid",
+      "query": "SPACE DnB",
+      "score": 12.95,
+      "method": "rss",
+      "feed_id": "space_dnb",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid"
+      ],
+      "queries": [
+        "SPACE DnB"
+      ]
+    },
+    {
+      "id": "JNu43smtXyQ",
+      "title": "Nebula Lounge | Atmospheric DnB Mix for Chilling & Evening Vibes — Vol. V",
+      "channel": "SPACE DnB",
+      "url": "https://www.youtube.com/watch?v=JNu43smtXyQ",
+      "embed_url": "https://www.youtube.com/embed/JNu43smtXyQ",
+      "thumbnail": "https://i.ytimg.com/vi/JNu43smtXyQ/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T20:30:38+05:30",
+      "published_ts": 1783004438,
+      "latest_rank": 2,
+      "category": "liquid",
+      "category_label": "Liquid",
+      "query": "SPACE DnB",
+      "score": 14.7,
+      "method": "rss",
+      "feed_id": "space_dnb",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid"
+      ],
+      "queries": [
+        "SPACE DnB"
+      ]
+    },
+    {
+      "id": "qF2Oj4mjbjY",
+      "title": "Dreams Meet Here #ambient #chill ambientchillout #downtempo #relaxingmusic #dreamwave #femalevocals",
+      "channel": "bumer_slava",
+      "url": "https://www.youtube.com/shorts/qF2Oj4mjbjY",
+      "embed_url": "https://www.youtube.com/embed/qF2Oj4mjbjY",
+      "thumbnail": "https://i.ytimg.com/vi/qF2Oj4mjbjY/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T20:30:31+05:30",
+      "published_ts": 1783004431,
+      "latest_rank": 1,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "bumer_slava",
+      "score": 15.15,
+      "method": "rss",
+      "feed_id": "bumer_slava",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg",
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "bumer_slava"
+      ]
+    },
+    {
+      "id": "YJFnLHsLjYo",
+      "title": "Powerful Rock For Sport Videos / Infraction Music - Hard Race #workoutmusic",
+      "channel": "Infraction",
+      "url": "https://www.youtube.com/shorts/YJFnLHsLjYo",
+      "embed_url": "https://www.youtube.com/embed/YJFnLHsLjYo",
+      "thumbnail": "https://i.ytimg.com/vi/YJFnLHsLjYo/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T20:00:02+05:30",
+      "published_ts": 1783002602,
+      "latest_rank": 1,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "Infraction",
+      "score": 12.95,
+      "method": "rss",
+      "feed_id": "infraction",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkRrhwhJ2Ia_ZlkTQ4XFWJA",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "Infraction"
+      ]
+    },
+    {
+      "id": "taUgDJYRcIA",
+      "title": "Documentary Cinematic Inspirational by Infraction [Copyright Free Music] / Freefall",
+      "channel": "Infraction",
+      "url": "https://www.youtube.com/watch?v=taUgDJYRcIA",
+      "embed_url": "https://www.youtube.com/embed/taUgDJYRcIA",
+      "thumbnail": "https://i.ytimg.com/vi/taUgDJYRcIA/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T19:00:21+05:30",
+      "published_ts": 1782999021,
+      "latest_rank": 2,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "Infraction",
+      "score": 13.6,
+      "method": "rss",
+      "feed_id": "infraction",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkRrhwhJ2Ia_ZlkTQ4XFWJA",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "Infraction"
+      ]
+    },
+    {
+      "id": "h_Wkj6h2Inw",
+      "title": "Echoes Between Stars Tonight | Liquid Drum & Bass | Melodic DnB",
+      "channel": "bumer_slava",
+      "url": "https://www.youtube.com/watch?v=h_Wkj6h2Inw",
+      "embed_url": "https://www.youtube.com/embed/h_Wkj6h2Inw",
+      "thumbnail": "https://i.ytimg.com/vi/h_Wkj6h2Inw/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T19:00:06+05:30",
+      "published_ts": 1782999006,
+      "latest_rank": 2,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "bumer_slava",
+      "score": 14.7,
+      "method": "rss",
+      "feed_id": "bumer_slava",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg",
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "bumer_slava"
+      ]
+    },
+    {
+      "id": "V0NRD-Ucug4",
+      "title": "Dark Liquid Drum & Bass Mix 2026 | Neural Overdrive | Gritty Basslines & Heavy Sub",
+      "channel": "Liquid Sound Drop",
+      "url": "https://www.youtube.com/watch?v=V0NRD-Ucug4",
+      "embed_url": "https://www.youtube.com/embed/V0NRD-Ucug4",
+      "thumbnail": "https://i.ytimg.com/vi/V0NRD-Ucug4/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T18:50:38+05:30",
+      "published_ts": 1782998438,
+      "latest_rank": 1,
+      "category": "liquid",
+      "category_label": "Liquid",
+      "query": "Liquid Sound Drop",
+      "score": 15.15,
+      "method": "rss",
+      "feed_id": "liquid_sound_drop",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJa9AltEOis0fc2vDi9aHiw",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid"
+      ],
+      "queries": [
+        "Liquid Sound Drop"
+      ]
+    },
+    {
+      "id": "EZMm1eaJPVI",
+      "title": "Children of Gaza | أطفال غزة | Arabic Deep House Mix | Seriq",
+      "channel": "SERIQ",
+      "url": "https://www.youtube.com/watch?v=EZMm1eaJPVI",
+      "embed_url": "https://www.youtube.com/embed/EZMm1eaJPVI",
+      "thumbnail": "https://i.ytimg.com/vi/EZMm1eaJPVI/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T18:48:33+05:30",
+      "published_ts": 1782998313,
+      "latest_rank": 2,
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "query": "SERIQ",
+      "score": 13.6,
+      "method": "rss",
+      "feed_id": "seriq",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA",
+      "categories": [
+        "downtempo"
+      ],
+      "category_labels": [
+        "Downtempo"
+      ],
+      "queries": [
+        "SERIQ"
+      ]
+    },
+    {
+      "id": "LHtgqPmD46g",
+      "title": "deep space frequencies | Prism Thread #Shorts",
+      "channel": "SPACE DnB",
+      "url": "https://www.youtube.com/shorts/LHtgqPmD46g",
+      "embed_url": "https://www.youtube.com/embed/LHtgqPmD46g",
+      "thumbnail": "https://i.ytimg.com/vi/LHtgqPmD46g/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T18:30:18+05:30",
+      "published_ts": 1782997218,
+      "latest_rank": 4,
+      "category": "liquid",
+      "category_label": "Liquid",
+      "query": "SPACE DnB",
+      "score": 11.6,
+      "method": "rss",
+      "feed_id": "space_dnb",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid"
+      ],
+      "queries": [
+        "SPACE DnB"
+      ]
+    },
+    {
+      "id": "edltLBV6dBg",
+      "title": "Desert Oud Dreams — Arabic Deep House Chill Mix | Golden Night Journey ✨",
+      "channel": "Dune Pulse",
+      "url": "https://www.youtube.com/watch?v=edltLBV6dBg",
+      "embed_url": "https://www.youtube.com/embed/edltLBV6dBg",
+      "thumbnail": "https://i.ytimg.com/vi/edltLBV6dBg/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T18:30:03+05:30",
+      "published_ts": 1782997203,
+      "latest_rank": 1,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "Dune Pulse",
+      "score": 14.05,
+      "method": "rss",
+      "feed_id": "dune_pulse",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "Dune Pulse"
+      ]
+    },
+    {
+      "id": "gXESCHxsgFM",
+      "title": "Angle - Stay With Me (Official Love Music)",
+      "channel": "The angle",
+      "url": "https://www.youtube.com/watch?v=gXESCHxsgFM",
+      "embed_url": "https://www.youtube.com/embed/gXESCHxsgFM",
+      "thumbnail": "https://i.ytimg.com/vi/gXESCHxsgFM/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T18:09:21+05:30",
+      "published_ts": 1782995961,
+      "latest_rank": 1,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "The angle",
+      "score": 12.95,
+      "method": "rss",
+      "feed_id": "the_angle",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1OUqTFOe1umJrWxlq_4MJg",
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "The angle"
+      ]
+    },
+    {
+      "id": "MlS78zSWHQE",
+      "title": "Gas Station - In Relation Atmospheric Liquid DnB",
+      "channel": "Gas Station",
+      "url": "https://www.youtube.com/watch?v=MlS78zSWHQE",
+      "embed_url": "https://www.youtube.com/embed/MlS78zSWHQE",
+      "thumbnail": "https://i.ytimg.com/vi/MlS78zSWHQE/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T17:30:13+05:30",
+      "published_ts": 1782993613,
+      "latest_rank": 1,
+      "category": "liquid",
+      "category_label": "Liquid",
+      "query": "Gas Station",
+      "score": 14.05,
+      "method": "rss",
+      "feed_id": "gas_station",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpX0B1lL2l1yX1ACU51ywg",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid"
+      ],
+      "queries": [
+        "Gas Station"
+      ]
+    },
+    {
+      "id": "-AhuBIgYMbY",
+      "title": "Liquid Kemistry | Relaxing liquid DnB",
+      "channel": "Liquid Kemistry",
+      "url": "https://www.youtube.com/watch?v=-AhuBIgYMbY",
+      "embed_url": "https://www.youtube.com/embed/-AhuBIgYMbY",
+      "thumbnail": "https://i.ytimg.com/vi/-AhuBIgYMbY/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T16:50:44+05:30",
+      "published_ts": 1782991244,
+      "latest_rank": 1,
+      "category": "liquid",
+      "category_label": "Liquid",
+      "query": "Liquid Kemistry",
+      "score": 12.95,
+      "method": "rss",
+      "feed_id": "liquid_kemistry",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcCJhavo4umeVR3Phr1AntA",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid"
+      ],
+      "queries": [
+        "Liquid Kemistry"
+      ]
+    },
+    {
+      "id": "a9Z9BtqVENE",
+      "title": "Midnight in Cappadocia Melodic & Progressive House Flow [2026]",
+      "channel": "Midnight Horizon",
+      "url": "https://www.youtube.com/watch?v=a9Z9BtqVENE",
+      "embed_url": "https://www.youtube.com/embed/a9Z9BtqVENE",
+      "thumbnail": "https://i.ytimg.com/vi/a9Z9BtqVENE/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T16:16:35+05:30",
+      "published_ts": 1782989195,
+      "latest_rank": 1,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "Midnight Horizon",
+      "score": 14.05,
+      "method": "rss",
+      "feed_id": "midnight_horizon",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ",
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "Midnight Horizon"
+      ]
+    },
+    {
+      "id": "jyZ4_HnTgWk",
+      "title": "TRANCE MIX 2026 🎵 Beautiful Female Vocals, Uplifting Trance & Atmospheric Electronic Music",
+      "channel": "Trance mix",
+      "url": "https://www.youtube.com/watch?v=jyZ4_HnTgWk",
+      "embed_url": "https://www.youtube.com/embed/jyZ4_HnTgWk",
+      "thumbnail": "https://i.ytimg.com/vi/jyZ4_HnTgWk/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T14:30:09+05:30",
+      "published_ts": 1782982809,
+      "latest_rank": 1,
+      "category": "chillstep",
+      "category_label": "Chillstep",
+      "query": "Trance mix",
+      "score": 15.15,
+      "method": "rss",
+      "feed_id": "trance_mix",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w",
+      "categories": [
+        "chillstep"
+      ],
+      "category_labels": [
+        "Chillstep"
+      ],
+      "queries": [
+        "Trance mix"
+      ]
+    },
+    {
+      "id": "m6XuDPEjDjU",
+      "title": "Cool Down 🌿 | Organic House & Nature Trance Mix | Relaxing Electronic Forest Music",
+      "channel": "Musicoo",
+      "url": "https://www.youtube.com/watch?v=m6XuDPEjDjU",
+      "embed_url": "https://www.youtube.com/embed/m6XuDPEjDjU",
+      "thumbnail": "https://i.ytimg.com/vi/m6XuDPEjDjU/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T14:15:16+05:30",
+      "published_ts": 1782981916,
+      "latest_rank": 1,
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "query": "Musicoo",
+      "score": 14.05,
+      "method": "rss",
+      "feed_id": "musicoo",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCh_540MtcrFRBS1PMUIVykg",
+      "categories": [
+        "cinematic"
+      ],
+      "category_labels": [
+        "Cinematic"
+      ],
+      "queries": [
+        "Musicoo"
+      ]
+    },
+    {
+      "id": "8fYR3AE94No",
+      "title": "AMAPIANO X UK GARAGE | 1 HOUR EMOTIONAL DANCE MIX 2026",
+      "channel": "Afrohousechannel",
+      "url": "https://www.youtube.com/watch?v=8fYR3AE94No",
+      "embed_url": "https://www.youtube.com/embed/8fYR3AE94No",
+      "thumbnail": "https://i.ytimg.com/vi/8fYR3AE94No/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T13:30:37+05:30",
+      "published_ts": 1782979237,
+      "latest_rank": 1,
+      "category": "future_garage",
+      "category_label": "Future Garage",
+      "query": "Afrohousechannel",
+      "score": 15.15,
+      "method": "rss",
+      "feed_id": "afrohouse",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCupD2zem2F0UptBqbvE-TwA",
+      "categories": [
+        "future_garage"
+      ],
+      "category_labels": [
+        "Future Garage"
+      ],
+      "queries": [
+        "Afrohousechannel"
+      ]
+    },
+    {
+      "id": "aElLMceW4Nc",
+      "title": "1 Hour Persian Jazz Ambient Mix | Chill Trip Hop | Emotional Instrumental Music",
+      "channel": "Persian Jazz",
+      "url": "https://www.youtube.com/watch?v=aElLMceW4Nc",
+      "embed_url": "https://www.youtube.com/embed/aElLMceW4Nc",
+      "thumbnail": "https://i.ytimg.com/vi/aElLMceW4Nc/hqdefault.jpg",
+      "duration": null,
+      "duration_text": "",
+      "published": "20260702",
+      "published_at": "2026-07-02T13:30:34+05:30",
+      "published_ts": 1782979234,
+      "latest_rank": 1,
+      "category": "future_chill",
+      "category_label": "Future Chill",
+      "query": "Persian Jazz",
+      "score": 17.35,
+      "method": "rss",
+      "feed_id": "persian_jazz",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
+      "categories": [
+        "future_chill"
+      ],
+      "category_labels": [
+        "Future Chill"
+      ],
+      "queries": [
+        "Persian Jazz"
+      ]
+    }
+  ],
   "searches": [
     {
       "id": "future_chill",
@@ -55,7 +1107,184 @@
       "weight": 0.85
     }
   ],
+  "rss_feeds": [
+    {
+      "id": "velvet_energy",
+      "label": "Velvet Energy",
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC4djlmp19rQ3-9rnmTddtQ"
+    },
+    {
+      "id": "groove_nomada",
+      "label": "Groove Nomada",
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA"
+    },
+    {
+      "id": "chill_deep_society",
+      "label": "Chill Deep Society",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w"
+    },
+    {
+      "id": "veloura_smoke",
+      "label": "Veloura Smoke",
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg"
+    },
+    {
+      "id": "neonwalker",
+      "label": "NeonWalker",
+      "category": "future_chill",
+      "category_label": "Future Chill",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg"
+    },
+    {
+      "id": "sylvia_ray",
+      "label": "Sylvia Ray",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqHxoJEUklCIRsmfHqMyKpQ"
+    },
+    {
+      "id": "sovreix",
+      "label": "SOVREIX",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ"
+    },
+    {
+      "id": "healing_sounds",
+      "label": "HealingSounds",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg"
+    },
+    {
+      "id": "seriq",
+      "label": "SERIQ",
+      "category": "downtempo",
+      "category_label": "Downtempo",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA"
+    },
+    {
+      "id": "astracore",
+      "label": "ASTRACORE",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw"
+    },
+    {
+      "id": "soundscape_bladerunner",
+      "label": "Soundscape BladeRunner",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC45cKsW6esslhbcIO9EhdIQ"
+    },
+    {
+      "id": "sound_regend",
+      "label": "Sound Regend",
+      "category": "chillstep",
+      "category_label": "Chillstep",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw"
+    },
+    {
+      "id": "space_dnb",
+      "label": "SPACE DnB",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g"
+    },
+    {
+      "id": "infraction",
+      "label": "Infraction",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkRrhwhJ2Ia_ZlkTQ4XFWJA"
+    },
+    {
+      "id": "bumer_slava",
+      "label": "bumer_slava",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg"
+    },
+    {
+      "id": "liquid_sound_drop",
+      "label": "Liquid Sound Drop",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJa9AltEOis0fc2vDi9aHiw"
+    },
+    {
+      "id": "dune_pulse",
+      "label": "Dune Pulse",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw"
+    },
+    {
+      "id": "the_angle",
+      "label": "The angle",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1OUqTFOe1umJrWxlq_4MJg"
+    },
+    {
+      "id": "gas_station",
+      "label": "Gas Station",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpX0B1lL2l1yX1ACU51ywg"
+    },
+    {
+      "id": "liquid_kemistry",
+      "label": "Liquid Kemistry",
+      "category": "liquid",
+      "category_label": "Liquid",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcCJhavo4umeVR3Phr1AntA"
+    },
+    {
+      "id": "midnight_horizon",
+      "label": "Midnight Horizon",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ"
+    },
+    {
+      "id": "trance_mix",
+      "label": "Trance mix",
+      "category": "chillstep",
+      "category_label": "Chillstep",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w"
+    },
+    {
+      "id": "musicoo",
+      "label": "Musicoo",
+      "category": "cinematic",
+      "category_label": "Cinematic",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCh_540MtcrFRBS1PMUIVykg"
+    },
+    {
+      "id": "afrohouse",
+      "label": "Afrohousechannel",
+      "category": "future_garage",
+      "category_label": "Future Garage",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCupD2zem2F0UptBqbvE-TwA"
+    },
+    {
+      "id": "persian_jazz",
+      "label": "Persian Jazz",
+      "category": "future_chill",
+      "category_label": "Future Chill",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q"
+    }
+  ],
   "warning": null,
-  "error": "future chill emotional instrumental: RuntimeError: ERROR: [youtube] vO_eUkAB3IA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] j5W2-UxQs9I: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] gOy8WYrp3YA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sPcMtwVNCL8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] EpB31bfF3Fo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] M7M_IJG5ir8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] GH465lWk4Cc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] l7tQ1zTBg5o: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; chillstep atmospheric electronic: RuntimeError: ERROR: [youtube] jr6qRO0xQ1I: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] gaWD6fj280M: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] PCNDBkMTFkg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jFaa2c08jTI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] SVKQ1EZCMNs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jyZ4_HnTgWk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 4NVk9c4PwKk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] eiyH6ZH4SIQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; future garage emotional mix: RuntimeError: ERROR: [youtube] 8fYR3AE94No: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] YH1TnFXnFBU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] z2tmvBidsLc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 7Ifm24vc_3k: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] X0pqAtrEUG4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] rHU1IeWqmwo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] uY326DVcbU8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 4xtdHGNQk4A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; cinematic chill electronic background music: RuntimeError: ERROR: [youtube] taUgDJYRcIA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] FZ3JfO7ZNxg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] hB1GPCWZbwo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] fq21D4CqbKw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] -JrQ3gYWy9g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 64TujhrHoqw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tve7ZsceIRs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] -KI3CtDbHm4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; melodic downtempo emotional electronic: RuntimeError: ERROR: [youtube] zQiX5-LqSqM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] xOFxjQo2UHU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] up-pZlEyCY4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Ppe-ngNARPc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] cHnr18F6Erg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Rn_B2UDLnG8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] QgDQBc5faLk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] b3K-VgTxBUg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; ambient electronic night drive reflective: RuntimeError: ERROR: [youtube] -aZIyWdeArw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] a9Z9BtqVENE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 1jomM7-1azg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 8T-BRDwZ2Lo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] m4HqVpnL5_c: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] F-pxdizf9QU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 0m-aWr2depU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] vDw34DXZE-M: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; liquid chill liquid drum and bass atmospheric: RuntimeError: ERROR: [youtube] t9xWfOv_ddg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] MlS78zSWHQE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Le7DEzcazhI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] TqCsspFj1IA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Bj6fBKML7EE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] _znqVq_NB3E: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] -AhuBIgYMbY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] V0NRD-Ucug4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "error": null,
   "stale": false
 }
