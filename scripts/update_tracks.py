@@ -50,6 +50,13 @@ def seconds_to_clock(seconds: object) -> str:
     return f"{minutes}:{secs:02d}"
 
 
+def seconds_value(seconds: object) -> int | None:
+    try:
+        return int(float(seconds))
+    except (TypeError, ValueError):
+        return None
+
+
 def parse_timestamp(value: object, timezone: str):
     text = clean_text(value)
     if not re.fullmatch(r"\d+(?:\.\d+)?", text):
@@ -147,6 +154,30 @@ def feed_link(entry: ET.Element) -> str:
     return YOUTUBE_WATCH.format(video_id=video_id) if video_id else ""
 
 
+def fetch_video_duration(video_id: str, timeout: int, cache: dict[str, int | None]) -> int | None:
+    if video_id in cache:
+        return cache[video_id]
+    url = f"{YOUTUBE_WATCH.format(video_id=video_id)}&bpctr=9999999999&has_verified=1"
+    req = Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
+    try:
+        with urlopen(req, timeout=timeout) as response:
+            html = response.read(2500000).decode("utf-8", "ignore")
+    except Exception:
+        cache[video_id] = None
+        return None
+
+    start = html.find("ytInitialPlayerResponse")
+    if start == -1:
+        cache[video_id] = None
+        return None
+    match = re.search(r'"lengthSeconds"\s*:\s*"(\d+)"', html[start:start + 1000000])
+    cache[video_id] = int(match.group(1)) if match else None
+    return cache[video_id]
+
+
 def term_score(text: str, terms: list[str], value: float) -> float:
     score = 0.0
     padded = f" {text} "
@@ -175,15 +206,15 @@ def duration_score(duration: object, text: str) -> float:
     except (TypeError, ValueError):
         return 0.0
 
-    if seconds < 120:
-        return -3.0
-    if seconds <= 900:
-        return 1.5
+    if seconds < 600:
+        return -8.0
+    if seconds <= 1800:
+        return 2.5
     if seconds <= 5400 and " mix " in f" {text} ":
-        return 1.0
-    if seconds <= 7200:
-        return -0.5
-    return -2.0
+        return 2.0
+    if seconds <= 10800:
+        return 1.2
+    return -0.6
 
 
 def score_entry(entry: dict, search: dict, config: dict, rank: int) -> float:
@@ -204,7 +235,16 @@ def score_entry(entry: dict, search: dict, config: dict, rank: int) -> float:
     return round(score, 3)
 
 
-def item_from_feed_entry(entry: ET.Element, feed: dict, config: dict, rank: int, cutoff_time, timezone: str) -> dict | None:
+def item_from_feed_entry(
+    entry: ET.Element,
+    feed: dict,
+    config: dict,
+    rank: int,
+    cutoff_time,
+    timezone: str,
+    duration_cache: dict[str, int | None],
+    duration_timeout: int,
+) -> dict | None:
     title = clean_text(entry.findtext(f"{ATOM}title"))
     video_id = clean_text(entry.findtext(f"{YT}videoId"))
     url = feed_link(entry)
@@ -221,13 +261,18 @@ def item_from_feed_entry(entry: ET.Element, feed: dict, config: dict, rank: int,
     if match_terms and not any(term in text for term in match_terms):
         return None
 
+    duration = fetch_video_duration(video_id, duration_timeout, duration_cache)
+    min_duration = int(config.get("portal", {}).get("min_duration_seconds") or 600)
+    if duration is None or duration < min_duration:
+        return None
+
     search = {
         "id": feed.get("category"),
         "label": feed.get("category_label") or feed.get("label"),
         "query": feed.get("label"),
         "weight": feed.get("weight", 1.0),
     }
-    raw = {"title": title, "channel": channel, "duration": None}
+    raw = {"title": title, "channel": channel, "duration": duration}
     score = score_entry(raw, search, config, rank)
     if score < float(config.get("minimum_score", 8.0)):
         return None
@@ -239,8 +284,8 @@ def item_from_feed_entry(entry: ET.Element, feed: dict, config: dict, rank: int,
         "url": url,
         "embed_url": f"https://www.youtube.com/embed/{video_id}",
         "thumbnail": YOUTUBE_THUMB.format(video_id=video_id),
-        "duration": None,
-        "duration_text": "",
+        "duration": duration,
+        "duration_text": seconds_to_clock(duration),
         "published": published_at.strftime("%Y%m%d"),
         "published_at": published_at.isoformat(),
         "published_ts": int(published_at.timestamp()),
@@ -255,17 +300,69 @@ def item_from_feed_entry(entry: ET.Element, feed: dict, config: dict, rank: int,
     }
 
 
-def feed_items(feed: dict, config: dict, cutoff_time, timezone: str, timeout: int) -> list[dict]:
+def feed_items(
+    feed: dict,
+    config: dict,
+    cutoff_time,
+    timezone: str,
+    timeout: int,
+    duration_cache: dict[str, int | None],
+    duration_timeout: int,
+) -> list[dict]:
     root = fetch_feed(feed, timeout)
     max_per_feed = int(feed.get("max_items") or config.get("portal", {}).get("max_items_per_feed") or 4)
     items = []
     for rank, entry in enumerate(root.findall(f"{ATOM}entry"), start=1):
-        item = item_from_feed_entry(entry, feed, config, rank, cutoff_time, timezone)
+        item = item_from_feed_entry(entry, feed, config, rank, cutoff_time, timezone, duration_cache, duration_timeout)
         if item:
             items.append(item)
         if len(items) >= max_per_feed:
             break
     return items
+
+
+def item_from_classic(track: dict, config: dict, rank: int, timezone: str) -> dict | None:
+    video_id = clean_text(track.get("id"))
+    title = clean_text(track.get("title"))
+    channel = clean_text(track.get("channel"))
+    category = clean_text(track.get("category"))
+    category_label = clean_text(track.get("category_label"))
+    duration = seconds_value(track.get("duration"))
+    min_duration = int(config.get("portal", {}).get("min_duration_seconds") or 600)
+    if not video_id or not title or not category or duration is None or duration < min_duration:
+        return None
+
+    text = normalize_key(f"{title} {channel}")
+    if not valid_music_text(text, config):
+        return None
+
+    score = score_entry({"title": title, "channel": channel, "duration": duration}, {
+        "id": category,
+        "label": category_label,
+        "query": "classic",
+        "weight": float(track.get("weight", 1.0)),
+    }, config, rank) + 5.0
+
+    return {
+        "id": video_id,
+        "title": title,
+        "channel": channel,
+        "url": track.get("url") or YOUTUBE_WATCH.format(video_id=video_id),
+        "embed_url": f"https://www.youtube.com/embed/{video_id}",
+        "thumbnail": YOUTUBE_THUMB.format(video_id=video_id),
+        "duration": duration,
+        "duration_text": seconds_to_clock(duration),
+        "published": "classic",
+        "published_at": None,
+        "published_ts": 0,
+        "latest_rank": rank,
+        "category": category,
+        "category_label": category_label,
+        "query": "Classic",
+        "score": round(score, 3),
+        "method": "classic",
+        "classic": True,
+    }
 
 
 def item_from_entry(entry: dict, search: dict, config: dict, rank: int, cutoff_time, timezone: str) -> dict | None:
@@ -294,6 +391,9 @@ def item_from_entry(entry: dict, search: dict, config: dict, rank: int, cutoff_t
         return None
 
     duration = entry.get("duration")
+    min_duration = int(config.get("portal", {}).get("min_duration_seconds") or 600)
+    if (seconds := seconds_value(duration)) is None or seconds < min_duration:
+        return None
     score = score_entry(entry, search, config, rank)
     if score < float(config.get("minimum_score", 8.0)):
         return None
@@ -344,6 +444,7 @@ def main() -> int:
     max_tracks = int(os.environ.get("MUSIC_MAX_TRACKS") or portal.get("max_tracks") or 64)
     timeout = int(os.environ.get("MUSIC_SEARCH_TIMEOUT") or 90)
     feed_timeout = int(os.environ.get("MUSIC_FEED_TIMEOUT") or 20)
+    duration_timeout = int(os.environ.get("MUSIC_DURATION_TIMEOUT") or 15)
     sort_mode = str(os.environ.get("MUSIC_SEARCH_SORT") or portal.get("search_sort") or "date").lower()
     recent_hours = int(os.environ.get("MUSIC_RECENT_HOURS") or portal.get("recent_hours") or 24)
     youtube_search_enabled = str(os.environ.get("MUSIC_YOUTUBE_SEARCH_ENABLED", "")).lower()
@@ -357,11 +458,12 @@ def main() -> int:
     cutoff_time = now - timedelta(hours=recent_hours)
 
     tracks_by_id: dict[str, dict] = {}
+    duration_cache: dict[str, int | None] = {}
     errors = []
 
     for feed in config.get("rss_feeds", []):
         try:
-            items = feed_items(feed, config, cutoff_time, timezone, feed_timeout)
+            items = feed_items(feed, config, cutoff_time, timezone, feed_timeout, duration_cache, duration_timeout)
         except Exception as exc:
             errors.append(f"{feed.get('id') or feed.get('url')}: {type(exc).__name__}: {exc}")
             continue
@@ -397,6 +499,24 @@ def main() -> int:
                     "queries": [item["query"]],
                 }
 
+    classic_limit = int(portal.get("classic_items_per_category") or 2)
+    classic_counts: dict[str, int] = {}
+    for rank, track in enumerate(config.get("classic_tracks", []), start=1):
+        category = clean_text(track.get("category"))
+        if not category or classic_counts.get(category, 0) >= classic_limit:
+            continue
+        item = item_from_classic(track, config, rank, timezone)
+        if not item:
+            continue
+        classic_counts[category] = classic_counts.get(category, 0) + 1
+        existing = tracks_by_id.get(item["id"])
+        tracks_by_id[item["id"]] = merge_track(existing, item) if existing else {
+            **item,
+            "categories": [item["category"]],
+            "category_labels": [item["category_label"]],
+            "queries": [item["query"]],
+        }
+
     tracks = sorted(
         tracks_by_id.values(),
         key=lambda item: (item.get("published_ts", 0), item.get("score", 0)),
@@ -408,6 +528,8 @@ def main() -> int:
         "mode": "latest",
         "search_sort": sort_mode,
         "recent_hours": recent_hours,
+        "min_duration_seconds": int(portal.get("min_duration_seconds") or 600),
+        "classic_items_per_category": classic_limit,
         "cutoff_time": cutoff_time.isoformat(),
         "youtube_search_enabled": use_youtube_search,
         "tracks": tracks,

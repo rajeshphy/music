@@ -139,6 +139,12 @@
 
     const chips = document.createElement("div");
     chips.className = "chips";
+    if (track.classic) {
+      const classic = document.createElement("span");
+      classic.className = "chip";
+      classic.textContent = "Classic";
+      chips.append(classic);
+    }
     for (const label of track.category_labels || []) {
       const chip = document.createElement("span");
       chip.className = "chip";

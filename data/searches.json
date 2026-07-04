@@ -1,262 +1,329 @@
 {
   "portal": {
     "title": "Music Radar",
-    "subtitle": "Latest 24-hour future chill, garage, chillstep, ambient electronic",
+    "subtitle": "Latest long-form pure music plus classics for relaxing, energy, meditation, focus, sleep, night drive, ambient, and liquid DnB",
     "timezone": "Asia/Kolkata",
     "locale": "en-IN",
     "default_category": "all",
-    "max_tracks": 64,
-    "max_results_per_query": 8,
-    "max_items_per_feed": 3,
+    "max_tracks": 96,
+    "max_results_per_query": 10,
+    "max_items_per_feed": 5,
     "search_sort": "date",
     "recent_hours": 24,
-    "youtube_search_enabled": false
+    "youtube_search_enabled": false,
+    "min_duration_seconds": 600,
+    "classic_items_per_category": 2
   },
   "searches": [
     {
-      "id": "future_chill",
-      "label": "Future Chill",
-      "query": "future chill emotional instrumental",
-      "weight": 1.35
+      "id": "relaxing",
+      "label": "Relaxing",
+      "query": "relaxing ambient electronic music long mix no talking",
+      "weight": 1.3
     },
     {
-      "id": "marion",
-      "label": "MARION",
-      "query": "\"MARION\" chillstep future garage ambient electronic music",
+      "id": "energy",
+      "label": "Energy Boost",
+      "query": "energy boost electronic music long mix no vocals",
       "weight": 1.25
     },
     {
-      "id": "chillstep",
-      "label": "Chillstep",
-      "query": "chillstep atmospheric electronic",
-      "weight": 1.25
-    },
-    {
-      "id": "future_garage",
-      "label": "Future Garage",
-      "query": "future garage emotional mix",
+      "id": "meditation",
+      "label": "Meditation",
+      "query": "meditation ambient music long mix no talking",
       "weight": 1.2
     },
     {
-      "id": "cinematic",
-      "label": "Cinematic",
-      "query": "cinematic chill electronic background music",
+      "id": "focus",
+      "label": "Work Focus",
+      "query": "work focus instrumental electronic music long mix",
+      "weight": 1.2
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "query": "sleep ambient music long mix no talking",
       "weight": 1.15
     },
     {
-      "id": "downtempo",
-      "label": "Downtempo",
-      "query": "melodic downtempo emotional electronic",
-      "weight": 1.1
+      "id": "night_drive",
+      "label": "Night Drive",
+      "query": "night drive electronic deep house long mix",
+      "weight": 1.15
     },
     {
       "id": "ambient",
       "label": "Ambient",
-      "query": "ambient electronic night drive reflective",
+      "query": "ambient soundscape long mix instrumental",
       "weight": 1.1
     },
     {
       "id": "liquid",
-      "label": "Liquid",
-      "query": "liquid chill liquid drum and bass atmospheric",
-      "weight": 0.85
+      "label": "Liquid DnB",
+      "query": "liquid drum and bass atmospheric long mix",
+      "weight": 1.0
     }
   ],
   "rss_feeds": [
     {
       "id": "velvet_energy",
       "label": "Velvet Energy",
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC4djlmp19rQ3-9rnmTddtQ"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC4djlmp19rQ3-9rnmTddtQ",
+      "max_items": 5
     },
     {
       "id": "groove_nomada",
       "label": "Groove Nomada",
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA"
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA",
+      "max_items": 5
     },
     {
       "id": "chill_deep_society",
       "label": "Chill Deep Society",
-      "category": "ambient",
-      "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w"
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w",
+      "max_items": 5
     },
     {
       "id": "veloura_smoke",
       "label": "Veloura Smoke",
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg"
+      "category": "focus",
+      "category_label": "Work Focus",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
+      "max_items": 5
     },
     {
       "id": "neonwalker",
       "label": "NeonWalker",
-      "category": "future_chill",
-      "category_label": "Future Chill",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
+      "max_items": 5
     },
     {
       "id": "sylvia_ray",
       "label": "Sylvia Ray",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqHxoJEUklCIRsmfHqMyKpQ"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqHxoJEUklCIRsmfHqMyKpQ",
+      "max_items": 5
     },
     {
       "id": "sovreix",
       "label": "SOVREIX",
-      "category": "ambient",
-      "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ"
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ",
+      "max_items": 5
     },
     {
       "id": "healing_sounds",
       "label": "HealingSounds",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg"
+      "category": "meditation",
+      "category_label": "Meditation",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
+      "max_items": 5
     },
     {
       "id": "seriq",
       "label": "SERIQ",
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA"
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA",
+      "max_items": 5
     },
     {
       "id": "astracore",
       "label": "ASTRACORE",
-      "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw"
+      "category": "focus",
+      "category_label": "Work Focus",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw",
+      "max_items": 5
     },
     {
       "id": "soundscape_bladerunner",
       "label": "Soundscape BladeRunner",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC45cKsW6esslhbcIO9EhdIQ"
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC45cKsW6esslhbcIO9EhdIQ",
+      "max_items": 5
     },
     {
       "id": "sound_regend",
       "label": "Sound Regend",
-      "category": "chillstep",
-      "category_label": "Chillstep",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "max_items": 5
     },
     {
       "id": "space_dnb",
       "label": "SPACE DnB",
       "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g"
+      "category_label": "Liquid DnB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
+      "max_items": 5
     },
     {
       "id": "infraction",
       "label": "Infraction",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkRrhwhJ2Ia_ZlkTQ4XFWJA"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkRrhwhJ2Ia_ZlkTQ4XFWJA",
+      "max_items": 5
     },
     {
       "id": "bumer_slava",
       "label": "bumer_slava",
       "category": "ambient",
       "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg",
+      "max_items": 5
     },
     {
       "id": "liquid_sound_drop",
       "label": "Liquid Sound Drop",
       "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJa9AltEOis0fc2vDi9aHiw"
+      "category_label": "Liquid DnB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJa9AltEOis0fc2vDi9aHiw",
+      "max_items": 5
     },
     {
       "id": "dune_pulse",
       "label": "Dune Pulse",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw"
+      "category": "meditation",
+      "category_label": "Meditation",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw",
+      "max_items": 5
     },
     {
       "id": "the_angle",
       "label": "The angle",
-      "category": "ambient",
-      "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1OUqTFOe1umJrWxlq_4MJg"
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1OUqTFOe1umJrWxlq_4MJg",
+      "max_items": 5
     },
     {
       "id": "gas_station",
       "label": "Gas Station",
       "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpX0B1lL2l1yX1ACU51ywg"
+      "category_label": "Liquid DnB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpX0B1lL2l1yX1ACU51ywg",
+      "max_items": 5
     },
     {
       "id": "liquid_kemistry",
       "label": "Liquid Kemistry",
       "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcCJhavo4umeVR3Phr1AntA"
+      "category_label": "Liquid DnB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcCJhavo4umeVR3Phr1AntA",
+      "max_items": 5
     },
     {
       "id": "midnight_horizon",
       "label": "Midnight Horizon",
-      "category": "ambient",
-      "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ"
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ",
+      "max_items": 5
     },
     {
       "id": "trance_mix",
       "label": "Trance mix",
-      "category": "chillstep",
-      "category_label": "Chillstep",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w",
+      "max_items": 5
     },
     {
       "id": "musicoo",
       "label": "Musicoo",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCh_540MtcrFRBS1PMUIVykg"
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCh_540MtcrFRBS1PMUIVykg",
+      "max_items": 5
     },
     {
       "id": "afrohouse",
       "label": "Afrohousechannel",
-      "category": "future_garage",
-      "category_label": "Future Garage",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCupD2zem2F0UptBqbvE-TwA"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCupD2zem2F0UptBqbvE-TwA",
+      "max_items": 5
     },
     {
       "id": "persian_jazz",
       "label": "Persian Jazz",
-      "category": "future_chill",
-      "category_label": "Future Chill",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q"
+      "category": "sleep",
+      "category_label": "Sleep",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
+      "max_items": 5
     }
   ],
   "positive_terms": [
+    "relaxing",
+    "relax",
+    "calm",
+    "calming",
+    "ambient",
+    "meditation",
+    "meditative",
+    "healing",
+    "zen",
+    "yoga",
+    "spa",
+    "sleep",
+    "work focus",
+    "focus",
+    "deep focus",
+    "study",
+    "productivity",
+    "concentration",
+    "coding",
+    "instrumental",
+    "no vocals",
+    "energy",
+    "energy boost",
+    "uplifting",
+    "driving",
+    "workout",
+    "edm",
+    "electronic",
+    "house",
+    "techno",
+    "trance",
     "future chill",
     "future garage",
     "chillstep",
-    "ambient",
-    "emotional",
-    "cinematic",
     "atmospheric",
     "melodic",
     "downtempo",
-    "instrumental",
     "night drive",
-    "reflective",
-    "background music",
-    "liquid chill",
-    "liquid drum",
-    "marion",
-    "mix"
+    "liquid",
+    "drum bass",
+    "dnb",
+    "soundscape",
+    "music",
+    "mix",
+    "full album",
+    "continuous mix",
+    "silence",
+    "intelligent",
+    "drum",
+    "bass",
+    "progression",
+    "airports",
+    "eno",
+    "roach",
+    "bukem",
+    "jazz",
+    "piano"
   ],
   "negative_terms": [
     "reaction",
@@ -269,11 +336,7 @@
     "hip hop",
     "trap",
     "type beat",
-    "live radio",
-    "lofi hip hop radio",
-    "sleep music",
-    "rain sounds",
-    "white noise",
+    "free for profit",
     "news",
     "hotel",
     "room review",
@@ -282,46 +345,93 @@
     "world cup",
     "drama",
     "story",
-    "coding",
-    "productivity",
-    "deep focus",
-    "study",
-    "sleep",
-    "melatonin",
-    "stress relief",
-    "10 hours",
-    "8 hours"
+    "vlog",
+    "podcast",
+    "interview",
+    "lecture",
+    "talk",
+    "talking",
+    "speech",
+    "sermon",
+    "guided",
+    "affirmations",
+    "voiceover",
+    "voice over",
+    "shorts",
+    "#shorts",
+    "short video",
+    "comedy",
+    "stand up",
+    "vocal trance",
+    "female vocals",
+    "male vocals",
+    "with vocals",
+    "vocals",
+    "official song",
+    "singer"
   ],
   "blocked_channels": [
     "future"
   ],
   "required_terms": [
-    "future chill",
-    "future garage",
-    "chillstep",
+    "relaxing",
+    "relax",
+    "calm",
     "ambient",
+    "meditation",
+    "healing",
+    "zen",
+    "yoga",
+    "spa",
+    "focus",
+    "work",
+    "study",
+    "productivity",
+    "energy",
+    "uplifting",
+    "edm",
     "electronic",
-    "emotional",
-    "cinematic",
-    "atmospheric",
-    "melodic",
-    "downtempo",
+    "house",
+    "techno",
+    "trance",
+    "chill",
+    "chillout",
+    "music",
+    "mix",
+    "instrumental",
+    "soundscape",
     "night drive",
     "liquid",
     "drum bass",
     "dnb",
-    "synth",
-    "house",
-    "techno",
-    "trance",
-    "edm",
-    "chillout",
-    "chill",
-    "music",
-    "mix",
-    "instrumental"
+    "downtempo",
+    "melodic",
+    "atmospheric",
+    "sleep",
+    "full album",
+    "continuous",
+    "silence",
+    "intelligent",
+    "drum",
+    "bass",
+    "progression",
+    "airports",
+    "eno",
+    "roach",
+    "bukem",
+    "jazz",
+    "piano"
   ],
   "hard_block_terms": [
+    "reaction",
+    "tutorial",
+    "explained",
+    "lyrics",
+    "karaoke",
+    "cover",
+    "rap",
+    "hip hop",
+    "trap",
     "type beat",
     "free for profit",
     "news",
@@ -332,16 +442,192 @@
     "world cup",
     "drama",
     "story",
-    "coding",
-    "productivity",
-    "deep focus",
-    "study",
-    "sleep",
-    "melatonin",
-    "stress relief",
-    "white noise",
-    "rain sounds",
-    "live radio"
+    "vlog",
+    "podcast",
+    "interview",
+    "lecture",
+    "talk",
+    "talking",
+    "speech",
+    "sermon",
+    "guided",
+    "affirmations",
+    "voiceover",
+    "voice over",
+    "shorts",
+    "#shorts",
+    "short video",
+    "comedy",
+    "stand up",
+    "vocal trance",
+    "female vocals",
+    "male vocals",
+    "with vocals",
+    "vocals",
+    "official song",
+    "singer"
   ],
-  "minimum_score": 8.0
+  "minimum_score": 8.0,
+  "classic_tracks": [
+    {
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "id": "qYnA9wWFHLI",
+      "duration": 36385,
+      "title": "Marconi Union - Weightless (Official 10 Hour Version)",
+      "channel": "JustMusicTV",
+      "url": "https://www.youtube.com/watch?v=qYnA9wWFHLI",
+      "weight": 1.2
+    },
+    {
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "id": "cp71Tu-cNAc",
+      "duration": 14709,
+      "title": "MOBY Long Ambients 1 : Calm Sleep Full Album 2016 Zen Music 4K",
+      "channel": "Instants Transformers",
+      "url": "https://www.youtube.com/watch?v=cp71Tu-cNAc",
+      "weight": 1.2
+    },
+    {
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "id": "yEMt9esDe1g",
+      "duration": 8191,
+      "title": "Classic Trance Anthems Mix | From 1999 to 2001",
+      "channel": "DelasTrance",
+      "url": "https://www.youtube.com/watch?v=yEMt9esDe1g",
+      "weight": 1.2
+    },
+    {
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "id": "iXAbte4QXKs",
+      "duration": 5481,
+      "title": "Best Uplifting Trance Mix - All Time Favourites #1",
+      "channel": "The Grand Sound",
+      "url": "https://www.youtube.com/watch?v=iXAbte4QXKs",
+      "weight": 1.2
+    },
+    {
+      "category": "meditation",
+      "category_label": "Meditation",
+      "id": "2YeofmJvCcg",
+      "duration": 3744,
+      "title": "1 Hour of Koyasan: Reiki Sound Healing by Deuter | FULL ALBUM",
+      "channel": "New Earth Records",
+      "url": "https://www.youtube.com/watch?v=2YeofmJvCcg",
+      "weight": 1.2
+    },
+    {
+      "category": "meditation",
+      "category_label": "Meditation",
+      "id": "MzUf5mXP4ZQ",
+      "duration": 3523,
+      "title": "Steve Roach - Structures from Silence (1984 Album)",
+      "channel": "stuff channel",
+      "url": "https://www.youtube.com/watch?v=MzUf5mXP4ZQ",
+      "weight": 1.2
+    },
+    {
+      "category": "focus",
+      "category_label": "Work Focus",
+      "id": "BGXOYfZMR0w",
+      "duration": 4527,
+      "title": "Tycho - Dive (Full Album) (Deluxe Version)",
+      "channel": "Cure Music",
+      "url": "https://www.youtube.com/watch?v=BGXOYfZMR0w",
+      "weight": 1.2
+    },
+    {
+      "category": "focus",
+      "category_label": "Work Focus",
+      "id": "-9pgIVcB3rk",
+      "duration": 4498,
+      "title": "Carbon Based Lifeforms - Interloper [Full Album - 2015 Remaster]",
+      "channel": "Cosmic Soundwaves",
+      "url": "https://www.youtube.com/watch?v=-9pgIVcB3rk",
+      "weight": 1.2
+    },
+    {
+      "category": "sleep",
+      "category_label": "Sleep",
+      "id": "qYnA9wWFHLI",
+      "duration": 36385,
+      "title": "Marconi Union - Weightless (Official 10 Hour Version)",
+      "channel": "JustMusicTV",
+      "url": "https://www.youtube.com/watch?v=qYnA9wWFHLI",
+      "weight": 1.2
+    },
+    {
+      "category": "sleep",
+      "category_label": "Sleep",
+      "id": "Q4BQxwpw4Co",
+      "duration": 13028,
+      "title": "Moby - Long Ambients Two - Megamix",
+      "channel": "Moby",
+      "url": "https://www.youtube.com/watch?v=Q4BQxwpw4Co",
+      "weight": 1.2
+    },
+    {
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "id": "KQE29az48gM",
+      "duration": 4720,
+      "title": "Carbon Based Lifeforms - World Of Sleepers [Full Album]",
+      "channel": "The Psychedelic Muse",
+      "url": "https://www.youtube.com/watch?v=KQE29az48gM",
+      "weight": 1.2
+    },
+    {
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "id": "6W0k5bXsy34",
+      "duration": 4426,
+      "title": "Best of Tycho",
+      "channel": "Trip Hop Brasil",
+      "url": "https://www.youtube.com/watch?v=6W0k5bXsy34",
+      "weight": 1.2
+    },
+    {
+      "category": "ambient",
+      "category_label": "Ambient",
+      "id": "vNwYtllyt3Q",
+      "duration": 2919,
+      "title": "Brian Eno - Ambient 1: Music for Airports [Full Album]",
+      "channel": "Methadone Methadone",
+      "url": "https://www.youtube.com/watch?v=vNwYtllyt3Q",
+      "weight": 1.2
+    },
+    {
+      "category": "ambient",
+      "category_label": "Ambient",
+      "id": "MzUf5mXP4ZQ",
+      "duration": 3523,
+      "title": "Steve Roach - Structures from Silence (1984 Album)",
+      "channel": "stuff channel",
+      "url": "https://www.youtube.com/watch?v=MzUf5mXP4ZQ",
+      "weight": 1.2
+    },
+    {
+      "category": "liquid",
+      "category_label": "Liquid DnB",
+      "id": "iYqDVqYSTxs",
+      "duration": 2750,
+      "title": "LTJ Bukem Presents Logical Progression 1996 CD 2",
+      "channel": "Zertrex",
+      "url": "https://www.youtube.com/watch?v=iYqDVqYSTxs",
+      "weight": 1.2
+    },
+    {
+      "category": "liquid",
+      "category_label": "Liquid DnB",
+      "id": "h6MqY0zDUhs",
+      "duration": 4861,
+      "title": "90s Intelligent - Atmospheric Drum & Bass",
+      "channel": "kollaps",
+      "url": "https://www.youtube.com/watch?v=h6MqY0zDUhs",
+      "weight": 1.2
+    }
+  ]
 }

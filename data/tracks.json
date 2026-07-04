@@ -1,129 +1,221 @@
 {
-  "generated_at": "2026-07-04T02:15:04.723071+05:30",
+  "generated_at": "2026-07-04T14:25:30.672060+05:30",
   "mode": "latest",
   "search_sort": "date",
   "recent_hours": 24,
-  "cutoff_time": "2026-07-03T02:15:04.723071+05:30",
+  "min_duration_seconds": 600,
+  "classic_items_per_category": 2,
+  "cutoff_time": "2026-07-03T14:25:30.672060+05:30",
   "youtube_search_enabled": false,
   "tracks": [
     {
-      "id": "wL0-JdmIg0c",
-      "title": "This Drive Will Clear Your Mind 🚗 EDM Mix 2026 | Chill Dance Music for Relaxing & Focus Mode",
-      "channel": "Sound Regend",
-      "url": "https://www.youtube.com/watch?v=wL0-JdmIg0c",
-      "embed_url": "https://www.youtube.com/embed/wL0-JdmIg0c",
-      "thumbnail": "https://i.ytimg.com/vi/wL0-JdmIg0c/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T22:32:36+05:30",
-      "published_ts": 1783098156,
+      "id": "N3NH_E0rZzo",
+      "title": "1 Hour Persian Jazz Noir | Cinematic Night Stories | Dark Smooth Jazz for Focus & Relax",
+      "channel": "Persian Jazz",
+      "url": "https://www.youtube.com/watch?v=N3NH_E0rZzo",
+      "embed_url": "https://www.youtube.com/embed/N3NH_E0rZzo",
+      "thumbnail": "https://i.ytimg.com/vi/N3NH_E0rZzo/hqdefault.jpg",
+      "duration": 4048,
+      "duration_text": "1:07:28",
+      "published": "20260704",
+      "published_at": "2026-07-04T13:30:36+05:30",
+      "published_ts": 1783152036,
       "latest_rank": 1,
-      "category": "chillstep",
-      "category_label": "Chillstep",
+      "category": "sleep",
+      "category_label": "Sleep",
+      "query": "Persian Jazz",
+      "score": 17.45,
+      "method": "rss",
+      "feed_id": "persian_jazz",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
+      "categories": [
+        "sleep"
+      ],
+      "category_labels": [
+        "Sleep"
+      ],
+      "queries": [
+        "Persian Jazz"
+      ]
+    },
+    {
+      "id": "dlSqKYY3H3U",
+      "title": "POV: Driving Through Neon City Lights 🌌 EDM Mix 2026 Relaxing Chill Dance Party Music Vibes Tonight",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=dlSqKYY3H3U",
+      "embed_url": "https://www.youtube.com/embed/dlSqKYY3H3U",
+      "thumbnail": "https://i.ytimg.com/vi/dlSqKYY3H3U/hqdefault.jpg",
+      "duration": 19910,
+      "duration_text": "5:31:50",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:40:05+05:30",
+      "published_ts": 1783141805,
+      "latest_rank": 7,
+      "category": "energy",
+      "category_label": "Energy Boost",
       "query": "Sound Regend",
-      "score": 14.05,
+      "score": 16.25,
       "method": "rss",
       "feed_id": "sound_regend",
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
       "categories": [
-        "chillstep"
+        "energy"
       ],
       "category_labels": [
-        "Chillstep"
+        "Energy Boost"
       ],
       "queries": [
         "Sound Regend"
       ]
     },
     {
-      "id": "h6SDN64x-jc",
-      "title": "No Destination, Just Vibes 🌙 EDM Mix 2026 | Chill Dance Music for Driving, Party & Energy",
+      "id": "G4hr3UnTw-M",
+      "title": "Midnight Highway Drive Alone 🌃 EDM Mix 2026 | Relaxing Chill Dance Party Music Vibes Tonight Energy",
       "channel": "Sound Regend",
-      "url": "https://www.youtube.com/watch?v=h6SDN64x-jc",
-      "embed_url": "https://www.youtube.com/embed/h6SDN64x-jc",
-      "thumbnail": "https://i.ytimg.com/vi/h6SDN64x-jc/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T22:32:03+05:30",
-      "published_ts": 1783098123,
-      "latest_rank": 2,
-      "category": "chillstep",
-      "category_label": "Chillstep",
+      "url": "https://www.youtube.com/watch?v=G4hr3UnTw-M",
+      "embed_url": "https://www.youtube.com/embed/G4hr3UnTw-M",
+      "thumbnail": "https://i.ytimg.com/vi/G4hr3UnTw-M/hqdefault.jpg",
+      "duration": 19910,
+      "duration_text": "5:31:50",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:39:07+05:30",
+      "published_ts": 1783141747,
+      "latest_rank": 8,
+      "category": "energy",
+      "category_label": "Energy Boost",
       "query": "Sound Regend",
-      "score": 13.6,
+      "score": 15.8,
       "method": "rss",
       "feed_id": "sound_regend",
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
       "categories": [
-        "chillstep"
+        "energy"
       ],
       "category_labels": [
-        "Chillstep"
+        "Energy Boost"
       ],
       "queries": [
         "Sound Regend"
       ]
     },
     {
-      "id": "sec1Jqx_AWs",
-      "title": "Neon Nights Hit Different 🌆 EDM Mix 2026 | Chill Dance Music for Party, Driving & Energy",
+      "id": "SK_hB_WcYUk",
+      "title": "POV: Midnight Feels Different When You're Alone 🌌 EDM Mix 2026 | Chill Dance Music Drive Relax",
       "channel": "Sound Regend",
-      "url": "https://www.youtube.com/watch?v=sec1Jqx_AWs",
-      "embed_url": "https://www.youtube.com/embed/sec1Jqx_AWs",
-      "thumbnail": "https://i.ytimg.com/vi/sec1Jqx_AWs/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T22:31:04+05:30",
-      "published_ts": 1783098064,
-      "latest_rank": 3,
-      "category": "chillstep",
-      "category_label": "Chillstep",
+      "url": "https://www.youtube.com/watch?v=SK_hB_WcYUk",
+      "embed_url": "https://www.youtube.com/embed/SK_hB_WcYUk",
+      "thumbnail": "https://i.ytimg.com/vi/SK_hB_WcYUk/hqdefault.jpg",
+      "duration": 19910,
+      "duration_text": "5:31:50",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:38:25+05:30",
+      "published_ts": 1783141705,
+      "latest_rank": 9,
+      "category": "energy",
+      "category_label": "Energy Boost",
       "query": "Sound Regend",
       "score": 13.15,
       "method": "rss",
       "feed_id": "sound_regend",
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
       "categories": [
-        "chillstep"
+        "energy"
       ],
       "category_labels": [
-        "Chillstep"
+        "Energy Boost"
       ],
       "queries": [
         "Sound Regend"
       ]
     },
     {
-      "id": "q4zoPixsjdY",
-      "title": "cosmic bass drop | Core Time #Shorts",
-      "channel": "SPACE DnB",
-      "url": "https://www.youtube.com/shorts/q4zoPixsjdY",
-      "embed_url": "https://www.youtube.com/embed/q4zoPixsjdY",
-      "thumbnail": "https://i.ytimg.com/vi/q4zoPixsjdY/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T22:30:07+05:30",
-      "published_ts": 1783098007,
-      "latest_rank": 1,
-      "category": "liquid",
-      "category_label": "Liquid",
-      "query": "SPACE DnB",
-      "score": 12.95,
+      "id": "5ExLyU1u9Xg",
+      "title": "You Feel Alive Only After Midnight 🌌 EDM Mix 2026 | Relaxing Chill Dance Party Music Energy Tonight",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=5ExLyU1u9Xg",
+      "embed_url": "https://www.youtube.com/embed/5ExLyU1u9Xg",
+      "thumbnail": "https://i.ytimg.com/vi/5ExLyU1u9Xg/hqdefault.jpg",
+      "duration": 19915,
+      "duration_text": "5:31:55",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:38:03+05:30",
+      "published_ts": 1783141683,
+      "latest_rank": 10,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Sound Regend",
+      "score": 14.9,
       "method": "rss",
-      "feed_id": "space_dnb",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
       "categories": [
-        "liquid"
+        "energy"
       ],
       "category_labels": [
-        "Liquid"
+        "Energy Boost"
       ],
       "queries": [
-        "SPACE DnB"
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "k65kirHxcLo",
+      "title": "Night Drive With Deep Thoughts Alone 🚗 EDM Mix 2026 | Relaxing Chill Dance Party Music Vibes Energy",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=k65kirHxcLo",
+      "embed_url": "https://www.youtube.com/embed/k65kirHxcLo",
+      "thumbnail": "https://i.ytimg.com/vi/k65kirHxcLo/hqdefault.jpg",
+      "duration": 19910,
+      "duration_text": "5:31:50",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:37:39+05:30",
+      "published_ts": 1783141659,
+      "latest_rank": 11,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Sound Regend",
+      "score": 15.55,
+      "method": "rss",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "energy"
+      ],
+      "category_labels": [
+        "Energy Boost"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "V6EdW19NSKU",
+      "title": "Deep House 2026 Essentials | Chill Mix & Deep Vibes #69",
+      "channel": "Veloura Smoke",
+      "url": "https://www.youtube.com/watch?v=V6EdW19NSKU",
+      "embed_url": "https://www.youtube.com/embed/V6EdW19NSKU",
+      "thumbnail": "https://i.ytimg.com/vi/V6EdW19NSKU/hqdefault.jpg",
+      "duration": 5898,
+      "duration_text": "1:38:18",
+      "published": "20260704",
+      "published_at": "2026-07-04T03:30:10+05:30",
+      "published_ts": 1783116010,
+      "latest_rank": 1,
+      "category": "focus",
+      "category_label": "Work Focus",
+      "query": "Veloura Smoke",
+      "score": 16.35,
+      "method": "rss",
+      "feed_id": "veloura_smoke",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
+      "categories": [
+        "focus"
+      ],
+      "category_labels": [
+        "Work Focus"
+      ],
+      "queries": [
+        "Veloura Smoke"
       ]
     },
     {
@@ -133,24 +225,24 @@
       "url": "https://www.youtube.com/watch?v=NwULxleElCw",
       "embed_url": "https://www.youtube.com/embed/NwULxleElCw",
       "thumbnail": "https://i.ytimg.com/vi/NwULxleElCw/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
+      "duration": 4160,
+      "duration_text": "1:09:20",
       "published": "20260703",
       "published_at": "2026-07-03T22:30:02+05:30",
       "published_ts": 1783098002,
       "latest_rank": 1,
-      "category": "future_chill",
-      "category_label": "Future Chill",
+      "category": "energy",
+      "category_label": "Energy Boost",
       "query": "NeonWalker",
-      "score": 15.15,
+      "score": 18.25,
       "method": "rss",
       "feed_id": "neonwalker",
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
       "categories": [
-        "future_chill"
+        "energy"
       ],
       "category_labels": [
-        "Future Chill"
+        "Energy Boost"
       ],
       "queries": [
         "NeonWalker"
@@ -163,16 +255,16 @@
       "url": "https://www.youtube.com/watch?v=rRQNo_t7mvs",
       "embed_url": "https://www.youtube.com/embed/rRQNo_t7mvs",
       "thumbnail": "https://i.ytimg.com/vi/rRQNo_t7mvs/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
+      "duration": 3906,
+      "duration_text": "1:05:06",
       "published": "20260703",
       "published_at": "2026-07-03T20:30:19+05:30",
       "published_ts": 1783090819,
       "latest_rank": 2,
       "category": "liquid",
-      "category_label": "Liquid",
+      "category_label": "Liquid DnB",
       "query": "SPACE DnB",
-      "score": 13.6,
+      "score": 18.9,
       "method": "rss",
       "feed_id": "space_dnb",
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
@@ -180,7 +272,7 @@
         "liquid"
       ],
       "category_labels": [
-        "Liquid"
+        "Liquid DnB"
       ],
       "queries": [
         "SPACE DnB"
@@ -193,16 +285,16 @@
       "url": "https://www.youtube.com/watch?v=ImG56vfFtRI",
       "embed_url": "https://www.youtube.com/embed/ImG56vfFtRI",
       "thumbnail": "https://i.ytimg.com/vi/ImG56vfFtRI/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
+      "duration": 7480,
+      "duration_text": "2:04:40",
       "published": "20260703",
       "published_at": "2026-07-03T20:30:12+05:30",
       "published_ts": 1783090812,
       "latest_rank": 3,
       "category": "liquid",
-      "category_label": "Liquid",
+      "category_label": "Liquid DnB",
       "query": "SPACE DnB",
-      "score": 13.15,
+      "score": 18.75,
       "method": "rss",
       "feed_id": "space_dnb",
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
@@ -210,130 +302,40 @@
         "liquid"
       ],
       "category_labels": [
-        "Liquid"
+        "Liquid DnB"
       ],
       "queries": [
         "SPACE DnB"
       ]
     },
     {
-      "id": "pruIXHIgDak",
-      "title": "Echoes Between Stars Tonight #liquiddnb #melodicdnb #atmosphericdnb #dnb #drumandbass #femalevocals",
-      "channel": "bumer_slava",
-      "url": "https://www.youtube.com/shorts/pruIXHIgDak",
-      "embed_url": "https://www.youtube.com/embed/pruIXHIgDak",
-      "thumbnail": "https://i.ytimg.com/vi/pruIXHIgDak/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
+      "id": "jpm0kLQiQ-c",
+      "title": "Arabic Deep House for Focus | Desert Mirage Study Music 🌙",
+      "channel": "Dune Pulse",
+      "url": "https://www.youtube.com/watch?v=jpm0kLQiQ-c",
+      "embed_url": "https://www.youtube.com/embed/jpm0kLQiQ-c",
+      "thumbnail": "https://i.ytimg.com/vi/jpm0kLQiQ-c/hqdefault.jpg",
+      "duration": 1995,
+      "duration_text": "33:15",
       "published": "20260703",
-      "published_at": "2026-07-03T20:30:07+05:30",
-      "published_ts": 1783090807,
+      "published_at": "2026-07-03T18:30:00+05:30",
+      "published_ts": 1783083600,
       "latest_rank": 1,
-      "category": "ambient",
-      "category_label": "Ambient",
-      "query": "bumer_slava",
-      "score": 15.15,
+      "category": "meditation",
+      "category_label": "Meditation",
+      "query": "Dune Pulse",
+      "score": 18.55,
       "method": "rss",
-      "feed_id": "bumer_slava",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg",
+      "feed_id": "dune_pulse",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw",
       "categories": [
-        "ambient"
+        "meditation"
       ],
       "category_labels": [
-        "Ambient"
+        "Meditation"
       ],
       "queries": [
-        "bumer_slava"
-      ]
-    },
-    {
-      "id": "JyV5mar0nNE",
-      "title": "The Lighthouse Inside | Liquid Drum & Bass | Atmospheric DnB",
-      "channel": "bumer_slava",
-      "url": "https://www.youtube.com/watch?v=JyV5mar0nNE",
-      "embed_url": "https://www.youtube.com/embed/JyV5mar0nNE",
-      "thumbnail": "https://i.ytimg.com/vi/JyV5mar0nNE/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T19:00:21+05:30",
-      "published_ts": 1783085421,
-      "latest_rank": 2,
-      "category": "ambient",
-      "category_label": "Ambient",
-      "query": "bumer_slava",
-      "score": 14.7,
-      "method": "rss",
-      "feed_id": "bumer_slava",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg",
-      "categories": [
-        "ambient"
-      ],
-      "category_labels": [
-        "Ambient"
-      ],
-      "queries": [
-        "bumer_slava"
-      ]
-    },
-    {
-      "id": "mIpuQ5VZoEY",
-      "title": "No Rabbitz - Renounce | Afro House on Musica Gourmet",
-      "channel": "Groove Nomada",
-      "url": "https://www.youtube.com/watch?v=mIpuQ5VZoEY",
-      "embed_url": "https://www.youtube.com/embed/mIpuQ5VZoEY",
-      "thumbnail": "https://i.ytimg.com/vi/mIpuQ5VZoEY/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T18:57:28+05:30",
-      "published_ts": 1783085248,
-      "latest_rank": 1,
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "query": "Groove Nomada",
-      "score": 12.95,
-      "method": "rss",
-      "feed_id": "groove_nomada",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA",
-      "categories": [
-        "downtempo"
-      ],
-      "category_labels": [
-        "Downtempo"
-      ],
-      "queries": [
-        "Groove Nomada"
-      ]
-    },
-    {
-      "id": "pr6gHou7gwU",
-      "title": "Angle - My Heart Will Go On (Official Love Music)",
-      "channel": "The angle",
-      "url": "https://www.youtube.com/watch?v=pr6gHou7gwU",
-      "embed_url": "https://www.youtube.com/embed/pr6gHou7gwU",
-      "thumbnail": "https://i.ytimg.com/vi/pr6gHou7gwU/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T18:06:11+05:30",
-      "published_ts": 1783082171,
-      "latest_rank": 1,
-      "category": "ambient",
-      "category_label": "Ambient",
-      "query": "The angle",
-      "score": 12.95,
-      "method": "rss",
-      "feed_id": "the_angle",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1OUqTFOe1umJrWxlq_4MJg",
-      "categories": [
-        "ambient"
-      ],
-      "category_labels": [
-        "Ambient"
-      ],
-      "queries": [
-        "The angle"
+        "Dune Pulse"
       ]
     },
     {
@@ -343,735 +345,661 @@
       "url": "https://www.youtube.com/watch?v=VRSomgE-Xtg",
       "embed_url": "https://www.youtube.com/embed/VRSomgE-Xtg",
       "thumbnail": "https://i.ytimg.com/vi/VRSomgE-Xtg/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
+      "duration": 5867,
+      "duration_text": "1:37:47",
       "published": "20260703",
       "published_at": "2026-07-03T16:00:36+05:30",
       "published_ts": 1783074636,
       "latest_rank": 1,
-      "category": "ambient",
-      "category_label": "Ambient",
+      "category": "night_drive",
+      "category_label": "Night Drive",
       "query": "Midnight Horizon",
-      "score": 14.05,
+      "score": 16.35,
       "method": "rss",
       "feed_id": "midnight_horizon",
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ",
       "categories": [
-        "ambient"
+        "night_drive"
       ],
       "category_labels": [
-        "Ambient"
+        "Night Drive"
       ],
       "queries": [
         "Midnight Horizon"
       ]
     },
     {
-      "id": "F6qMrP1eXus",
-      "title": "LIVE 24/7 🌌 Alan Walker Style – Lost Beyond Reality | Emotional Future Bass, Cinematic EDM 2026",
-      "channel": "NeonWalker",
-      "url": "https://www.youtube.com/watch?v=F6qMrP1eXus",
-      "embed_url": "https://www.youtube.com/embed/F6qMrP1eXus",
-      "thumbnail": "https://i.ytimg.com/vi/F6qMrP1eXus/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T14:35:16+05:30",
-      "published_ts": 1783069516,
+      "id": "cp71Tu-cNAc",
+      "title": "MOBY Long Ambients 1 : Calm Sleep Full Album 2016 Zen Music 4K",
+      "channel": "Instants Transformers",
+      "url": "https://www.youtube.com/watch?v=cp71Tu-cNAc",
+      "embed_url": "https://www.youtube.com/embed/cp71Tu-cNAc",
+      "thumbnail": "https://i.ytimg.com/vi/cp71Tu-cNAc/hqdefault.jpg",
+      "duration": 14709,
+      "duration_text": "4:05:09",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
       "latest_rank": 2,
-      "category": "future_chill",
-      "category_label": "Future Chill",
-      "query": "NeonWalker",
-      "score": 14.7,
-      "method": "rss",
-      "feed_id": "neonwalker",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "query": "Classic",
+      "score": 25.1,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "future_chill"
+        "relaxing"
       ],
       "category_labels": [
-        "Future Chill"
+        "Relaxing"
       ],
       "queries": [
-        "NeonWalker"
+        "Classic"
       ]
     },
     {
-      "id": "vz4cw6cfg1I",
-      "title": "Best Trance Playlist 2026 🚀 Nonstop Vocal Trance, Progressive Beats & Euphoric Melodies",
-      "channel": "Trance mix",
-      "url": "https://www.youtube.com/watch?v=vz4cw6cfg1I",
-      "embed_url": "https://www.youtube.com/embed/vz4cw6cfg1I",
-      "thumbnail": "https://i.ytimg.com/vi/vz4cw6cfg1I/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T14:30:19+05:30",
-      "published_ts": 1783069219,
-      "latest_rank": 1,
-      "category": "chillstep",
-      "category_label": "Chillstep",
-      "query": "Trance mix",
-      "score": 14.05,
-      "method": "rss",
-      "feed_id": "trance_mix",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w",
+      "id": "iXAbte4QXKs",
+      "title": "Best Uplifting Trance Mix - All Time Favourites #1",
+      "channel": "The Grand Sound",
+      "url": "https://www.youtube.com/watch?v=iXAbte4QXKs",
+      "embed_url": "https://www.youtube.com/embed/iXAbte4QXKs",
+      "thumbnail": "https://i.ytimg.com/vi/iXAbte4QXKs/hqdefault.jpg",
+      "duration": 5481,
+      "duration_text": "1:31:21",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 4,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Classic",
+      "score": 22.7,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "chillstep"
+        "energy"
       ],
       "category_labels": [
-        "Chillstep"
+        "Energy Boost"
       ],
       "queries": [
-        "Trance mix"
+        "Classic"
       ]
     },
     {
-      "id": "fWgUpEFkwGE",
-      "title": "1 Hour Persian Jazz Deep House Journey | Spiritual Deep Groove with Ney & Tar",
-      "channel": "Persian Jazz",
-      "url": "https://www.youtube.com/watch?v=fWgUpEFkwGE",
-      "embed_url": "https://www.youtube.com/embed/fWgUpEFkwGE",
-      "thumbnail": "https://i.ytimg.com/vi/fWgUpEFkwGE/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T13:30:07+05:30",
-      "published_ts": 1783065607,
-      "latest_rank": 1,
-      "category": "future_chill",
-      "category_label": "Future Chill",
-      "query": "Persian Jazz",
-      "score": 12.95,
-      "method": "rss",
-      "feed_id": "persian_jazz",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
+      "id": "yEMt9esDe1g",
+      "title": "Classic Trance Anthems Mix | From 1999 to 2001",
+      "channel": "DelasTrance",
+      "url": "https://www.youtube.com/watch?v=yEMt9esDe1g",
+      "embed_url": "https://www.youtube.com/embed/yEMt9esDe1g",
+      "thumbnail": "https://i.ytimg.com/vi/yEMt9esDe1g/hqdefault.jpg",
+      "duration": 8191,
+      "duration_text": "2:16:31",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 3,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Classic",
+      "score": 22.05,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "future_chill"
+        "energy"
       ],
       "category_labels": [
-        "Future Chill"
+        "Energy Boost"
       ],
       "queries": [
-        "Persian Jazz"
+        "Classic"
       ]
     },
     {
-      "id": "_e9mrem0wI0",
-      "title": "FALLING IN LOVE - Afrohousechannel (Afro House)",
-      "channel": "Afrohousechannel",
-      "url": "https://www.youtube.com/watch?v=_e9mrem0wI0",
-      "embed_url": "https://www.youtube.com/embed/_e9mrem0wI0",
-      "thumbnail": "https://i.ytimg.com/vi/_e9mrem0wI0/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T12:06:06+05:30",
-      "published_ts": 1783060566,
-      "latest_rank": 1,
-      "category": "future_garage",
-      "category_label": "Future Garage",
-      "query": "Afrohousechannel",
-      "score": 12.95,
-      "method": "rss",
-      "feed_id": "afrohouse",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCupD2zem2F0UptBqbvE-TwA",
+      "id": "vNwYtllyt3Q",
+      "title": "Brian Eno - Ambient 1: Music for Airports [Full Album]",
+      "channel": "Methadone Methadone",
+      "url": "https://www.youtube.com/watch?v=vNwYtllyt3Q",
+      "embed_url": "https://www.youtube.com/embed/vNwYtllyt3Q",
+      "thumbnail": "https://i.ytimg.com/vi/vNwYtllyt3Q/hqdefault.jpg",
+      "duration": 2919,
+      "duration_text": "48:39",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 13,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "Classic",
+      "score": 21.3,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "future_garage"
+        "ambient"
       ],
       "category_labels": [
-        "Future Garage"
+        "Ambient"
       ],
       "queries": [
-        "Afrohousechannel"
+        "Classic"
       ]
     },
     {
-      "id": "MjPdEukItHs",
-      "title": "Gas Station - Universal Conservatives Atmospheric Liquid DnB",
-      "channel": "Gas Station",
-      "url": "https://www.youtube.com/watch?v=MjPdEukItHs",
-      "embed_url": "https://www.youtube.com/embed/MjPdEukItHs",
-      "thumbnail": "https://i.ytimg.com/vi/MjPdEukItHs/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T11:45:35+05:30",
-      "published_ts": 1783059335,
-      "latest_rank": 1,
+      "id": "h6MqY0zDUhs",
+      "title": "90s Intelligent - Atmospheric Drum & Bass",
+      "channel": "kollaps",
+      "url": "https://www.youtube.com/watch?v=h6MqY0zDUhs",
+      "embed_url": "https://www.youtube.com/embed/h6MqY0zDUhs",
+      "thumbnail": "https://i.ytimg.com/vi/h6MqY0zDUhs/hqdefault.jpg",
+      "duration": 4861,
+      "duration_text": "1:21:01",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 16,
       "category": "liquid",
-      "category_label": "Liquid",
-      "query": "Gas Station",
-      "score": 14.05,
-      "method": "rss",
-      "feed_id": "gas_station",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpX0B1lL2l1yX1ACU51ywg",
+      "category_label": "Liquid DnB",
+      "query": "Classic",
+      "score": 21.3,
+      "method": "classic",
+      "classic": true,
       "categories": [
         "liquid"
       ],
       "category_labels": [
-        "Liquid"
+        "Liquid DnB"
       ],
       "queries": [
-        "Gas Station"
+        "Classic"
       ]
     },
     {
-      "id": "TFidmLf5Qd8",
-      "title": "LIVE 24/7 🌌 Alan Walker Style – Beyond The Neon Lights | Emotional Future Bass, EDM Instrumental",
-      "channel": "NeonWalker",
-      "url": "https://www.youtube.com/watch?v=TFidmLf5Qd8",
-      "embed_url": "https://www.youtube.com/embed/TFidmLf5Qd8",
-      "thumbnail": "https://i.ytimg.com/vi/TFidmLf5Qd8/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T09:32:15+05:30",
-      "published_ts": 1783051335,
-      "latest_rank": 3,
-      "category": "future_chill",
-      "category_label": "Future Chill",
-      "query": "NeonWalker",
-      "score": 14.25,
-      "method": "rss",
-      "feed_id": "neonwalker",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
+      "id": "2YeofmJvCcg",
+      "title": "1 Hour of Koyasan: Reiki Sound Healing by Deuter | FULL ALBUM",
+      "channel": "New Earth Records",
+      "url": "https://www.youtube.com/watch?v=2YeofmJvCcg",
+      "embed_url": "https://www.youtube.com/embed/2YeofmJvCcg",
+      "thumbnail": "https://i.ytimg.com/vi/2YeofmJvCcg/hqdefault.jpg",
+      "duration": 3744,
+      "duration_text": "1:02:24",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 5,
+      "category": "meditation",
+      "category_label": "Meditation",
+      "query": "Classic",
+      "score": 21.15,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "future_chill"
+        "meditation"
       ],
       "category_labels": [
-        "Future Chill"
+        "Meditation"
       ],
       "queries": [
-        "NeonWalker"
+        "Classic"
       ]
     },
     {
-      "id": "wQqGPUW8-Pc",
-      "title": "IMPLOSION - Emotional Deep House | Night Drive",
-      "channel": "SOVREIX",
-      "url": "https://www.youtube.com/watch?v=wQqGPUW8-Pc",
-      "embed_url": "https://www.youtube.com/embed/wQqGPUW8-Pc",
-      "thumbnail": "https://i.ytimg.com/vi/wQqGPUW8-Pc/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T08:30:02+05:30",
-      "published_ts": 1783047602,
+      "id": "MzUf5mXP4ZQ",
+      "title": "Steve Roach - Structures from Silence (1984 Album)",
+      "channel": "stuff channel",
+      "url": "https://www.youtube.com/watch?v=MzUf5mXP4ZQ",
+      "embed_url": "https://www.youtube.com/embed/MzUf5mXP4ZQ",
+      "thumbnail": "https://i.ytimg.com/vi/MzUf5mXP4ZQ/hqdefault.jpg",
+      "duration": 3523,
+      "duration_text": "58:43",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 6,
+      "category": "meditation",
+      "category_label": "Meditation",
+      "query": "Classic",
+      "score": 20.7,
+      "method": "classic",
+      "classic": true,
+      "categories": [
+        "ambient",
+        "meditation"
+      ],
+      "category_labels": [
+        "Ambient",
+        "Meditation"
+      ],
+      "queries": [
+        "Classic"
+      ]
+    },
+    {
+      "id": "BGXOYfZMR0w",
+      "title": "Tycho - Dive (Full Album) (Deluxe Version)",
+      "channel": "Cure Music",
+      "url": "https://www.youtube.com/watch?v=BGXOYfZMR0w",
+      "embed_url": "https://www.youtube.com/embed/BGXOYfZMR0w",
+      "thumbnail": "https://i.ytimg.com/vi/BGXOYfZMR0w/hqdefault.jpg",
+      "duration": 4527,
+      "duration_text": "1:15:27",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 7,
+      "category": "focus",
+      "category_label": "Work Focus",
+      "query": "Classic",
+      "score": 20.25,
+      "method": "classic",
+      "classic": true,
+      "categories": [
+        "focus"
+      ],
+      "category_labels": [
+        "Work Focus"
+      ],
+      "queries": [
+        "Classic"
+      ]
+    },
+    {
+      "id": "qYnA9wWFHLI",
+      "title": "Marconi Union - Weightless (Official 10 Hour Version)",
+      "channel": "JustMusicTV",
+      "url": "https://www.youtube.com/watch?v=qYnA9wWFHLI",
+      "embed_url": "https://www.youtube.com/embed/qYnA9wWFHLI",
+      "thumbnail": "https://i.ytimg.com/vi/qYnA9wWFHLI/hqdefault.jpg",
+      "duration": 36385,
+      "duration_text": "10:06:25",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
       "latest_rank": 1,
-      "category": "ambient",
-      "category_label": "Ambient",
-      "query": "SOVREIX",
-      "score": 15.15,
-      "method": "rss",
-      "feed_id": "sovreix",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ",
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "query": "Classic",
+      "score": 20.05,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "ambient"
+        "relaxing",
+        "sleep"
       ],
       "category_labels": [
-        "Ambient"
+        "Relaxing",
+        "Sleep"
       ],
       "queries": [
-        "SOVREIX"
+        "Classic"
       ]
     },
     {
-      "id": "2NV_Ei1RbmY",
-      "title": "Cymbal Thunder #music #deephouse #motivationalbeats #party #dance #disco #driving",
-      "channel": "Velvet Energy",
-      "url": "https://www.youtube.com/watch?v=2NV_Ei1RbmY",
-      "embed_url": "https://www.youtube.com/embed/2NV_Ei1RbmY",
-      "thumbnail": "https://i.ytimg.com/vi/2NV_Ei1RbmY/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T06:42:42+05:30",
-      "published_ts": 1783041162,
-      "latest_rank": 1,
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "query": "Velvet Energy",
-      "score": 12.95,
-      "method": "rss",
-      "feed_id": "velvet_energy",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC4djlmp19rQ3-9rnmTddtQ",
+      "id": "-9pgIVcB3rk",
+      "title": "Carbon Based Lifeforms - Interloper [Full Album - 2015 Remaster]",
+      "channel": "Cosmic Soundwaves",
+      "url": "https://www.youtube.com/watch?v=-9pgIVcB3rk",
+      "embed_url": "https://www.youtube.com/embed/-9pgIVcB3rk",
+      "thumbnail": "https://i.ytimg.com/vi/-9pgIVcB3rk/hqdefault.jpg",
+      "duration": 4498,
+      "duration_text": "1:14:58",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 8,
+      "category": "focus",
+      "category_label": "Work Focus",
+      "query": "Classic",
+      "score": 18.7,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "downtempo"
+        "focus"
       ],
       "category_labels": [
-        "Downtempo"
+        "Work Focus"
       ],
       "queries": [
-        "Velvet Energy"
+        "Classic"
       ]
     },
     {
-      "id": "Rn_B2UDLnG8",
-      "title": "Magillian feat. Groove Nomada - Falling Into a Dream | Melodic Techno",
-      "channel": "Groove Nomada",
-      "url": "https://www.youtube.com/watch?v=Rn_B2UDLnG8",
-      "embed_url": "https://www.youtube.com/embed/Rn_B2UDLnG8",
-      "thumbnail": "https://i.ytimg.com/vi/Rn_B2UDLnG8/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T04:45:06+05:30",
-      "published_ts": 1783034106,
-      "latest_rank": 3,
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "query": "Groove Nomada",
-      "score": 13.15,
-      "method": "rss",
-      "feed_id": "groove_nomada",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA",
+      "id": "KQE29az48gM",
+      "title": "Carbon Based Lifeforms - World Of Sleepers [Full Album]",
+      "channel": "The Psychedelic Muse",
+      "url": "https://www.youtube.com/watch?v=KQE29az48gM",
+      "embed_url": "https://www.youtube.com/embed/KQE29az48gM",
+      "thumbnail": "https://i.ytimg.com/vi/KQE29az48gM/hqdefault.jpg",
+      "duration": 4720,
+      "duration_text": "1:18:40",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 11,
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "query": "Classic",
+      "score": 18.45,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "downtempo"
+        "night_drive"
       ],
       "category_labels": [
-        "Downtempo"
+        "Night Drive"
       ],
       "queries": [
-        "Groove Nomada"
+        "Classic"
       ]
     },
     {
-      "id": "1jomM7-1azg",
-      "title": "Mirrors Open Late Late Night Chill Deep House Mix for Rainy Apartments, Quiet Reflection & Emotional",
-      "channel": "Chill Deep Society",
-      "url": "https://www.youtube.com/watch?v=1jomM7-1azg",
-      "embed_url": "https://www.youtube.com/embed/1jomM7-1azg",
-      "thumbnail": "https://i.ytimg.com/vi/1jomM7-1azg/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T04:40:45+05:30",
-      "published_ts": 1783033845,
-      "latest_rank": 1,
-      "category": "ambient",
-      "category_label": "Ambient",
-      "query": "Chill Deep Society",
-      "score": 15.15,
-      "method": "rss",
-      "feed_id": "chill_deep_society",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w",
+      "id": "iYqDVqYSTxs",
+      "title": "LTJ Bukem Presents Logical Progression 1996 CD 2",
+      "channel": "Zertrex",
+      "url": "https://www.youtube.com/watch?v=iYqDVqYSTxs",
+      "embed_url": "https://www.youtube.com/embed/iYqDVqYSTxs",
+      "thumbnail": "https://i.ytimg.com/vi/iYqDVqYSTxs/hqdefault.jpg",
+      "duration": 2750,
+      "duration_text": "45:50",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 15,
+      "category": "liquid",
+      "category_label": "Liquid DnB",
+      "query": "Classic",
+      "score": 18.0,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "ambient"
+        "liquid"
       ],
       "category_labels": [
-        "Ambient"
+        "Liquid DnB"
       ],
       "queries": [
-        "Chill Deep Society"
+        "Classic"
       ]
     },
     {
-      "id": "qE6X8RNFKe0",
-      "title": "Luxury Deep House for Late Night Cruising",
-      "channel": "Veloura Smoke",
-      "url": "https://www.youtube.com/watch?v=qE6X8RNFKe0",
-      "embed_url": "https://www.youtube.com/embed/qE6X8RNFKe0",
-      "thumbnail": "https://i.ytimg.com/vi/qE6X8RNFKe0/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T03:30:36+05:30",
-      "published_ts": 1783029636,
-      "latest_rank": 1,
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "query": "Veloura Smoke",
-      "score": 12.95,
-      "method": "rss",
-      "feed_id": "veloura_smoke",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
+      "id": "Q4BQxwpw4Co",
+      "title": "Moby - Long Ambients Two - Megamix",
+      "channel": "Moby",
+      "url": "https://www.youtube.com/watch?v=Q4BQxwpw4Co",
+      "embed_url": "https://www.youtube.com/embed/Q4BQxwpw4Co",
+      "thumbnail": "https://i.ytimg.com/vi/Q4BQxwpw4Co/hqdefault.jpg",
+      "duration": 13028,
+      "duration_text": "3:37:08",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 10,
+      "category": "sleep",
+      "category_label": "Sleep",
+      "query": "Classic",
+      "score": 17.1,
+      "method": "classic",
+      "classic": true,
       "categories": [
-        "downtempo"
+        "sleep"
       ],
       "category_labels": [
-        "Downtempo"
+        "Sleep"
       ],
       "queries": [
-        "Veloura Smoke"
-      ]
-    },
-    {
-      "id": "doo4v8EFmnY",
-      "title": "Falling in Love | Techno Song",
-      "channel": "Sylvia Ray",
-      "url": "https://www.youtube.com/watch?v=doo4v8EFmnY",
-      "embed_url": "https://www.youtube.com/embed/doo4v8EFmnY",
-      "thumbnail": "https://i.ytimg.com/vi/doo4v8EFmnY/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T03:00:07+05:30",
-      "published_ts": 1783027807,
-      "latest_rank": 1,
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "query": "Sylvia Ray",
-      "score": 12.95,
-      "method": "rss",
-      "feed_id": "sylvia_ray",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqHxoJEUklCIRsmfHqMyKpQ",
-      "categories": [
-        "cinematic"
-      ],
-      "category_labels": [
-        "Cinematic"
-      ],
-      "queries": [
-        "Sylvia Ray"
-      ]
-    },
-    {
-      "id": "-aZIyWdeArw",
-      "title": "ILLUMINATED - Emotional Deep House | Night Drive",
-      "channel": "SOVREIX",
-      "url": "https://www.youtube.com/watch?v=-aZIyWdeArw",
-      "embed_url": "https://www.youtube.com/embed/-aZIyWdeArw",
-      "thumbnail": "https://i.ytimg.com/vi/-aZIyWdeArw/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T02:30:36+05:30",
-      "published_ts": 1783026036,
-      "latest_rank": 2,
-      "category": "ambient",
-      "category_label": "Ambient",
-      "query": "SOVREIX",
-      "score": 14.7,
-      "method": "rss",
-      "feed_id": "sovreix",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ",
-      "categories": [
-        "ambient"
-      ],
-      "category_labels": [
-        "Ambient"
-      ],
-      "queries": [
-        "SOVREIX"
-      ]
-    },
-    {
-      "id": "z5NrDAxyhDQ",
-      "title": "Twin Flame – Deep Ambient Music for Relaxation - Cinematic Pads & Atmospheric Textures",
-      "channel": "HealingSounds",
-      "url": "https://www.youtube.com/shorts/z5NrDAxyhDQ",
-      "embed_url": "https://www.youtube.com/embed/z5NrDAxyhDQ",
-      "thumbnail": "https://i.ytimg.com/vi/z5NrDAxyhDQ/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T02:30:10+05:30",
-      "published_ts": 1783026010,
-      "latest_rank": 1,
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "query": "HealingSounds",
-      "score": 16.25,
-      "method": "rss",
-      "feed_id": "healing_sounds",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
-      "categories": [
-        "cinematic"
-      ],
-      "category_labels": [
-        "Cinematic"
-      ],
-      "queries": [
-        "HealingSounds"
-      ]
-    },
-    {
-      "id": "64TujhrHoqw",
-      "title": "Twin Flame – Deep Ambient Music for Relaxation - Cinematic Pads & Atmospheric Textures",
-      "channel": "HealingSounds",
-      "url": "https://www.youtube.com/watch?v=64TujhrHoqw",
-      "embed_url": "https://www.youtube.com/embed/64TujhrHoqw",
-      "thumbnail": "https://i.ytimg.com/vi/64TujhrHoqw/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T02:30:06+05:30",
-      "published_ts": 1783026006,
-      "latest_rank": 2,
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "query": "HealingSounds",
-      "score": 15.8,
-      "method": "rss",
-      "feed_id": "healing_sounds",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
-      "categories": [
-        "cinematic"
-      ],
-      "category_labels": [
-        "Cinematic"
-      ],
-      "queries": [
-        "HealingSounds"
-      ]
-    },
-    {
-      "id": "L5wH0woH7l0",
-      "title": "Omer Balik - I'm Dying (SERIQ Remix)",
-      "channel": "SERIQ",
-      "url": "https://www.youtube.com/watch?v=L5wH0woH7l0",
-      "embed_url": "https://www.youtube.com/embed/L5wH0woH7l0",
-      "thumbnail": "https://i.ytimg.com/vi/L5wH0woH7l0/hqdefault.jpg",
-      "duration": null,
-      "duration_text": "",
-      "published": "20260703",
-      "published_at": "2026-07-03T02:16:33+05:30",
-      "published_ts": 1783025193,
-      "latest_rank": 1,
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "query": "SERIQ",
-      "score": 14.05,
-      "method": "rss",
-      "feed_id": "seriq",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA",
-      "categories": [
-        "downtempo"
-      ],
-      "category_labels": [
-        "Downtempo"
-      ],
-      "queries": [
-        "SERIQ"
+        "Classic"
       ]
     }
   ],
   "searches": [
     {
-      "id": "future_chill",
-      "label": "Future Chill",
-      "query": "future chill emotional instrumental",
-      "weight": 1.35
+      "id": "relaxing",
+      "label": "Relaxing",
+      "query": "relaxing ambient electronic music long mix no talking",
+      "weight": 1.3
     },
     {
-      "id": "marion",
-      "label": "MARION",
-      "query": "\"MARION\" chillstep future garage ambient electronic music",
+      "id": "energy",
+      "label": "Energy Boost",
+      "query": "energy boost electronic music long mix no vocals",
       "weight": 1.25
     },
     {
-      "id": "chillstep",
-      "label": "Chillstep",
-      "query": "chillstep atmospheric electronic",
-      "weight": 1.25
-    },
-    {
-      "id": "future_garage",
-      "label": "Future Garage",
-      "query": "future garage emotional mix",
+      "id": "meditation",
+      "label": "Meditation",
+      "query": "meditation ambient music long mix no talking",
       "weight": 1.2
     },
     {
-      "id": "cinematic",
-      "label": "Cinematic",
-      "query": "cinematic chill electronic background music",
+      "id": "focus",
+      "label": "Work Focus",
+      "query": "work focus instrumental electronic music long mix",
+      "weight": 1.2
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "query": "sleep ambient music long mix no talking",
       "weight": 1.15
     },
     {
-      "id": "downtempo",
-      "label": "Downtempo",
-      "query": "melodic downtempo emotional electronic",
-      "weight": 1.1
+      "id": "night_drive",
+      "label": "Night Drive",
+      "query": "night drive electronic deep house long mix",
+      "weight": 1.15
     },
     {
       "id": "ambient",
       "label": "Ambient",
-      "query": "ambient electronic night drive reflective",
+      "query": "ambient soundscape long mix instrumental",
       "weight": 1.1
     },
     {
       "id": "liquid",
-      "label": "Liquid",
-      "query": "liquid chill liquid drum and bass atmospheric",
-      "weight": 0.85
+      "label": "Liquid DnB",
+      "query": "liquid drum and bass atmospheric long mix",
+      "weight": 1.0
     }
   ],
   "rss_feeds": [
     {
       "id": "velvet_energy",
       "label": "Velvet Energy",
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC4djlmp19rQ3-9rnmTddtQ"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCC4djlmp19rQ3-9rnmTddtQ",
+      "max_items": 5
     },
     {
       "id": "groove_nomada",
       "label": "Groove Nomada",
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA"
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6wUXbIsTsnpnz4pHjpq_qA",
+      "max_items": 5
     },
     {
       "id": "chill_deep_society",
       "label": "Chill Deep Society",
-      "category": "ambient",
-      "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w"
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w",
+      "max_items": 5
     },
     {
       "id": "veloura_smoke",
       "label": "Veloura Smoke",
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg"
+      "category": "focus",
+      "category_label": "Work Focus",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
+      "max_items": 5
     },
     {
       "id": "neonwalker",
       "label": "NeonWalker",
-      "category": "future_chill",
-      "category_label": "Future Chill",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
+      "max_items": 5
     },
     {
       "id": "sylvia_ray",
       "label": "Sylvia Ray",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqHxoJEUklCIRsmfHqMyKpQ"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCqHxoJEUklCIRsmfHqMyKpQ",
+      "max_items": 5
     },
     {
       "id": "sovreix",
       "label": "SOVREIX",
-      "category": "ambient",
-      "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ"
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKVfShw5VhqYMBO6SwccPjQ",
+      "max_items": 5
     },
     {
       "id": "healing_sounds",
       "label": "HealingSounds",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg"
+      "category": "meditation",
+      "category_label": "Meditation",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
+      "max_items": 5
     },
     {
       "id": "seriq",
       "label": "SERIQ",
-      "category": "downtempo",
-      "category_label": "Downtempo",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA"
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEfz-cdtUrhU1pe6QGRr9TA",
+      "max_items": 5
     },
     {
       "id": "astracore",
       "label": "ASTRACORE",
-      "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw"
+      "category": "focus",
+      "category_label": "Work Focus",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw",
+      "max_items": 5
     },
     {
       "id": "soundscape_bladerunner",
       "label": "Soundscape BladeRunner",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC45cKsW6esslhbcIO9EhdIQ"
+      "category": "ambient",
+      "category_label": "Ambient",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC45cKsW6esslhbcIO9EhdIQ",
+      "max_items": 5
     },
     {
       "id": "sound_regend",
       "label": "Sound Regend",
-      "category": "chillstep",
-      "category_label": "Chillstep",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "max_items": 5
     },
     {
       "id": "space_dnb",
       "label": "SPACE DnB",
       "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g"
+      "category_label": "Liquid DnB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
+      "max_items": 5
     },
     {
       "id": "infraction",
       "label": "Infraction",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkRrhwhJ2Ia_ZlkTQ4XFWJA"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkRrhwhJ2Ia_ZlkTQ4XFWJA",
+      "max_items": 5
     },
     {
       "id": "bumer_slava",
       "label": "bumer_slava",
       "category": "ambient",
       "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChHbnNqOZZCun1N3qfyg3Pg",
+      "max_items": 5
     },
     {
       "id": "liquid_sound_drop",
       "label": "Liquid Sound Drop",
       "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJa9AltEOis0fc2vDi9aHiw"
+      "category_label": "Liquid DnB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJa9AltEOis0fc2vDi9aHiw",
+      "max_items": 5
     },
     {
       "id": "dune_pulse",
       "label": "Dune Pulse",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw"
+      "category": "meditation",
+      "category_label": "Meditation",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw",
+      "max_items": 5
     },
     {
       "id": "the_angle",
       "label": "The angle",
-      "category": "ambient",
-      "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1OUqTFOe1umJrWxlq_4MJg"
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1OUqTFOe1umJrWxlq_4MJg",
+      "max_items": 5
     },
     {
       "id": "gas_station",
       "label": "Gas Station",
       "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpX0B1lL2l1yX1ACU51ywg"
+      "category_label": "Liquid DnB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOpX0B1lL2l1yX1ACU51ywg",
+      "max_items": 5
     },
     {
       "id": "liquid_kemistry",
       "label": "Liquid Kemistry",
       "category": "liquid",
-      "category_label": "Liquid",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcCJhavo4umeVR3Phr1AntA"
+      "category_label": "Liquid DnB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcCJhavo4umeVR3Phr1AntA",
+      "max_items": 5
     },
     {
       "id": "midnight_horizon",
       "label": "Midnight Horizon",
-      "category": "ambient",
-      "category_label": "Ambient",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ"
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ",
+      "max_items": 5
     },
     {
       "id": "trance_mix",
       "label": "Trance mix",
-      "category": "chillstep",
-      "category_label": "Chillstep",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w",
+      "max_items": 5
     },
     {
       "id": "musicoo",
       "label": "Musicoo",
-      "category": "cinematic",
-      "category_label": "Cinematic",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCh_540MtcrFRBS1PMUIVykg"
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCh_540MtcrFRBS1PMUIVykg",
+      "max_items": 5
     },
     {
       "id": "afrohouse",
       "label": "Afrohousechannel",
-      "category": "future_garage",
-      "category_label": "Future Garage",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCupD2zem2F0UptBqbvE-TwA"
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCupD2zem2F0UptBqbvE-TwA",
+      "max_items": 5
     },
     {
       "id": "persian_jazz",
       "label": "Persian Jazz",
-      "category": "future_chill",
-      "category_label": "Future Chill",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q"
+      "category": "sleep",
+      "category_label": "Sleep",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
+      "max_items": 5
     }
   ],
   "warning": null,
