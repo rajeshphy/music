@@ -157,6 +157,9 @@ def feed_link(entry: ET.Element) -> str:
 def fetch_video_duration(video_id: str, timeout: int, cache: dict[str, int | None]) -> int | None:
     if video_id in cache:
         return cache[video_id]
+    if str(os.environ.get("MUSIC_SKIP_DURATION_FETCH", "")).lower() in {"1", "true", "yes"}:
+        cache[video_id] = None
+        return None
     url = f"{YOUTUBE_WATCH.format(video_id=video_id)}&bpctr=9999999999&has_verified=1"
     req = Request(url, headers={
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -262,6 +265,10 @@ def item_from_feed_entry(
         return None
 
     duration = fetch_video_duration(video_id, duration_timeout, duration_cache)
+    duration_source = "youtube"
+    if duration is None and feed.get("fallback_duration"):
+        duration = seconds_value(feed.get("fallback_duration"))
+        duration_source = "feed_fallback"
     min_duration = int(config.get("portal", {}).get("min_duration_seconds") or 600)
     if duration is None or duration < min_duration:
         return None
@@ -295,6 +302,7 @@ def item_from_feed_entry(
         "query": feed.get("label"),
         "score": score,
         "method": "rss",
+        "duration_source": duration_source,
         "feed_id": feed.get("id"),
         "feed_url": feed.get("url"),
     }

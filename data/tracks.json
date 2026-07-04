@@ -1,13 +1,416 @@
 {
-  "generated_at": "2026-07-04T14:27:01.698251+05:30",
+  "generated_at": "2026-07-04T14:31:59.375537+05:30",
   "mode": "latest",
   "search_sort": "date",
   "recent_hours": 24,
   "min_duration_seconds": 600,
   "classic_items_per_category": 2,
-  "cutoff_time": "2026-07-03T14:27:01.698251+05:30",
+  "cutoff_time": "2026-07-03T14:31:59.375537+05:30",
   "youtube_search_enabled": false,
   "tracks": [
+    {
+      "id": "N3NH_E0rZzo",
+      "title": "1 Hour Persian Jazz Noir | Cinematic Night Stories | Dark Smooth Jazz for Focus & Relax",
+      "channel": "Persian Jazz",
+      "url": "https://www.youtube.com/watch?v=N3NH_E0rZzo",
+      "embed_url": "https://www.youtube.com/embed/N3NH_E0rZzo",
+      "thumbnail": "https://i.ytimg.com/vi/N3NH_E0rZzo/hqdefault.jpg",
+      "duration": 3600,
+      "duration_text": "1:00:00",
+      "published": "20260704",
+      "published_at": "2026-07-04T13:30:36+05:30",
+      "published_ts": 1783152036,
+      "latest_rank": 1,
+      "category": "sleep",
+      "category_label": "Sleep",
+      "query": "Persian Jazz",
+      "score": 17.45,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "persian_jazz",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
+      "categories": [
+        "sleep"
+      ],
+      "category_labels": [
+        "Sleep"
+      ],
+      "queries": [
+        "Persian Jazz"
+      ]
+    },
+    {
+      "id": "gfwwxbwnxLc",
+      "title": "POV: Midnight Feels Different When You're Alone 🌌 EDM Mix 2026 | Chill Dance Music Drive Relax",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=gfwwxbwnxLc",
+      "embed_url": "https://www.youtube.com/embed/gfwwxbwnxLc",
+      "thumbnail": "https://i.ytimg.com/vi/gfwwxbwnxLc/hqdefault.jpg",
+      "duration": 14400,
+      "duration_text": "4:00:00",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:33:26+05:30",
+      "published_ts": 1783141406,
+      "latest_rank": 1,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Sound Regend",
+      "score": 16.75,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "energy"
+      ],
+      "category_labels": [
+        "Energy Boost"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "JDKd9L1XREs",
+      "title": "Midnight Highway Drive Alone 🌃 EDM Mix 2026 | Relaxing Chill Dance Party Music Vibes Tonight Energy",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=JDKd9L1XREs",
+      "embed_url": "https://www.youtube.com/embed/JDKd9L1XREs",
+      "thumbnail": "https://i.ytimg.com/vi/JDKd9L1XREs/hqdefault.jpg",
+      "duration": 14400,
+      "duration_text": "4:00:00",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:33:24+05:30",
+      "published_ts": 1783141404,
+      "latest_rank": 4,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Sound Regend",
+      "score": 17.6,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "energy"
+      ],
+      "category_labels": [
+        "Energy Boost"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "pTVDpYCRmHk",
+      "title": "Lost in the Night With No Destination 🌙 EDM Mix 2026 | Relaxing Chill Dance Party Music Vibes Energy",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=pTVDpYCRmHk",
+      "embed_url": "https://www.youtube.com/embed/pTVDpYCRmHk",
+      "thumbnail": "https://i.ytimg.com/vi/pTVDpYCRmHk/hqdefault.jpg",
+      "duration": 14400,
+      "duration_text": "4:00:00",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:33:23+05:30",
+      "published_ts": 1783141403,
+      "latest_rank": 3,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Sound Regend",
+      "score": 18.05,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "energy"
+      ],
+      "category_labels": [
+        "Energy Boost"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "AwxGGS5de88",
+      "title": "Midnight Highway Alone Feels Different 🌃 EDM Mix 2026 | Relaxing Chill Dance Party Music Vibes",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=AwxGGS5de88",
+      "embed_url": "https://www.youtube.com/embed/AwxGGS5de88",
+      "thumbnail": "https://i.ytimg.com/vi/AwxGGS5de88/hqdefault.jpg",
+      "duration": 14400,
+      "duration_text": "4:00:00",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:33:22+05:30",
+      "published_ts": 1783141402,
+      "latest_rank": 2,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Sound Regend",
+      "score": 17.4,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "energy"
+      ],
+      "category_labels": [
+        "Energy Boost"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "UIt-LrBgA44",
+      "title": "Neon Dreams and Endless Roads 🌆 EDM Mix 2026 | Relaxing Chill Dance Party Music Vibes Tonight Energy",
+      "channel": "Sound Regend",
+      "url": "https://www.youtube.com/watch?v=UIt-LrBgA44",
+      "embed_url": "https://www.youtube.com/embed/UIt-LrBgA44",
+      "thumbnail": "https://i.ytimg.com/vi/UIt-LrBgA44/hqdefault.jpg",
+      "duration": 14400,
+      "duration_text": "4:00:00",
+      "published": "20260704",
+      "published_at": "2026-07-04T10:33:21+05:30",
+      "published_ts": 1783141401,
+      "latest_rank": 5,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Sound Regend",
+      "score": 17.15,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "sound_regend",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
+      "categories": [
+        "energy"
+      ],
+      "category_labels": [
+        "Energy Boost"
+      ],
+      "queries": [
+        "Sound Regend"
+      ]
+    },
+    {
+      "id": "V6EdW19NSKU",
+      "title": "Deep House 2026 Essentials | Chill Mix & Deep Vibes #69",
+      "channel": "Veloura Smoke",
+      "url": "https://www.youtube.com/watch?v=V6EdW19NSKU",
+      "embed_url": "https://www.youtube.com/embed/V6EdW19NSKU",
+      "thumbnail": "https://i.ytimg.com/vi/V6EdW19NSKU/hqdefault.jpg",
+      "duration": 5400,
+      "duration_text": "1:30:00",
+      "published": "20260704",
+      "published_at": "2026-07-04T03:30:10+05:30",
+      "published_ts": 1783116010,
+      "latest_rank": 1,
+      "category": "focus",
+      "category_label": "Work Focus",
+      "query": "Veloura Smoke",
+      "score": 17.15,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "veloura_smoke",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
+      "categories": [
+        "focus"
+      ],
+      "category_labels": [
+        "Work Focus"
+      ],
+      "queries": [
+        "Veloura Smoke"
+      ]
+    },
+    {
+      "id": "NwULxleElCw",
+      "title": "LIVE 24/7 🌌 Alan Walker Style – Into The Endless Night | Emotional EDM, Future Bass Mix 2026",
+      "channel": "NeonWalker",
+      "url": "https://www.youtube.com/watch?v=NwULxleElCw",
+      "embed_url": "https://www.youtube.com/embed/NwULxleElCw",
+      "thumbnail": "https://i.ytimg.com/vi/NwULxleElCw/hqdefault.jpg",
+      "duration": 3600,
+      "duration_text": "1:00:00",
+      "published": "20260703",
+      "published_at": "2026-07-03T22:30:02+05:30",
+      "published_ts": 1783098002,
+      "latest_rank": 1,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "NeonWalker",
+      "score": 18.25,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "neonwalker",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
+      "categories": [
+        "energy"
+      ],
+      "category_labels": [
+        "Energy Boost"
+      ],
+      "queries": [
+        "NeonWalker"
+      ]
+    },
+    {
+      "id": "rRQNo_t7mvs",
+      "title": "Final Countdown Focus | DnB Mix for Exam Revision & Cramming — Vol. V",
+      "channel": "SPACE DnB",
+      "url": "https://www.youtube.com/watch?v=rRQNo_t7mvs",
+      "embed_url": "https://www.youtube.com/embed/rRQNo_t7mvs",
+      "thumbnail": "https://i.ytimg.com/vi/rRQNo_t7mvs/hqdefault.jpg",
+      "duration": 3600,
+      "duration_text": "1:00:00",
+      "published": "20260703",
+      "published_at": "2026-07-03T20:30:19+05:30",
+      "published_ts": 1783090819,
+      "latest_rank": 2,
+      "category": "liquid",
+      "category_label": "Liquid DnB",
+      "query": "SPACE DnB",
+      "score": 18.9,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "space_dnb",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid DnB"
+      ],
+      "queries": [
+        "SPACE DnB"
+      ]
+    },
+    {
+      "id": "ImG56vfFtRI",
+      "title": "Coastal Highway | Liquid DnB Mix for Night Driving & Ocean Roads — Vol. V",
+      "channel": "SPACE DnB",
+      "url": "https://www.youtube.com/watch?v=ImG56vfFtRI",
+      "embed_url": "https://www.youtube.com/embed/ImG56vfFtRI",
+      "thumbnail": "https://i.ytimg.com/vi/ImG56vfFtRI/hqdefault.jpg",
+      "duration": 3600,
+      "duration_text": "1:00:00",
+      "published": "20260703",
+      "published_at": "2026-07-03T20:30:12+05:30",
+      "published_ts": 1783090812,
+      "latest_rank": 3,
+      "category": "liquid",
+      "category_label": "Liquid DnB",
+      "query": "SPACE DnB",
+      "score": 19.55,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "space_dnb",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
+      "categories": [
+        "liquid"
+      ],
+      "category_labels": [
+        "Liquid DnB"
+      ],
+      "queries": [
+        "SPACE DnB"
+      ]
+    },
+    {
+      "id": "jpm0kLQiQ-c",
+      "title": "Arabic Deep House for Focus | Desert Mirage Study Music 🌙",
+      "channel": "Dune Pulse",
+      "url": "https://www.youtube.com/watch?v=jpm0kLQiQ-c",
+      "embed_url": "https://www.youtube.com/embed/jpm0kLQiQ-c",
+      "thumbnail": "https://i.ytimg.com/vi/jpm0kLQiQ-c/hqdefault.jpg",
+      "duration": 1800,
+      "duration_text": "30:00",
+      "published": "20260703",
+      "published_at": "2026-07-03T18:30:00+05:30",
+      "published_ts": 1783083600,
+      "latest_rank": 1,
+      "category": "meditation",
+      "category_label": "Meditation",
+      "query": "Dune Pulse",
+      "score": 19.85,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "dune_pulse",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw",
+      "categories": [
+        "meditation"
+      ],
+      "category_labels": [
+        "Meditation"
+      ],
+      "queries": [
+        "Dune Pulse"
+      ]
+    },
+    {
+      "id": "VRSomgE-Xtg",
+      "title": "Lost in Santorini at Midnight | Melodic & Progressive House Flow [2026]",
+      "channel": "Midnight Horizon",
+      "url": "https://www.youtube.com/watch?v=VRSomgE-Xtg",
+      "embed_url": "https://www.youtube.com/embed/VRSomgE-Xtg",
+      "thumbnail": "https://i.ytimg.com/vi/VRSomgE-Xtg/hqdefault.jpg",
+      "duration": 5400,
+      "duration_text": "1:30:00",
+      "published": "20260703",
+      "published_at": "2026-07-03T16:00:36+05:30",
+      "published_ts": 1783074636,
+      "latest_rank": 1,
+      "category": "night_drive",
+      "category_label": "Night Drive",
+      "query": "Midnight Horizon",
+      "score": 16.35,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "midnight_horizon",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ",
+      "categories": [
+        "night_drive"
+      ],
+      "category_labels": [
+        "Night Drive"
+      ],
+      "queries": [
+        "Midnight Horizon"
+      ]
+    },
+    {
+      "id": "F6qMrP1eXus",
+      "title": "LIVE 24/7 🌌 Alan Walker Style – Lost Beyond Reality | Emotional Future Bass, Cinematic EDM 2026",
+      "channel": "NeonWalker",
+      "url": "https://www.youtube.com/watch?v=F6qMrP1eXus",
+      "embed_url": "https://www.youtube.com/embed/F6qMrP1eXus",
+      "thumbnail": "https://i.ytimg.com/vi/F6qMrP1eXus/hqdefault.jpg",
+      "duration": 3600,
+      "duration_text": "1:00:00",
+      "published": "20260703",
+      "published_at": "2026-07-03T14:35:16+05:30",
+      "published_ts": 1783069516,
+      "latest_rank": 2,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "NeonWalker",
+      "score": 15.9,
+      "method": "rss",
+      "duration_source": "feed_fallback",
+      "feed_id": "neonwalker",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
+      "categories": [
+        "energy"
+      ],
+      "category_labels": [
+        "Energy Boost"
+      ],
+      "queries": [
+        "NeonWalker"
+      ]
+    },
     {
       "id": "cp71Tu-cNAc",
       "title": "MOBY Long Ambients 1 : Calm Sleep Full Album 2016 Zen Music 4K",
@@ -463,7 +866,8 @@
       "category": "relaxing",
       "category_label": "Relaxing",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "veloura_smoke",
@@ -471,7 +875,8 @@
       "category": "focus",
       "category_label": "Work Focus",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 5400
     },
     {
       "id": "neonwalker",
@@ -479,7 +884,8 @@
       "category": "energy",
       "category_label": "Energy Boost",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "sylvia_ray",
@@ -503,7 +909,8 @@
       "category": "meditation",
       "category_label": "Meditation",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "seriq",
@@ -519,7 +926,8 @@
       "category": "focus",
       "category_label": "Work Focus",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "soundscape_bladerunner",
@@ -535,7 +943,8 @@
       "category": "energy",
       "category_label": "Energy Boost",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 14400
     },
     {
       "id": "space_dnb",
@@ -543,7 +952,8 @@
       "category": "liquid",
       "category_label": "Liquid DnB",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "infraction",
@@ -575,7 +985,8 @@
       "category": "meditation",
       "category_label": "Meditation",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 1800
     },
     {
       "id": "the_angle",
@@ -607,7 +1018,8 @@
       "category": "night_drive",
       "category_label": "Night Drive",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 5400
     },
     {
       "id": "trance_mix",
@@ -615,7 +1027,8 @@
       "category": "energy",
       "category_label": "Energy Boost",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "musicoo",
@@ -639,7 +1052,8 @@
       "category": "sleep",
       "category_label": "Sleep",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     }
   ],
   "warning": null,

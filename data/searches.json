@@ -87,7 +87,8 @@
       "category": "relaxing",
       "category_label": "Relaxing",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0Cg3UpQmD7JDQsTfhgmo6w",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "veloura_smoke",
@@ -95,7 +96,8 @@
       "category": "focus",
       "category_label": "Work Focus",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 5400
     },
     {
       "id": "neonwalker",
@@ -103,7 +105,8 @@
       "category": "energy",
       "category_label": "Energy Boost",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsUbokaojK-kIWWjIReQzOg",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "sylvia_ray",
@@ -127,7 +130,8 @@
       "category": "meditation",
       "category_label": "Meditation",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "seriq",
@@ -143,7 +147,8 @@
       "category": "focus",
       "category_label": "Work Focus",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQrBko6Okg58P8F9HinIqRw",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "soundscape_bladerunner",
@@ -159,7 +164,8 @@
       "category": "energy",
       "category_label": "Energy Boost",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 14400
     },
     {
       "id": "space_dnb",
@@ -167,7 +173,8 @@
       "category": "liquid",
       "category_label": "Liquid DnB",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "infraction",
@@ -199,7 +206,8 @@
       "category": "meditation",
       "category_label": "Meditation",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 1800
     },
     {
       "id": "the_angle",
@@ -231,7 +239,8 @@
       "category": "night_drive",
       "category_label": "Night Drive",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 5400
     },
     {
       "id": "trance_mix",
@@ -239,7 +248,8 @@
       "category": "energy",
       "category_label": "Energy Boost",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8lBkEH8_tsyI-mLzpVu__w",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     },
     {
       "id": "musicoo",
@@ -263,7 +273,8 @@
       "category": "sleep",
       "category_label": "Sleep",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
-      "max_items": 5
+      "max_items": 5,
+      "fallback_duration": 3600
     }
   ],
   "positive_terms": [
