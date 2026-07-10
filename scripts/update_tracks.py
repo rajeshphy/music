@@ -373,6 +373,39 @@ def item_from_classic(track: dict, config: dict, rank: int, timezone: str) -> di
     }
 
 
+def item_from_audio_stream(stream: dict, rank: int, now: datetime) -> dict | None:
+    stream_id = clean_text(stream.get("id"))
+    title = clean_text(stream.get("title") or stream.get("label"))
+    audio_url = clean_text(stream.get("audio_url"))
+    category = clean_text(stream.get("category"))
+    if not stream_id or not title or not audio_url or not category:
+        return None
+
+    category_label = clean_text(stream.get("category_label") or stream.get("label") or category.title())
+    channel = clean_text(stream.get("channel") or stream.get("source") or "Background Audio")
+    return {
+        "id": f"stream-{stream_id}",
+        "title": title,
+        "channel": channel,
+        "url": clean_text(stream.get("url")) or audio_url,
+        "audio_url": audio_url,
+        "thumbnail": clean_text(stream.get("thumbnail")),
+        "duration": None,
+        "duration_text": clean_text(stream.get("duration_text")) or "Live",
+        "published": "stream",
+        "published_at": now.isoformat(),
+        "published_ts": int(now.timestamp()) - rank,
+        "latest_rank": rank,
+        "category": category,
+        "category_label": category_label,
+        "query": "Background Audio",
+        "score": round(float(stream.get("weight", 1.0)) * 20.0, 3),
+        "method": "audio_stream",
+        "stream": True,
+        "background_audio": True,
+    }
+
+
 def item_from_entry(entry: dict, search: dict, config: dict, rank: int, cutoff_time, timezone: str) -> dict | None:
     video_id = clean_text(entry.get("id"))
     if not video_id:
@@ -469,20 +502,33 @@ def main() -> int:
     duration_cache: dict[str, int | None] = {}
     errors = []
 
-    for feed in config.get("rss_feeds", []):
-        try:
-            items = feed_items(feed, config, cutoff_time, timezone, feed_timeout, duration_cache, duration_timeout)
-        except Exception as exc:
-            errors.append(f"{feed.get('id') or feed.get('url')}: {type(exc).__name__}: {exc}")
+    for rank, stream in enumerate(config.get("audio_streams", []), start=1):
+        item = item_from_audio_stream(stream, rank, now)
+        if not item:
             continue
-        for item in items:
-            existing = tracks_by_id.get(item["id"])
-            tracks_by_id[item["id"]] = merge_track(existing, item) if existing else {
-                **item,
-                "categories": [item["category"]],
-                "category_labels": [item["category_label"]],
-                "queries": [item["query"]],
-            }
+        tracks_by_id[item["id"]] = {
+            **item,
+            "categories": [item["category"]],
+            "category_labels": [item["category_label"]],
+            "queries": [item["query"]],
+        }
+
+    feeds_enabled = str(os.environ.get("MUSIC_YOUTUBE_FEEDS_ENABLED", portal.get("youtube_feeds_enabled", False))).lower()
+    if feeds_enabled in {"1", "true", "yes", "on"}:
+        for feed in config.get("rss_feeds", []):
+            try:
+                items = feed_items(feed, config, cutoff_time, timezone, feed_timeout, duration_cache, duration_timeout)
+            except Exception as exc:
+                errors.append(f"{feed.get('id') or feed.get('url')}: {type(exc).__name__}: {exc}")
+                continue
+            for item in items:
+                existing = tracks_by_id.get(item["id"])
+                tracks_by_id[item["id"]] = merge_track(existing, item) if existing else {
+                    **item,
+                    "categories": [item["category"]],
+                    "category_labels": [item["category_label"]],
+                    "queries": [item["query"]],
+                }
 
     if use_youtube_search:
         for search in config.get("searches", []):
@@ -507,7 +553,7 @@ def main() -> int:
                     "queries": [item["query"]],
                 }
 
-    classic_limit = int(portal.get("classic_items_per_category") or 2)
+    classic_limit = int(portal.get("classic_items_per_category", 2))
     classic_counts: dict[str, int] = {}
     for rank, track in enumerate(config.get("classic_tracks", []), start=1):
         category = clean_text(track.get("category"))
@@ -542,6 +588,7 @@ def main() -> int:
         "youtube_search_enabled": use_youtube_search,
         "tracks": tracks,
         "searches": config.get("searches", []),
+        "audio_streams": config.get("audio_streams", []),
         "rss_feeds": config.get("rss_feeds", []),
         "warning": "; ".join(errors) if errors and tracks else None,
         "error": "; ".join(errors) if errors and not tracks else None,

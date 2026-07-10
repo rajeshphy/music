@@ -1,404 +1,33 @@
 {
-  "generated_at": "2026-07-10T02:37:12.529229+05:30",
+  "generated_at": "2026-07-10T20:02:38.894853+05:30",
   "mode": "latest",
   "search_sort": "date",
   "recent_hours": 24,
   "min_duration_seconds": 600,
-  "classic_items_per_category": 2,
-  "cutoff_time": "2026-07-09T02:37:12.529229+05:30",
+  "classic_items_per_category": 0,
+  "cutoff_time": "2026-07-09T20:02:38.894853+05:30",
   "youtube_search_enabled": false,
   "tracks": [
     {
-      "id": "yrmqAFQcvh4",
-      "title": "Stillness Between Notes: Serene Ambient Piano & Warm Strings",
-      "channel": "HealingSounds",
-      "url": "https://www.youtube.com/shorts/yrmqAFQcvh4",
-      "embed_url": "https://www.youtube.com/embed/yrmqAFQcvh4",
-      "thumbnail": "https://i.ytimg.com/vi/yrmqAFQcvh4/hqdefault.jpg",
-      "duration": 3600,
-      "duration_text": "1:00:00",
-      "published": "20260710",
-      "published_at": "2026-07-10T02:30:16+05:30",
-      "published_ts": 1783630816,
+      "id": "stream-groove_salad",
+      "title": "Groove Salad",
+      "channel": "SomaFM",
+      "url": "https://somafm.com/groovesalad/",
+      "audio_url": "https://ice2.somafm.com/groovesalad-128-mp3",
+      "thumbnail": "https://somafm.com/img/groovesalad-400.jpg",
+      "duration": null,
+      "duration_text": "Live",
+      "published": "stream",
+      "published_at": "2026-07-10T20:02:38.894853+05:30",
+      "published_ts": 1783693957,
       "latest_rank": 1,
-      "category": "meditation",
-      "category_label": "Meditation",
-      "query": "HealingSounds",
-      "score": 17.45,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "healing_sounds",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
-      "categories": [
-        "meditation"
-      ],
-      "category_labels": [
-        "Meditation"
-      ],
-      "queries": [
-        "HealingSounds"
-      ]
-    },
-    {
-      "id": "SdqaBdJgCow",
-      "title": "Stillness Between Notes Serene Ambient Piano & Warm Strings",
-      "channel": "HealingSounds",
-      "url": "https://www.youtube.com/watch?v=SdqaBdJgCow",
-      "embed_url": "https://www.youtube.com/embed/SdqaBdJgCow",
-      "thumbnail": "https://i.ytimg.com/vi/SdqaBdJgCow/hqdefault.jpg",
-      "duration": 3600,
-      "duration_text": "1:00:00",
-      "published": "20260710",
-      "published_at": "2026-07-10T02:30:07+05:30",
-      "published_ts": 1783630807,
-      "latest_rank": 2,
-      "category": "meditation",
-      "category_label": "Meditation",
-      "query": "HealingSounds",
-      "score": 17.0,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "healing_sounds",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXsraCQDMvexotq-CYx3TFg",
-      "categories": [
-        "meditation"
-      ],
-      "category_labels": [
-        "Meditation"
-      ],
-      "queries": [
-        "HealingSounds"
-      ]
-    },
-    {
-      "id": "DOGgBkt7klE",
-      "title": "When Everything Feels Off This Music Helps 🌃 EDM Mix 2026 | Relaxing Chill Dance Party Music Energy",
-      "channel": "Sound Regend",
-      "url": "https://www.youtube.com/watch?v=DOGgBkt7klE",
-      "embed_url": "https://www.youtube.com/embed/DOGgBkt7klE",
-      "thumbnail": "https://i.ytimg.com/vi/DOGgBkt7klE/hqdefault.jpg",
-      "duration": 14400,
-      "duration_text": "4:00:00",
-      "published": "20260710",
-      "published_at": "2026-07-10T01:30:06+05:30",
-      "published_ts": 1783627206,
-      "latest_rank": 1,
-      "category": "energy",
-      "category_label": "Energy Boost",
-      "query": "Sound Regend",
-      "score": 18.95,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "sound_regend",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
-      "categories": [
-        "energy"
-      ],
-      "category_labels": [
-        "Energy Boost"
-      ],
-      "queries": [
-        "Sound Regend"
-      ]
-    },
-    {
-      "id": "qguzFfWMbQY",
-      "title": "Late Night Music That Feels Too Close To Home 🌙 EDM Mix 2026 Relaxing Chill Dance Party Music Vibes",
-      "channel": "Sound Regend",
-      "url": "https://www.youtube.com/watch?v=qguzFfWMbQY",
-      "embed_url": "https://www.youtube.com/embed/qguzFfWMbQY",
-      "thumbnail": "https://i.ytimg.com/vi/qguzFfWMbQY/hqdefault.jpg",
-      "duration": 14400,
-      "duration_text": "4:00:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T23:32:02+05:30",
-      "published_ts": 1783620122,
-      "latest_rank": 2,
-      "category": "energy",
-      "category_label": "Energy Boost",
-      "query": "Sound Regend",
-      "score": 17.4,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "sound_regend",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
-      "categories": [
-        "energy"
-      ],
-      "category_labels": [
-        "Energy Boost"
-      ],
-      "queries": [
-        "Sound Regend"
-      ]
-    },
-    {
-      "id": "EF-ePKTXnes",
-      "title": "You Let The Music Speak While You Stay Silent 🚗 EDM Mix 2026 Relaxing Chill Dance Party Music Vibes",
-      "channel": "Sound Regend",
-      "url": "https://www.youtube.com/watch?v=EF-ePKTXnes",
-      "embed_url": "https://www.youtube.com/embed/EF-ePKTXnes",
-      "thumbnail": "https://i.ytimg.com/vi/EF-ePKTXnes/hqdefault.jpg",
-      "duration": 14400,
-      "duration_text": "4:00:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T23:28:36+05:30",
-      "published_ts": 1783619916,
-      "latest_rank": 3,
-      "category": "energy",
-      "category_label": "Energy Boost",
-      "query": "Sound Regend",
-      "score": 16.95,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "sound_regend",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
-      "categories": [
-        "energy"
-      ],
-      "category_labels": [
-        "Energy Boost"
-      ],
-      "queries": [
-        "Sound Regend"
-      ]
-    },
-    {
-      "id": "APmFD8EnG7s",
-      "title": "You Didn’t Plan To Stay But Here You Are 🚘 EDM Mix 2026 | Relaxing Chill Dance Party Music Energy",
-      "channel": "Sound Regend",
-      "url": "https://www.youtube.com/watch?v=APmFD8EnG7s",
-      "embed_url": "https://www.youtube.com/embed/APmFD8EnG7s",
-      "thumbnail": "https://i.ytimg.com/vi/APmFD8EnG7s/hqdefault.jpg",
-      "duration": 14400,
-      "duration_text": "4:00:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T23:26:58+05:30",
-      "published_ts": 1783619818,
-      "latest_rank": 4,
-      "category": "energy",
-      "category_label": "Energy Boost",
-      "query": "Sound Regend",
-      "score": 17.6,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "sound_regend",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
-      "categories": [
-        "energy"
-      ],
-      "category_labels": [
-        "Energy Boost"
-      ],
-      "queries": [
-        "Sound Regend"
-      ]
-    },
-    {
-      "id": "_hZgkQ5LBcg",
-      "title": "POV: You Watch The City Fade While Music Stays 🌌 EDM Mix 2026 Relaxing Chill Dance Party Music Vibes",
-      "channel": "Sound Regend",
-      "url": "https://www.youtube.com/watch?v=_hZgkQ5LBcg",
-      "embed_url": "https://www.youtube.com/embed/_hZgkQ5LBcg",
-      "thumbnail": "https://i.ytimg.com/vi/_hZgkQ5LBcg/hqdefault.jpg",
-      "duration": 14400,
-      "duration_text": "4:00:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T23:26:45+05:30",
-      "published_ts": 1783619805,
-      "latest_rank": 5,
-      "category": "energy",
-      "category_label": "Energy Boost",
-      "query": "Sound Regend",
-      "score": 16.05,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "sound_regend",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHOqU7G7ezFJ2b0nlVsS2tw",
-      "categories": [
-        "energy"
-      ],
-      "category_labels": [
-        "Energy Boost"
-      ],
-      "queries": [
-        "Sound Regend"
-      ]
-    },
-    {
-      "id": "Sjc-xPKUO-U",
-      "title": "Liquid Skies | Pure Liquid DnB Mix for Chilling & Atmospheric Listening — Vol. II",
-      "channel": "SPACE DnB",
-      "url": "https://www.youtube.com/watch?v=Sjc-xPKUO-U",
-      "embed_url": "https://www.youtube.com/embed/Sjc-xPKUO-U",
-      "thumbnail": "https://i.ytimg.com/vi/Sjc-xPKUO-U/hqdefault.jpg",
-      "duration": 3600,
-      "duration_text": "1:00:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T20:30:18+05:30",
-      "published_ts": 1783609218,
-      "latest_rank": 2,
-      "category": "liquid",
-      "category_label": "Liquid DnB",
-      "query": "SPACE DnB",
-      "score": 20.0,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "space_dnb",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCTvhEo39Mj3jPxvug8N31g",
-      "categories": [
-        "liquid"
-      ],
-      "category_labels": [
-        "Liquid DnB"
-      ],
-      "queries": [
-        "SPACE DnB"
-      ]
-    },
-    {
-      "id": "s9STBvCzmIQ",
-      "title": "Arabian Moonflow — Arabic Deep House Chill Mix | Relaxing Desert Journey 🌙",
-      "channel": "Dune Pulse",
-      "url": "https://www.youtube.com/watch?v=s9STBvCzmIQ",
-      "embed_url": "https://www.youtube.com/embed/s9STBvCzmIQ",
-      "thumbnail": "https://i.ytimg.com/vi/s9STBvCzmIQ/hqdefault.jpg",
-      "duration": 1800,
-      "duration_text": "30:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T18:30:32+05:30",
-      "published_ts": 1783602032,
-      "latest_rank": 1,
-      "category": "meditation",
-      "category_label": "Meditation",
-      "query": "Dune Pulse",
-      "score": 19.85,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "dune_pulse",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZu0nM4TO1BMx_qZ_6AdEw",
-      "categories": [
-        "meditation"
-      ],
-      "category_labels": [
-        "Meditation"
-      ],
-      "queries": [
-        "Dune Pulse"
-      ]
-    },
-    {
-      "id": "nYKZB2KY16U",
-      "title": "Midnight in Toronto Melodic & Progressive House Flow [2026]",
-      "channel": "Midnight Horizon",
-      "url": "https://www.youtube.com/watch?v=nYKZB2KY16U",
-      "embed_url": "https://www.youtube.com/embed/nYKZB2KY16U",
-      "thumbnail": "https://i.ytimg.com/vi/nYKZB2KY16U/hqdefault.jpg",
-      "duration": 5400,
-      "duration_text": "1:30:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T16:00:22+05:30",
-      "published_ts": 1783593022,
-      "latest_rank": 1,
-      "category": "night_drive",
-      "category_label": "Night Drive",
-      "query": "Midnight Horizon",
-      "score": 16.35,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "midnight_horizon",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCBms5zt5K974ARsj3-NWtJQ",
-      "categories": [
-        "night_drive"
-      ],
-      "category_labels": [
-        "Night Drive"
-      ],
-      "queries": [
-        "Midnight Horizon"
-      ]
-    },
-    {
-      "id": "lldXo14xWDM",
-      "title": "1 Hour Persian Jazz Deep House Journey | Spiritual Deep Groove with Ney & Tar",
-      "channel": "Persian Jazz",
-      "url": "https://www.youtube.com/watch?v=lldXo14xWDM",
-      "embed_url": "https://www.youtube.com/embed/lldXo14xWDM",
-      "thumbnail": "https://i.ytimg.com/vi/lldXo14xWDM/hqdefault.jpg",
-      "duration": 3600,
-      "duration_text": "1:00:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T13:30:23+05:30",
-      "published_ts": 1783584023,
-      "latest_rank": 1,
-      "category": "sleep",
-      "category_label": "Sleep",
-      "query": "Persian Jazz",
-      "score": 16.35,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "persian_jazz",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb6sRfQc00Wd4rPmzrrFq1Q",
-      "categories": [
-        "sleep"
-      ],
-      "category_labels": [
-        "Sleep"
-      ],
-      "queries": [
-        "Persian Jazz"
-      ]
-    },
-    {
-      "id": "yempn72lCmU",
-      "title": "Deep House 2026 Essentials | Chill Mix & Deep Vibes #35",
-      "channel": "Veloura Smoke",
-      "url": "https://www.youtube.com/watch?v=yempn72lCmU",
-      "embed_url": "https://www.youtube.com/embed/yempn72lCmU",
-      "thumbnail": "https://i.ytimg.com/vi/yempn72lCmU/hqdefault.jpg",
-      "duration": 5400,
-      "duration_text": "1:30:00",
-      "published": "20260709",
-      "published_at": "2026-07-09T03:30:14+05:30",
-      "published_ts": 1783548014,
-      "latest_rank": 1,
-      "category": "focus",
-      "category_label": "Work Focus",
-      "query": "Veloura Smoke",
-      "score": 17.15,
-      "method": "rss",
-      "duration_source": "feed_fallback",
-      "feed_id": "veloura_smoke",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCVqB5MAKa2EF7YVpd_0UMg",
-      "categories": [
-        "focus"
-      ],
-      "category_labels": [
-        "Work Focus"
-      ],
-      "queries": [
-        "Veloura Smoke"
-      ]
-    },
-    {
-      "id": "cp71Tu-cNAc",
-      "title": "MOBY Long Ambients 1 : Calm Sleep Full Album 2016 Zen Music 4K",
-      "channel": "Instants Transformers",
-      "url": "https://www.youtube.com/watch?v=cp71Tu-cNAc",
-      "embed_url": "https://www.youtube.com/embed/cp71Tu-cNAc",
-      "thumbnail": "https://i.ytimg.com/vi/cp71Tu-cNAc/hqdefault.jpg",
-      "duration": 14709,
-      "duration_text": "4:05:09",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 2,
       "category": "relaxing",
       "category_label": "Relaxing",
-      "query": "Classic",
-      "score": 25.1,
-      "method": "classic",
-      "classic": true,
+      "query": "Background Audio",
+      "score": 28.0,
+      "method": "audio_stream",
+      "stream": true,
+      "background_audio": true,
       "categories": [
         "relaxing"
       ],
@@ -406,86 +35,149 @@
         "Relaxing"
       ],
       "queries": [
-        "Classic"
+        "Background Audio"
       ]
     },
     {
-      "id": "iXAbte4QXKs",
-      "title": "Best Uplifting Trance Mix - All Time Favourites #1",
-      "channel": "The Grand Sound",
-      "url": "https://www.youtube.com/watch?v=iXAbte4QXKs",
-      "embed_url": "https://www.youtube.com/embed/iXAbte4QXKs",
-      "thumbnail": "https://i.ytimg.com/vi/iXAbte4QXKs/hqdefault.jpg",
-      "duration": 5481,
-      "duration_text": "1:31:21",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 4,
-      "category": "energy",
-      "category_label": "Energy Boost",
-      "query": "Classic",
-      "score": 22.7,
-      "method": "classic",
-      "classic": true,
+      "id": "stream-drone_zone",
+      "title": "Drone Zone",
+      "channel": "SomaFM",
+      "url": "https://somafm.com/dronezone/",
+      "audio_url": "https://ice2.somafm.com/dronezone-128-mp3",
+      "thumbnail": "https://somafm.com/img/dronezone-400.jpg",
+      "duration": null,
+      "duration_text": "Live",
+      "published": "stream",
+      "published_at": "2026-07-10T20:02:38.894853+05:30",
+      "published_ts": 1783693956,
+      "latest_rank": 2,
+      "category": "meditation",
+      "category_label": "Meditation",
+      "query": "Background Audio",
+      "score": 27.0,
+      "method": "audio_stream",
+      "stream": true,
+      "background_audio": true,
       "categories": [
-        "energy"
+        "meditation"
       ],
       "category_labels": [
-        "Energy Boost"
+        "Meditation"
       ],
       "queries": [
-        "Classic"
+        "Background Audio"
       ]
     },
     {
-      "id": "yEMt9esDe1g",
-      "title": "Classic Trance Anthems Mix | From 1999 to 2001",
-      "channel": "DelasTrance",
-      "url": "https://www.youtube.com/watch?v=yEMt9esDe1g",
-      "embed_url": "https://www.youtube.com/embed/yEMt9esDe1g",
-      "thumbnail": "https://i.ytimg.com/vi/yEMt9esDe1g/hqdefault.jpg",
-      "duration": 8191,
-      "duration_text": "2:16:31",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
+      "id": "stream-space_station_soma",
+      "title": "Space Station Soma",
+      "channel": "SomaFM",
+      "url": "https://somafm.com/spacestation/",
+      "audio_url": "https://ice2.somafm.com/spacestation-128-mp3",
+      "thumbnail": "https://somafm.com/img/spacestation-400.jpg",
+      "duration": null,
+      "duration_text": "Live",
+      "published": "stream",
+      "published_at": "2026-07-10T20:02:38.894853+05:30",
+      "published_ts": 1783693955,
       "latest_rank": 3,
-      "category": "energy",
-      "category_label": "Energy Boost",
-      "query": "Classic",
-      "score": 22.05,
-      "method": "classic",
-      "classic": true,
+      "category": "focus",
+      "category_label": "Work Focus",
+      "query": "Background Audio",
+      "score": 26.0,
+      "method": "audio_stream",
+      "stream": true,
+      "background_audio": true,
       "categories": [
-        "energy"
+        "focus"
       ],
       "category_labels": [
-        "Energy Boost"
+        "Work Focus"
       ],
       "queries": [
-        "Classic"
+        "Background Audio"
       ]
     },
     {
-      "id": "vNwYtllyt3Q",
-      "title": "Brian Eno - Ambient 1: Music for Airports [Full Album]",
-      "channel": "Methadone Methadone",
-      "url": "https://www.youtube.com/watch?v=vNwYtllyt3Q",
-      "embed_url": "https://www.youtube.com/embed/vNwYtllyt3Q",
-      "thumbnail": "https://i.ytimg.com/vi/vNwYtllyt3Q/hqdefault.jpg",
-      "duration": 2919,
-      "duration_text": "48:39",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 13,
+      "id": "stream-deep_space_one",
+      "title": "Deep Space One",
+      "channel": "SomaFM",
+      "url": "https://somafm.com/deepspaceone/",
+      "audio_url": "https://ice2.somafm.com/deepspaceone-128-mp3",
+      "thumbnail": "https://somafm.com/img/deepspaceone-400.jpg",
+      "duration": null,
+      "duration_text": "Live",
+      "published": "stream",
+      "published_at": "2026-07-10T20:02:38.894853+05:30",
+      "published_ts": 1783693954,
+      "latest_rank": 4,
+      "category": "sleep",
+      "category_label": "Sleep",
+      "query": "Background Audio",
+      "score": 25.0,
+      "method": "audio_stream",
+      "stream": true,
+      "background_audio": true,
+      "categories": [
+        "sleep"
+      ],
+      "category_labels": [
+        "Sleep"
+      ],
+      "queries": [
+        "Background Audio"
+      ]
+    },
+    {
+      "id": "stream-fluid",
+      "title": "Fluid",
+      "channel": "SomaFM",
+      "url": "https://somafm.com/fluid/",
+      "audio_url": "https://ice2.somafm.com/fluid-128-mp3",
+      "thumbnail": "https://somafm.com/img/fluid-400.jpg",
+      "duration": null,
+      "duration_text": "Live",
+      "published": "stream",
+      "published_at": "2026-07-10T20:02:38.894853+05:30",
+      "published_ts": 1783693953,
+      "latest_rank": 5,
+      "category": "lofi",
+      "category_label": "Lo-fi",
+      "query": "Background Audio",
+      "score": 23.0,
+      "method": "audio_stream",
+      "stream": true,
+      "background_audio": true,
+      "categories": [
+        "lofi"
+      ],
+      "category_labels": [
+        "Lo-fi"
+      ],
+      "queries": [
+        "Background Audio"
+      ]
+    },
+    {
+      "id": "stream-mission_control",
+      "title": "Mission Control",
+      "channel": "SomaFM",
+      "url": "https://somafm.com/missioncontrol/",
+      "audio_url": "https://ice2.somafm.com/missioncontrol-128-mp3",
+      "thumbnail": "https://somafm.com/img/missioncontrol-400.jpg",
+      "duration": null,
+      "duration_text": "Live",
+      "published": "stream",
+      "published_at": "2026-07-10T20:02:38.894853+05:30",
+      "published_ts": 1783693952,
+      "latest_rank": 6,
       "category": "ambient",
       "category_label": "Ambient",
-      "query": "Classic",
-      "score": 21.3,
-      "method": "classic",
-      "classic": true,
+      "query": "Background Audio",
+      "score": 23.0,
+      "method": "audio_stream",
+      "stream": true,
+      "background_audio": true,
       "categories": [
         "ambient"
       ],
@@ -493,272 +185,67 @@
         "Ambient"
       ],
       "queries": [
-        "Classic"
+        "Background Audio"
       ]
     },
     {
-      "id": "h6MqY0zDUhs",
-      "title": "90s Intelligent - Atmospheric Drum & Bass",
-      "channel": "kollaps",
-      "url": "https://www.youtube.com/watch?v=h6MqY0zDUhs",
-      "embed_url": "https://www.youtube.com/embed/h6MqY0zDUhs",
-      "thumbnail": "https://i.ytimg.com/vi/h6MqY0zDUhs/hqdefault.jpg",
-      "duration": 4861,
-      "duration_text": "1:21:01",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 16,
-      "category": "liquid",
-      "category_label": "Liquid DnB",
-      "query": "Classic",
-      "score": 21.3,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "liquid"
-      ],
-      "category_labels": [
-        "Liquid DnB"
-      ],
-      "queries": [
-        "Classic"
-      ]
-    },
-    {
-      "id": "2YeofmJvCcg",
-      "title": "1 Hour of Koyasan: Reiki Sound Healing by Deuter | FULL ALBUM",
-      "channel": "New Earth Records",
-      "url": "https://www.youtube.com/watch?v=2YeofmJvCcg",
-      "embed_url": "https://www.youtube.com/embed/2YeofmJvCcg",
-      "thumbnail": "https://i.ytimg.com/vi/2YeofmJvCcg/hqdefault.jpg",
-      "duration": 3744,
-      "duration_text": "1:02:24",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 5,
-      "category": "meditation",
-      "category_label": "Meditation",
-      "query": "Classic",
-      "score": 21.15,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "meditation"
-      ],
-      "category_labels": [
-        "Meditation"
-      ],
-      "queries": [
-        "Classic"
-      ]
-    },
-    {
-      "id": "MzUf5mXP4ZQ",
-      "title": "Steve Roach - Structures from Silence (1984 Album)",
-      "channel": "stuff channel",
-      "url": "https://www.youtube.com/watch?v=MzUf5mXP4ZQ",
-      "embed_url": "https://www.youtube.com/embed/MzUf5mXP4ZQ",
-      "thumbnail": "https://i.ytimg.com/vi/MzUf5mXP4ZQ/hqdefault.jpg",
-      "duration": 3523,
-      "duration_text": "58:43",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 6,
-      "category": "meditation",
-      "category_label": "Meditation",
-      "query": "Classic",
-      "score": 20.7,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "ambient",
-        "meditation"
-      ],
-      "category_labels": [
-        "Ambient",
-        "Meditation"
-      ],
-      "queries": [
-        "Classic"
-      ]
-    },
-    {
-      "id": "BGXOYfZMR0w",
-      "title": "Tycho - Dive (Full Album) (Deluxe Version)",
-      "channel": "Cure Music",
-      "url": "https://www.youtube.com/watch?v=BGXOYfZMR0w",
-      "embed_url": "https://www.youtube.com/embed/BGXOYfZMR0w",
-      "thumbnail": "https://i.ytimg.com/vi/BGXOYfZMR0w/hqdefault.jpg",
-      "duration": 4527,
-      "duration_text": "1:15:27",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
+      "id": "stream-sonic_universe",
+      "title": "Sonic Universe",
+      "channel": "SomaFM",
+      "url": "https://somafm.com/sonicuniverse/",
+      "audio_url": "https://ice2.somafm.com/sonicuniverse-128-mp3",
+      "thumbnail": "https://somafm.com/img/sonicuniverse-400.jpg",
+      "duration": null,
+      "duration_text": "Live",
+      "published": "stream",
+      "published_at": "2026-07-10T20:02:38.894853+05:30",
+      "published_ts": 1783693951,
       "latest_rank": 7,
-      "category": "focus",
-      "category_label": "Work Focus",
-      "query": "Classic",
-      "score": 20.25,
-      "method": "classic",
-      "classic": true,
+      "category": "instrumental",
+      "category_label": "Instrumental",
+      "query": "Background Audio",
+      "score": 21.0,
+      "method": "audio_stream",
+      "stream": true,
+      "background_audio": true,
       "categories": [
-        "focus"
+        "instrumental"
       ],
       "category_labels": [
-        "Work Focus"
+        "Instrumental"
       ],
       "queries": [
-        "Classic"
+        "Background Audio"
       ]
     },
     {
-      "id": "qYnA9wWFHLI",
-      "title": "Marconi Union - Weightless (Official 10 Hour Version)",
-      "channel": "JustMusicTV",
-      "url": "https://www.youtube.com/watch?v=qYnA9wWFHLI",
-      "embed_url": "https://www.youtube.com/embed/qYnA9wWFHLI",
-      "thumbnail": "https://i.ytimg.com/vi/qYnA9wWFHLI/hqdefault.jpg",
-      "duration": 36385,
-      "duration_text": "10:06:25",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 1,
-      "category": "relaxing",
-      "category_label": "Relaxing",
-      "query": "Classic",
-      "score": 20.05,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "relaxing",
-        "sleep"
-      ],
-      "category_labels": [
-        "Relaxing",
-        "Sleep"
-      ],
-      "queries": [
-        "Classic"
-      ]
-    },
-    {
-      "id": "-9pgIVcB3rk",
-      "title": "Carbon Based Lifeforms - Interloper [Full Album - 2015 Remaster]",
-      "channel": "Cosmic Soundwaves",
-      "url": "https://www.youtube.com/watch?v=-9pgIVcB3rk",
-      "embed_url": "https://www.youtube.com/embed/-9pgIVcB3rk",
-      "thumbnail": "https://i.ytimg.com/vi/-9pgIVcB3rk/hqdefault.jpg",
-      "duration": 4498,
-      "duration_text": "1:14:58",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
+      "id": "stream-the_trip",
+      "title": "The Trip",
+      "channel": "SomaFM",
+      "url": "https://somafm.com/thetrip/",
+      "audio_url": "https://ice2.somafm.com/thetrip-128-mp3",
+      "thumbnail": "https://somafm.com/img/thetrip-400.jpg",
+      "duration": null,
+      "duration_text": "Live",
+      "published": "stream",
+      "published_at": "2026-07-10T20:02:38.894853+05:30",
+      "published_ts": 1783693950,
       "latest_rank": 8,
-      "category": "focus",
-      "category_label": "Work Focus",
-      "query": "Classic",
-      "score": 18.7,
-      "method": "classic",
-      "classic": true,
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "query": "Background Audio",
+      "score": 20.0,
+      "method": "audio_stream",
+      "stream": true,
+      "background_audio": true,
       "categories": [
-        "focus"
+        "energy"
       ],
       "category_labels": [
-        "Work Focus"
+        "Energy Boost"
       ],
       "queries": [
-        "Classic"
-      ]
-    },
-    {
-      "id": "KQE29az48gM",
-      "title": "Carbon Based Lifeforms - World Of Sleepers [Full Album]",
-      "channel": "The Psychedelic Muse",
-      "url": "https://www.youtube.com/watch?v=KQE29az48gM",
-      "embed_url": "https://www.youtube.com/embed/KQE29az48gM",
-      "thumbnail": "https://i.ytimg.com/vi/KQE29az48gM/hqdefault.jpg",
-      "duration": 4720,
-      "duration_text": "1:18:40",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 11,
-      "category": "night_drive",
-      "category_label": "Night Drive",
-      "query": "Classic",
-      "score": 18.45,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "night_drive"
-      ],
-      "category_labels": [
-        "Night Drive"
-      ],
-      "queries": [
-        "Classic"
-      ]
-    },
-    {
-      "id": "iYqDVqYSTxs",
-      "title": "LTJ Bukem Presents Logical Progression 1996 CD 2",
-      "channel": "Zertrex",
-      "url": "https://www.youtube.com/watch?v=iYqDVqYSTxs",
-      "embed_url": "https://www.youtube.com/embed/iYqDVqYSTxs",
-      "thumbnail": "https://i.ytimg.com/vi/iYqDVqYSTxs/hqdefault.jpg",
-      "duration": 2750,
-      "duration_text": "45:50",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 15,
-      "category": "liquid",
-      "category_label": "Liquid DnB",
-      "query": "Classic",
-      "score": 18.0,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "liquid"
-      ],
-      "category_labels": [
-        "Liquid DnB"
-      ],
-      "queries": [
-        "Classic"
-      ]
-    },
-    {
-      "id": "Q4BQxwpw4Co",
-      "title": "Moby - Long Ambients Two - Megamix",
-      "channel": "Moby",
-      "url": "https://www.youtube.com/watch?v=Q4BQxwpw4Co",
-      "embed_url": "https://www.youtube.com/embed/Q4BQxwpw4Co",
-      "thumbnail": "https://i.ytimg.com/vi/Q4BQxwpw4Co/hqdefault.jpg",
-      "duration": 13028,
-      "duration_text": "3:37:08",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 10,
-      "category": "sleep",
-      "category_label": "Sleep",
-      "query": "Classic",
-      "score": 17.1,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "sleep"
-      ],
-      "category_labels": [
-        "Sleep"
-      ],
-      "queries": [
-        "Classic"
+        "Background Audio"
       ]
     }
   ],
@@ -766,49 +253,139 @@
     {
       "id": "relaxing",
       "label": "Relaxing",
-      "query": "relaxing ambient electronic music long mix no talking",
+      "query": "relaxing ambient instrumental background audio",
       "weight": 1.3
     },
     {
       "id": "energy",
       "label": "Energy Boost",
-      "query": "energy boost electronic music long mix no vocals",
+      "query": "energy boost instrumental background audio",
       "weight": 1.25
     },
     {
       "id": "meditation",
       "label": "Meditation",
-      "query": "meditation ambient music long mix no talking",
+      "query": "meditation ambient background audio",
       "weight": 1.2
     },
     {
       "id": "focus",
       "label": "Work Focus",
-      "query": "work focus instrumental electronic music long mix",
+      "query": "work focus instrumental background audio",
       "weight": 1.2
     },
     {
       "id": "sleep",
       "label": "Sleep",
-      "query": "sleep ambient music long mix no talking",
+      "query": "sleep ambient background audio",
       "weight": 1.15
     },
     {
-      "id": "night_drive",
-      "label": "Night Drive",
-      "query": "night drive electronic deep house long mix",
-      "weight": 1.15
+      "id": "lofi",
+      "label": "Lo-fi",
+      "query": "lofi instrumental background audio",
+      "weight": 1.1
     },
     {
       "id": "ambient",
       "label": "Ambient",
-      "query": "ambient soundscape long mix instrumental",
+      "query": "ambient soundscape background audio",
       "weight": 1.1
     },
     {
-      "id": "liquid",
-      "label": "Liquid DnB",
-      "query": "liquid drum and bass atmospheric long mix",
+      "id": "instrumental",
+      "label": "Instrumental",
+      "query": "instrumental background audio",
+      "weight": 1.0
+    }
+  ],
+  "audio_streams": [
+    {
+      "id": "groove_salad",
+      "title": "Groove Salad",
+      "channel": "SomaFM",
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "audio_url": "https://ice2.somafm.com/groovesalad-128-mp3",
+      "url": "https://somafm.com/groovesalad/",
+      "thumbnail": "https://somafm.com/img/groovesalad-400.jpg",
+      "weight": 1.4
+    },
+    {
+      "id": "drone_zone",
+      "title": "Drone Zone",
+      "channel": "SomaFM",
+      "category": "meditation",
+      "category_label": "Meditation",
+      "audio_url": "https://ice2.somafm.com/dronezone-128-mp3",
+      "url": "https://somafm.com/dronezone/",
+      "thumbnail": "https://somafm.com/img/dronezone-400.jpg",
+      "weight": 1.35
+    },
+    {
+      "id": "space_station_soma",
+      "title": "Space Station Soma",
+      "channel": "SomaFM",
+      "category": "focus",
+      "category_label": "Work Focus",
+      "audio_url": "https://ice2.somafm.com/spacestation-128-mp3",
+      "url": "https://somafm.com/spacestation/",
+      "thumbnail": "https://somafm.com/img/spacestation-400.jpg",
+      "weight": 1.3
+    },
+    {
+      "id": "deep_space_one",
+      "title": "Deep Space One",
+      "channel": "SomaFM",
+      "category": "sleep",
+      "category_label": "Sleep",
+      "audio_url": "https://ice2.somafm.com/deepspaceone-128-mp3",
+      "url": "https://somafm.com/deepspaceone/",
+      "thumbnail": "https://somafm.com/img/deepspaceone-400.jpg",
+      "weight": 1.25
+    },
+    {
+      "id": "fluid",
+      "title": "Fluid",
+      "channel": "SomaFM",
+      "category": "lofi",
+      "category_label": "Lo-fi",
+      "audio_url": "https://ice2.somafm.com/fluid-128-mp3",
+      "url": "https://somafm.com/fluid/",
+      "thumbnail": "https://somafm.com/img/fluid-400.jpg",
+      "weight": 1.15
+    },
+    {
+      "id": "mission_control",
+      "title": "Mission Control",
+      "channel": "SomaFM",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "audio_url": "https://ice2.somafm.com/missioncontrol-128-mp3",
+      "url": "https://somafm.com/missioncontrol/",
+      "thumbnail": "https://somafm.com/img/missioncontrol-400.jpg",
+      "weight": 1.15
+    },
+    {
+      "id": "sonic_universe",
+      "title": "Sonic Universe",
+      "channel": "SomaFM",
+      "category": "instrumental",
+      "category_label": "Instrumental",
+      "audio_url": "https://ice2.somafm.com/sonicuniverse-128-mp3",
+      "url": "https://somafm.com/sonicuniverse/",
+      "thumbnail": "https://somafm.com/img/sonicuniverse-400.jpg",
+      "weight": 1.05
+    },
+    {
+      "id": "the_trip",
+      "title": "The Trip",
+      "channel": "SomaFM",
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "audio_url": "https://ice2.somafm.com/thetrip-128-mp3",
+      "url": "https://somafm.com/thetrip/",
+      "thumbnail": "https://somafm.com/img/thetrip-400.jpg",
       "weight": 1.0
     }
   ],

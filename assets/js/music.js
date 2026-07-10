@@ -9,11 +9,15 @@
   const tracksElement = document.querySelector("#tracks");
   const player = document.querySelector("#player");
   const emptyPlayer = document.querySelector("#empty-player");
+  const playerArt = document.querySelector("#player-art");
+  const playerTitle = document.querySelector("#player-title");
+  const playerSubtitle = document.querySelector("#player-subtitle");
   const youtubeSearch = document.querySelector("#youtube-search");
 
   let tracks = [];
   let searches = [];
   let activeCategory = "all";
+  let currentTrackIndex = -1;
 
   function formatGenerated(value) {
     if (!value) return "Not updated";
@@ -68,10 +72,51 @@
     return button;
   }
 
+  function setMediaSession(track) {
+    if (!("mediaSession" in navigator)) return;
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: track.title || "Music Radar",
+      artist: track.channel || "Background Audio",
+      album: (track.category_labels || [track.category_label || "Music"]).join(", "),
+      artwork: track.thumbnail ? [
+        { src: track.thumbnail, sizes: "512x512", type: "image/jpeg" }
+      ] : []
+    });
+    navigator.mediaSession.setActionHandler("play", () => player.play());
+    navigator.mediaSession.setActionHandler("pause", () => player.pause());
+    navigator.mediaSession.setActionHandler("previoustrack", () => playRelative(-1));
+    navigator.mediaSession.setActionHandler("nexttrack", () => playRelative(1));
+  }
+
+  function playRelative(offset) {
+    const visible = activeTracks();
+    if (!visible.length) return;
+    const currentId = tracks[currentTrackIndex]?.id;
+    const visibleIndex = Math.max(0, visible.findIndex(track => track.id === currentId));
+    const nextIndex = (visibleIndex + offset + visible.length) % visible.length;
+    play(visible[nextIndex]);
+  }
+
   function play(track) {
-    player.src = `${track.embed_url}?autoplay=1&rel=0`;
+    if (!track.audio_url) {
+      youtubeSearch.href = track.url || "#";
+      return;
+    }
+    currentTrackIndex = tracks.findIndex(item => item.id === track.id);
+    player.src = track.audio_url;
+    player.play().catch(() => {});
+    playerTitle.textContent = track.title || "Music Radar";
+    playerSubtitle.textContent = track.channel || "Background Audio";
+    if (track.thumbnail) {
+      playerArt.src = track.thumbnail;
+      playerArt.hidden = false;
+    } else {
+      playerArt.removeAttribute("src");
+      playerArt.hidden = true;
+    }
     emptyPlayer.classList.add("hidden");
-    youtubeSearch.href = track.url;
+    youtubeSearch.href = track.url || track.audio_url;
+    setMediaSession(track);
   }
 
   function render() {
@@ -107,10 +152,10 @@
     const thumb = document.createElement("div");
     thumb.className = "thumb";
     const img = document.createElement("img");
-    img.src = track.thumbnail;
+    img.src = track.thumbnail || "";
     img.alt = "";
     img.loading = "lazy";
-    thumb.append(img);
+    if (track.thumbnail) thumb.append(img);
     if (track.duration_text) {
       const duration = document.createElement("span");
       duration.className = "duration";
@@ -131,10 +176,10 @@
     channel.textContent = track.channel || "YouTube";
     const open = document.createElement("a");
     open.className = "open";
-    open.href = track.url;
+    open.href = track.url || track.audio_url || "#";
     open.target = "_blank";
     open.rel = "noopener";
-    open.textContent = "Open";
+    open.textContent = track.audio_url ? "Source" : "Open";
     meta.append(channel, open);
 
     const chips = document.createElement("div");
@@ -154,6 +199,7 @@
 
     body.append(heading, meta, chips);
     article.append(playButton, body);
+    article.classList.toggle("audio-ready", Boolean(track.audio_url));
     return article;
   }
 

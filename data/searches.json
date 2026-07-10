@@ -1,7 +1,7 @@
 {
   "portal": {
     "title": "Music Radar",
-    "subtitle": "Latest long-form pure music plus classics for relaxing, energy, meditation, focus, sleep, night drive, ambient, and liquid DnB",
+    "subtitle": "Background-first audio for relaxing, energy, meditation, focus, sleep, ambient, lo-fi and instrumental listening",
     "timezone": "Asia/Kolkata",
     "locale": "en-IN",
     "default_category": "all",
@@ -11,56 +11,147 @@
     "search_sort": "date",
     "recent_hours": 24,
     "youtube_search_enabled": false,
+    "youtube_feeds_enabled": false,
     "min_duration_seconds": 600,
-    "classic_items_per_category": 2
+    "classic_items_per_category": 0
   },
   "searches": [
     {
       "id": "relaxing",
       "label": "Relaxing",
-      "query": "relaxing ambient electronic music long mix no talking",
+      "query": "relaxing ambient instrumental background audio",
       "weight": 1.3
     },
     {
       "id": "energy",
       "label": "Energy Boost",
-      "query": "energy boost electronic music long mix no vocals",
+      "query": "energy boost instrumental background audio",
       "weight": 1.25
     },
     {
       "id": "meditation",
       "label": "Meditation",
-      "query": "meditation ambient music long mix no talking",
+      "query": "meditation ambient background audio",
       "weight": 1.2
     },
     {
       "id": "focus",
       "label": "Work Focus",
-      "query": "work focus instrumental electronic music long mix",
+      "query": "work focus instrumental background audio",
       "weight": 1.2
     },
     {
       "id": "sleep",
       "label": "Sleep",
-      "query": "sleep ambient music long mix no talking",
+      "query": "sleep ambient background audio",
       "weight": 1.15
     },
     {
-      "id": "night_drive",
-      "label": "Night Drive",
-      "query": "night drive electronic deep house long mix",
-      "weight": 1.15
+      "id": "lofi",
+      "label": "Lo-fi",
+      "query": "lofi instrumental background audio",
+      "weight": 1.1
     },
     {
       "id": "ambient",
       "label": "Ambient",
-      "query": "ambient soundscape long mix instrumental",
+      "query": "ambient soundscape background audio",
       "weight": 1.1
     },
     {
-      "id": "liquid",
-      "label": "Liquid DnB",
-      "query": "liquid drum and bass atmospheric long mix",
+      "id": "instrumental",
+      "label": "Instrumental",
+      "query": "instrumental background audio",
+      "weight": 1.0
+    }
+  ],
+  "audio_streams": [
+    {
+      "id": "groove_salad",
+      "title": "Groove Salad",
+      "channel": "SomaFM",
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "audio_url": "https://ice2.somafm.com/groovesalad-128-mp3",
+      "url": "https://somafm.com/groovesalad/",
+      "thumbnail": "https://somafm.com/img/groovesalad-400.jpg",
+      "weight": 1.4
+    },
+    {
+      "id": "drone_zone",
+      "title": "Drone Zone",
+      "channel": "SomaFM",
+      "category": "meditation",
+      "category_label": "Meditation",
+      "audio_url": "https://ice2.somafm.com/dronezone-128-mp3",
+      "url": "https://somafm.com/dronezone/",
+      "thumbnail": "https://somafm.com/img/dronezone-400.jpg",
+      "weight": 1.35
+    },
+    {
+      "id": "space_station_soma",
+      "title": "Space Station Soma",
+      "channel": "SomaFM",
+      "category": "focus",
+      "category_label": "Work Focus",
+      "audio_url": "https://ice2.somafm.com/spacestation-128-mp3",
+      "url": "https://somafm.com/spacestation/",
+      "thumbnail": "https://somafm.com/img/spacestation-400.jpg",
+      "weight": 1.3
+    },
+    {
+      "id": "deep_space_one",
+      "title": "Deep Space One",
+      "channel": "SomaFM",
+      "category": "sleep",
+      "category_label": "Sleep",
+      "audio_url": "https://ice2.somafm.com/deepspaceone-128-mp3",
+      "url": "https://somafm.com/deepspaceone/",
+      "thumbnail": "https://somafm.com/img/deepspaceone-400.jpg",
+      "weight": 1.25
+    },
+    {
+      "id": "fluid",
+      "title": "Fluid",
+      "channel": "SomaFM",
+      "category": "lofi",
+      "category_label": "Lo-fi",
+      "audio_url": "https://ice2.somafm.com/fluid-128-mp3",
+      "url": "https://somafm.com/fluid/",
+      "thumbnail": "https://somafm.com/img/fluid-400.jpg",
+      "weight": 1.15
+    },
+    {
+      "id": "mission_control",
+      "title": "Mission Control",
+      "channel": "SomaFM",
+      "category": "ambient",
+      "category_label": "Ambient",
+      "audio_url": "https://ice2.somafm.com/missioncontrol-128-mp3",
+      "url": "https://somafm.com/missioncontrol/",
+      "thumbnail": "https://somafm.com/img/missioncontrol-400.jpg",
+      "weight": 1.15
+    },
+    {
+      "id": "sonic_universe",
+      "title": "Sonic Universe",
+      "channel": "SomaFM",
+      "category": "instrumental",
+      "category_label": "Instrumental",
+      "audio_url": "https://ice2.somafm.com/sonicuniverse-128-mp3",
+      "url": "https://somafm.com/sonicuniverse/",
+      "thumbnail": "https://somafm.com/img/sonicuniverse-400.jpg",
+      "weight": 1.05
+    },
+    {
+      "id": "the_trip",
+      "title": "The Trip",
+      "channel": "SomaFM",
+      "category": "energy",
+      "category_label": "Energy Boost",
+      "audio_url": "https://ice2.somafm.com/thetrip-128-mp3",
+      "url": "https://somafm.com/thetrip/",
+      "thumbnail": "https://somafm.com/img/thetrip-400.jpg",
       "weight": 1.0
     }
   ],
