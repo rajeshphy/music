@@ -406,6 +406,41 @@ def item_from_audio_stream(stream: dict, rank: int, now: datetime) -> dict | Non
     }
 
 
+def item_from_audio_track(track: dict, rank: int, now: datetime, min_duration: int) -> dict | None:
+    track_id = clean_text(track.get("id"))
+    title = clean_text(track.get("title"))
+    audio_url = clean_text(track.get("audio_url"))
+    category = clean_text(track.get("category"))
+    duration = seconds_value(track.get("duration"))
+    if not track_id or not title or not audio_url or not category or duration is None:
+        return None
+    if duration < min_duration:
+        return None
+
+    category_label = clean_text(track.get("category_label") or category.title())
+    channel = clean_text(track.get("channel") or track.get("source") or "Background Audio")
+    return {
+        "id": f"audio-{track_id}",
+        "title": title,
+        "channel": channel,
+        "url": clean_text(track.get("url")) or audio_url,
+        "audio_url": audio_url,
+        "thumbnail": clean_text(track.get("thumbnail")),
+        "duration": duration,
+        "duration_text": seconds_to_clock(duration),
+        "published": "fixed",
+        "published_at": now.isoformat(),
+        "published_ts": int(now.timestamp()) - rank,
+        "latest_rank": rank,
+        "category": category,
+        "category_label": category_label,
+        "query": "Fixed Background Audio",
+        "score": round(float(track.get("weight", 1.0)) * 20.0, 3),
+        "method": "audio_track",
+        "background_audio": True,
+    }
+
+
 def item_from_entry(entry: dict, search: dict, config: dict, rank: int, cutoff_time, timezone: str) -> dict | None:
     video_id = clean_text(entry.get("id"))
     if not video_id:
@@ -501,9 +536,10 @@ def main() -> int:
     tracks_by_id: dict[str, dict] = {}
     duration_cache: dict[str, int | None] = {}
     errors = []
+    min_duration = int(portal.get("min_duration_seconds") or 1200)
 
-    for rank, stream in enumerate(config.get("audio_streams", []), start=1):
-        item = item_from_audio_stream(stream, rank, now)
+    for rank, track in enumerate(config.get("audio_tracks", []), start=1):
+        item = item_from_audio_track(track, rank, now, min_duration)
         if not item:
             continue
         tracks_by_id[item["id"]] = {
@@ -512,6 +548,19 @@ def main() -> int:
             "category_labels": [item["category_label"]],
             "queries": [item["query"]],
         }
+
+    streams_enabled = str(os.environ.get("MUSIC_LIVE_STREAMS_ENABLED", portal.get("live_streams_enabled", False))).lower()
+    if streams_enabled in {"1", "true", "yes", "on"}:
+        for rank, stream in enumerate(config.get("audio_streams", []), start=1):
+            item = item_from_audio_stream(stream, rank, now)
+            if not item:
+                continue
+            tracks_by_id[item["id"]] = {
+                **item,
+                "categories": [item["category"]],
+                "category_labels": [item["category_label"]],
+                "queries": [item["query"]],
+            }
 
     feeds_enabled = str(os.environ.get("MUSIC_YOUTUBE_FEEDS_ENABLED", portal.get("youtube_feeds_enabled", False))).lower()
     if feeds_enabled in {"1", "true", "yes", "on"}:
@@ -582,12 +631,13 @@ def main() -> int:
         "mode": "latest",
         "search_sort": sort_mode,
         "recent_hours": recent_hours,
-        "min_duration_seconds": int(portal.get("min_duration_seconds") or 600),
+        "min_duration_seconds": min_duration,
         "classic_items_per_category": classic_limit,
         "cutoff_time": cutoff_time.isoformat(),
         "youtube_search_enabled": use_youtube_search,
         "tracks": tracks,
         "searches": config.get("searches", []),
+        "audio_tracks": config.get("audio_tracks", []),
         "audio_streams": config.get("audio_streams", []),
         "rss_feeds": config.get("rss_feeds", []),
         "warning": "; ".join(errors) if errors and tracks else None,
