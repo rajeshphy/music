@@ -1,32 +1,34 @@
 {
-  "generated_at": "2026-07-20T02:00:07.659935+05:30",
+  "generated_at": "2026-07-20T09:54:35.270541+05:30",
   "mode": "latest",
   "search_sort": "date",
   "recent_hours": 24,
   "min_duration_seconds": 1200,
-  "classic_items_per_category": 0,
-  "cutoff_time": "2026-07-19T02:00:07.659935+05:30",
+  "classic_items_per_category": 1,
+  "cutoff_time": "2026-07-19T09:54:35.270541+05:30",
   "youtube_search_enabled": false,
+  "max_tracks_per_channel": 1,
+  "max_tracks_per_category": 3,
   "tracks": [
     {
-      "id": "audio-chill-bluebird",
-      "title": "Bluebird of Happiness",
-      "channel": "Chill Pills",
-      "url": "https://archive.org/details/ChillPills",
-      "audio_url": "https://archive.org/download/ChillPills/Uplifting_Pills_-_Chill_Pill_78_-_Bluebird_of_Happiness.mp3",
-      "thumbnail": "https://archive.org/services/img/ChillPills",
-      "duration": 4368,
-      "duration_text": "1:12:48",
-      "published": "fixed",
-      "published_at": "2026-07-20T02:00:07.659935+05:30",
-      "published_ts": 1784493006,
-      "latest_rank": 1,
+      "id": "cp71Tu-cNAc",
+      "title": "MOBY Long Ambients 1 : Calm Sleep Full Album 2016 Zen Music 4K",
+      "channel": "Instants Transformers",
+      "url": "https://www.youtube.com/watch?v=cp71Tu-cNAc",
+      "embed_url": "https://www.youtube.com/embed/cp71Tu-cNAc",
+      "thumbnail": "https://i.ytimg.com/vi/cp71Tu-cNAc/hqdefault.jpg",
+      "duration": 14709,
+      "duration_text": "4:05:09",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 2,
       "category": "relaxing",
       "category_label": "Relaxing",
-      "query": "Fixed Background Audio",
-      "score": 28.0,
-      "method": "audio_track",
-      "background_audio": true,
+      "query": "Classic",
+      "score": 25.1,
+      "method": "classic",
+      "classic": true,
       "categories": [
         "relaxing"
       ],
@@ -34,28 +36,28 @@
         "Relaxing"
       ],
       "queries": [
-        "Fixed Background Audio"
+        "Classic"
       ]
     },
     {
-      "id": "audio-jazz-morning-energy",
-      "title": "Positive Feelings and Energy",
-      "channel": "Morning Cafe Music",
-      "url": "https://archive.org/details/HappyMorningCafeMusicRelaxingJazzBossaNovaMusicForWorkStudyWakeUp",
-      "audio_url": "https://archive.org/download/HappyMorningCafeMusicRelaxingJazzBossaNovaMusicForWorkStudyWakeUp/Morning%20Relaxing%20Music%20-%20Positive%20Feelings%20and%20Energy%20%28Adele%29.mp3",
-      "thumbnail": "https://archive.org/services/img/HappyMorningCafeMusicRelaxingJazzBossaNovaMusicForWorkStudyWakeUp",
-      "duration": 10861,
-      "duration_text": "3:01:01",
-      "published": "fixed",
-      "published_at": "2026-07-20T02:00:07.659935+05:30",
-      "published_ts": 1784493005,
-      "latest_rank": 2,
+      "id": "iXAbte4QXKs",
+      "title": "Best Uplifting Trance Mix - All Time Favourites #1",
+      "channel": "The Grand Sound",
+      "url": "https://www.youtube.com/watch?v=iXAbte4QXKs",
+      "embed_url": "https://www.youtube.com/embed/iXAbte4QXKs",
+      "thumbnail": "https://i.ytimg.com/vi/iXAbte4QXKs/hqdefault.jpg",
+      "duration": 5481,
+      "duration_text": "1:31:21",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 4,
       "category": "energy",
       "category_label": "Energy Boost",
-      "query": "Fixed Background Audio",
-      "score": 27.0,
-      "method": "audio_track",
-      "background_audio": true,
+      "query": "Classic",
+      "score": 22.7,
+      "method": "classic",
+      "classic": true,
       "categories": [
         "energy"
       ],
@@ -63,144 +65,28 @@
         "Energy Boost"
       ],
       "queries": [
-        "Fixed Background Audio"
+        "Classic"
       ]
     },
     {
-      "id": "audio-calm-healing-lake",
-      "title": "The Healing Lake",
-      "channel": "Calm Pills",
-      "url": "https://archive.org/details/CalmPills",
-      "audio_url": "https://archive.org/download/CalmPills/Uplifting_Pills_-_Calm_Pill_11_-_The_Healing_Lake_8BE609A8-7115-4273-8A1A-CE5738459E7A.mp3",
-      "thumbnail": "https://archive.org/services/img/CalmPills",
-      "duration": 3672,
-      "duration_text": "1:01:12",
-      "published": "fixed",
-      "published_at": "2026-07-20T02:00:07.659935+05:30",
-      "published_ts": 1784493004,
-      "latest_rank": 3,
-      "category": "meditation",
-      "category_label": "Meditation",
-      "query": "Fixed Background Audio",
-      "score": 26.4,
-      "method": "audio_track",
-      "background_audio": true,
-      "categories": [
-        "meditation"
-      ],
-      "category_labels": [
-        "Meditation"
-      ],
-      "queries": [
-        "Fixed Background Audio"
-      ]
-    },
-    {
-      "id": "audio-mfp-32-seddon",
-      "title": "Music for Programming 32: Chris Seddon",
-      "channel": "Music For Programming",
-      "url": "https://musicforprogramming.net/",
-      "audio_url": "https://datashat.net/music_for_programming_32-chris_seddon.mp3",
-      "thumbnail": "https://archive.org/services/img/nqdtcklal2qt885ari0fjefndtlkhz47fmmgldrr",
-      "duration": 4111,
-      "duration_text": "1:08:31",
-      "published": "fixed",
-      "published_at": "2026-07-20T02:00:07.659935+05:30",
-      "published_ts": 1784493003,
-      "latest_rank": 4,
-      "category": "focus",
-      "category_label": "Work Focus",
-      "query": "Fixed Background Audio",
-      "score": 26.0,
-      "method": "audio_track",
-      "background_audio": true,
-      "categories": [
-        "focus"
-      ],
-      "category_labels": [
-        "Work Focus"
-      ],
-      "queries": [
-        "Fixed Background Audio"
-      ]
-    },
-    {
-      "id": "audio-piano-rain-sleep",
-      "title": "Rain Sounds - Beautiful Piano",
-      "channel": "Soft Piano",
-      "url": "https://archive.org/details/SoftPianoMusicSleepingMusic",
-      "audio_url": "https://archive.org/download/SoftPianoMusicSleepingMusic/Rain%20Sounds%20-%20Beautiful%20Piano.mp3",
-      "thumbnail": "https://archive.org/services/img/SoftPianoMusicSleepingMusic",
-      "duration": 6314,
-      "duration_text": "1:45:14",
-      "published": "fixed",
-      "published_at": "2026-07-20T02:00:07.659935+05:30",
-      "published_ts": 1784493002,
-      "latest_rank": 5,
-      "category": "sleep",
-      "category_label": "Sleep",
-      "query": "Fixed Background Audio",
-      "score": 24.0,
-      "method": "audio_track",
-      "background_audio": true,
-      "categories": [
-        "sleep"
-      ],
-      "category_labels": [
-        "Sleep"
-      ],
-      "queries": [
-        "Fixed Background Audio"
-      ]
-    },
-    {
-      "id": "audio-chill-guido-lounge",
-      "title": "Guest Mix on Guido's Lounge Cafe",
-      "channel": "Chill Pills",
-      "url": "https://archive.org/details/ChillPills",
-      "audio_url": "https://archive.org/download/ChillPills/Uplifting_Pills_-_Chill_Pill_23_-_Guest_Mix_On_Guidos_Lounge_Cafe.mp3",
-      "thumbnail": "https://archive.org/download/ChillPills/Uplifting_Pills_-_Chill_Pill_23_-_Guest_Mix_On_Guidos_Lounge_Cafe.png",
-      "duration": 3725,
-      "duration_text": "1:02:05",
-      "published": "fixed",
-      "published_at": "2026-07-20T02:00:07.659935+05:30",
-      "published_ts": 1784493001,
-      "latest_rank": 6,
-      "category": "lofi",
-      "category_label": "Lo-fi",
-      "query": "Fixed Background Audio",
-      "score": 22.4,
-      "method": "audio_track",
-      "background_audio": true,
-      "categories": [
-        "lofi"
-      ],
-      "category_labels": [
-        "Lo-fi"
-      ],
-      "queries": [
-        "Fixed Background Audio"
-      ]
-    },
-    {
-      "id": "audio-ambient-soundbath-101",
-      "title": "Ambient Soundbath 101",
-      "channel": "Ambient Soundbath",
-      "url": "https://archive.org/details/AmbientSoundbathPodcast",
-      "audio_url": "https://archive.org/download/AmbientSoundbathPodcast/ASB101.mp3",
-      "thumbnail": "https://archive.org/services/img/AmbientSoundbathPodcast",
-      "duration": 3975,
-      "duration_text": "1:06:15",
-      "published": "fixed",
-      "published_at": "2026-07-20T02:00:07.659935+05:30",
-      "published_ts": 1784493000,
-      "latest_rank": 7,
+      "id": "vNwYtllyt3Q",
+      "title": "Brian Eno - Ambient 1: Music for Airports [Full Album]",
+      "channel": "Methadone Methadone",
+      "url": "https://www.youtube.com/watch?v=vNwYtllyt3Q",
+      "embed_url": "https://www.youtube.com/embed/vNwYtllyt3Q",
+      "thumbnail": "https://i.ytimg.com/vi/vNwYtllyt3Q/hqdefault.jpg",
+      "duration": 2919,
+      "duration_text": "48:39",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 13,
       "category": "ambient",
       "category_label": "Ambient",
-      "query": "Fixed Background Audio",
-      "score": 22.0,
-      "method": "audio_track",
-      "background_audio": true,
+      "query": "Classic",
+      "score": 21.3,
+      "method": "classic",
+      "classic": true,
       "categories": [
         "ambient"
       ],
@@ -208,28 +94,117 @@
         "Ambient"
       ],
       "queries": [
-        "Fixed Background Audio"
+        "Classic"
       ]
     },
     {
-      "id": "audio-piano-flute-instrumental",
-      "title": "The Best Piano Flute Music",
-      "channel": "Soft Piano",
-      "url": "https://archive.org/details/SoftPianoMusicSleepingMusic",
-      "audio_url": "https://archive.org/download/SoftPianoMusicSleepingMusic/The%20Best%20Piano%20Flute%20Music.mp3",
-      "thumbnail": "https://archive.org/download/SoftPianoMusicSleepingMusic/The%20Best%20Piano%20Flute%20Music.png",
-      "duration": 10934,
-      "duration_text": "3:02:14",
-      "published": "fixed",
-      "published_at": "2026-07-20T02:00:07.659935+05:30",
-      "published_ts": 1784492999,
-      "latest_rank": 8,
+      "id": "2YeofmJvCcg",
+      "title": "1 Hour of Koyasan: Reiki Sound Healing by Deuter | FULL ALBUM",
+      "channel": "New Earth Records",
+      "url": "https://www.youtube.com/watch?v=2YeofmJvCcg",
+      "embed_url": "https://www.youtube.com/embed/2YeofmJvCcg",
+      "thumbnail": "https://i.ytimg.com/vi/2YeofmJvCcg/hqdefault.jpg",
+      "duration": 3744,
+      "duration_text": "1:02:24",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 5,
+      "category": "meditation",
+      "category_label": "Meditation",
+      "query": "Classic",
+      "score": 21.15,
+      "method": "classic",
+      "classic": true,
+      "categories": [
+        "meditation"
+      ],
+      "category_labels": [
+        "Meditation"
+      ],
+      "queries": [
+        "Classic"
+      ]
+    },
+    {
+      "id": "BGXOYfZMR0w",
+      "title": "Tycho - Dive (Full Album) (Deluxe Version)",
+      "channel": "Cure Music",
+      "url": "https://www.youtube.com/watch?v=BGXOYfZMR0w",
+      "embed_url": "https://www.youtube.com/embed/BGXOYfZMR0w",
+      "thumbnail": "https://i.ytimg.com/vi/BGXOYfZMR0w/hqdefault.jpg",
+      "duration": 4527,
+      "duration_text": "1:15:27",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 7,
+      "category": "focus",
+      "category_label": "Work Focus",
+      "query": "Classic",
+      "score": 20.25,
+      "method": "classic",
+      "classic": true,
+      "categories": [
+        "focus"
+      ],
+      "category_labels": [
+        "Work Focus"
+      ],
+      "queries": [
+        "Classic"
+      ]
+    },
+    {
+      "id": "qYnA9wWFHLI",
+      "title": "Marconi Union - Weightless (Official 10 Hour Version)",
+      "channel": "JustMusicTV",
+      "url": "https://www.youtube.com/watch?v=qYnA9wWFHLI",
+      "embed_url": "https://www.youtube.com/embed/qYnA9wWFHLI",
+      "thumbnail": "https://i.ytimg.com/vi/qYnA9wWFHLI/hqdefault.jpg",
+      "duration": 36385,
+      "duration_text": "10:06:25",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 1,
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "query": "Classic",
+      "score": 20.05,
+      "method": "classic",
+      "classic": true,
+      "categories": [
+        "relaxing",
+        "sleep"
+      ],
+      "category_labels": [
+        "Relaxing",
+        "Sleep"
+      ],
+      "queries": [
+        "Classic"
+      ]
+    },
+    {
+      "id": "iYqDVqYSTxs",
+      "title": "LTJ Bukem Presents Logical Progression 1996 CD 2",
+      "channel": "Zertrex",
+      "url": "https://www.youtube.com/watch?v=iYqDVqYSTxs",
+      "embed_url": "https://www.youtube.com/embed/iYqDVqYSTxs",
+      "thumbnail": "https://i.ytimg.com/vi/iYqDVqYSTxs/hqdefault.jpg",
+      "duration": 2750,
+      "duration_text": "45:50",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 15,
       "category": "instrumental",
       "category_label": "Instrumental",
-      "query": "Fixed Background Audio",
-      "score": 21.0,
-      "method": "audio_track",
-      "background_audio": true,
+      "query": "Classic",
+      "score": 18.0,
+      "method": "classic",
+      "classic": true,
       "categories": [
         "instrumental"
       ],
@@ -237,7 +212,36 @@
         "Instrumental"
       ],
       "queries": [
-        "Fixed Background Audio"
+        "Classic"
+      ]
+    },
+    {
+      "id": "6W0k5bXsy34",
+      "title": "Best of Tycho",
+      "channel": "Trip Hop Brasil",
+      "url": "https://www.youtube.com/watch?v=6W0k5bXsy34",
+      "embed_url": "https://www.youtube.com/embed/6W0k5bXsy34",
+      "thumbnail": "https://i.ytimg.com/vi/6W0k5bXsy34/hqdefault.jpg",
+      "duration": 4426,
+      "duration_text": "1:13:46",
+      "published": "classic",
+      "published_at": null,
+      "published_ts": 0,
+      "latest_rank": 12,
+      "category": "lofi",
+      "category_label": "Lo-fi",
+      "query": "Classic",
+      "score": 15.8,
+      "method": "classic",
+      "classic": true,
+      "categories": [
+        "lofi"
+      ],
+      "category_labels": [
+        "Lo-fi"
+      ],
+      "queries": [
+        "Classic"
       ]
     }
   ],
@@ -245,49 +249,49 @@
     {
       "id": "relaxing",
       "label": "Relaxing",
-      "query": "relaxing ambient instrumental background audio",
+      "query": "soothing ambient instrumental music no vocals 20 minutes",
       "weight": 1.3
     },
     {
       "id": "energy",
       "label": "Energy Boost",
-      "query": "energy boost instrumental background audio",
+      "query": "energy boost electronic instrumental mix no vocals 20 minutes",
       "weight": 1.25
     },
     {
       "id": "meditation",
       "label": "Meditation",
-      "query": "meditation ambient background audio",
+      "query": "meditation ambient instrumental music no talking 20 minutes",
       "weight": 1.2
     },
     {
       "id": "focus",
       "label": "Work Focus",
-      "query": "work focus instrumental background audio",
+      "query": "work focus instrumental electronic music no vocals 20 minutes",
       "weight": 1.2
     },
     {
       "id": "sleep",
       "label": "Sleep",
-      "query": "sleep ambient background audio",
+      "query": "sleep ambient soundscape instrumental no talking 20 minutes",
       "weight": 1.15
     },
     {
       "id": "lofi",
       "label": "Lo-fi",
-      "query": "lofi instrumental background audio",
+      "query": "lofi instrumental mix no vocals 20 minutes",
       "weight": 1.1
     },
     {
       "id": "ambient",
       "label": "Ambient",
-      "query": "ambient soundscape background audio",
+      "query": "atmospheric ambient electronic instrumental mix 20 minutes",
       "weight": 1.1
     },
     {
       "id": "instrumental",
       "label": "Instrumental",
-      "query": "instrumental background audio",
+      "query": "cinematic chill instrumental electronic music no vocals 20 minutes",
       "weight": 1.0
     }
   ],

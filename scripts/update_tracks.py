@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
+from concurrent.futures import ThreadPoolExecutor
 import json
 import os
 import re
@@ -97,6 +98,7 @@ def run_search(query: str, max_results: int, timeout: int, sort_mode: str, cutof
         "--ignore-errors",
         "--no-warnings",
         "--quiet",
+        "--socket-timeout", str(timeout),
         "--playlist-end", str(max_results),
         "--print", fields,
         target,
@@ -340,7 +342,7 @@ def item_from_classic(track: dict, config: dict, rank: int, timezone: str) -> di
     if not video_id or not title or not category or duration is None or duration < min_duration:
         return None
 
-    text = normalize_key(f"{title} {channel}")
+    text = normalize_key(f"{title} {channel} {clean_text(track.get('keywords'))}")
     if not valid_music_text(text, config):
         return None
 
@@ -512,13 +514,74 @@ def merge_track(existing: dict, incoming: dict) -> dict:
     return merged
 
 
+def select_diverse_tracks(items: list[dict], searches: list[dict], config: dict, max_tracks: int) -> list[dict]:
+    """Fill every listening mode first, then add only varied high-quality picks."""
+    portal = config.get("portal", {})
+    max_per_channel = max(1, int(portal.get("max_tracks_per_channel") or 1))
+    max_per_category = max(1, int(portal.get("max_tracks_per_category") or 3))
+    max_classics = max(0, int(portal.get("classic_items_per_category") or 0))
+    category_order = [clean_text(search.get("id")) for search in searches if clean_text(search.get("id"))]
+    channel_counts: dict[str, int] = {}
+    category_counts: dict[str, int] = {}
+    classic_counts: dict[str, int] = {}
+    selected: list[dict] = []
+    selected_ids: set[str] = set()
+
+    def item_categories(item: dict) -> list[str]:
+        return [clean_text(category) for category in item.get("categories") or [item.get("category")] if clean_text(category)]
+
+    def sort_key(item: dict):
+        # A current upload always outranks an evergreen fallback; score breaks ties.
+        return (
+            item.get("method") != "classic",
+            float(item.get("score") or 0),
+            int(item.get("published_ts") or 0),
+        )
+
+    def add(item: dict, category: str) -> bool:
+        if len(selected) >= max_tracks or item.get("id") in selected_ids:
+            return False
+        channel = normalize_key(clean_text(item.get("channel"))) or "unknown"
+        if channel_counts.get(channel, 0) >= max_per_channel:
+            return False
+        if category_counts.get(category, 0) >= max_per_category:
+            return False
+        if item.get("classic") and classic_counts.get(category, 0) >= max_classics:
+            return False
+        selected.append(item)
+        selected_ids.add(item["id"])
+        channel_counts[channel] = channel_counts.get(channel, 0) + 1
+        category_counts[category] = category_counts.get(category, 0) + 1
+        if item.get("classic"):
+            classic_counts[category] = classic_counts.get(category, 0) + 1
+        return True
+
+    ordered = sorted(items, key=sort_key, reverse=True)
+
+    # Reserve the first pass for category coverage, so a prolific source cannot occupy the page.
+    for category in category_order:
+        for item in ordered:
+            if category in item_categories(item) and add(item, category):
+                break
+
+    # Fill remaining capacity with the best eligible item while preserving both caps.
+    for item in ordered:
+        categories = item_categories(item)
+        preferred = clean_text(item.get("category"))
+        category = preferred if preferred in categories else (categories[0] if categories else "")
+        if category in category_order:
+            add(item, category)
+
+    return sorted(selected, key=sort_key, reverse=True)
+
+
 def main() -> int:
     config = load_json(CONFIG_PATH, {})
     portal = config.get("portal", {})
     timezone = portal.get("timezone", "Asia/Kolkata")
     max_results = int(os.environ.get("MUSIC_MAX_RESULTS_PER_QUERY") or portal.get("max_results_per_query") or 12)
     max_tracks = int(os.environ.get("MUSIC_MAX_TRACKS") or portal.get("max_tracks") or 64)
-    timeout = int(os.environ.get("MUSIC_SEARCH_TIMEOUT") or 90)
+    timeout = int(os.environ.get("MUSIC_SEARCH_TIMEOUT") or portal.get("search_timeout_seconds") or 25)
     feed_timeout = int(os.environ.get("MUSIC_FEED_TIMEOUT") or 20)
     duration_timeout = int(os.environ.get("MUSIC_DURATION_TIMEOUT") or 15)
     sort_mode = str(os.environ.get("MUSIC_SEARCH_SORT") or portal.get("search_sort") or "date").lower()
@@ -538,16 +601,18 @@ def main() -> int:
     errors = []
     min_duration = int(portal.get("min_duration_seconds") or 1200)
 
-    for rank, track in enumerate(config.get("audio_tracks", []), start=1):
-        item = item_from_audio_track(track, rank, now, min_duration)
-        if not item:
-            continue
-        tracks_by_id[item["id"]] = {
-            **item,
-            "categories": [item["category"]],
-            "category_labels": [item["category_label"]],
-            "queries": [item["query"]],
-        }
+    fixed_tracks_enabled = str(os.environ.get("MUSIC_FIXED_TRACKS_ENABLED", portal.get("fixed_tracks_enabled", False))).lower()
+    if fixed_tracks_enabled in {"1", "true", "yes", "on"}:
+        for rank, track in enumerate(config.get("audio_tracks", []), start=1):
+            item = item_from_audio_track(track, rank, now, min_duration)
+            if not item:
+                continue
+            tracks_by_id[item["id"]] = {
+                **item,
+                "categories": [item["category"]],
+                "category_labels": [item["category_label"]],
+                "queries": [item["query"]],
+            }
 
     streams_enabled = str(os.environ.get("MUSIC_LIVE_STREAMS_ENABLED", portal.get("live_streams_enabled", False))).lower()
     if streams_enabled in {"1", "true", "yes", "on"}:
@@ -580,16 +645,22 @@ def main() -> int:
                 }
 
     if use_youtube_search:
-        for search in config.get("searches", []):
+        search_workers = max(1, int(portal.get("search_workers") or 3))
+
+        def collect_search(search: dict):
             query = clean_text(search.get("query"))
             if not query:
-                continue
+                return search, [], None
             try:
-                entries = run_search(query, max_results, timeout, sort_mode, cutoff_time)
+                return search, run_search(query, max_results, timeout, sort_mode, cutoff_time), None
             except Exception as exc:
-                errors.append(f"{query}: {type(exc).__name__}: {exc}")
-                continue
+                return search, [], f"{query}: {type(exc).__name__}: {exc}"
 
+        with ThreadPoolExecutor(max_workers=search_workers) as executor:
+            search_results = list(executor.map(collect_search, config.get("searches", [])))
+        for search, entries, error in search_results:
+            if error:
+                errors.append(error)
             for rank, entry in enumerate(entries, start=1):
                 item = item_from_entry(entry, search, config, rank, cutoff_time, timezone)
                 if not item:
@@ -603,15 +674,10 @@ def main() -> int:
                 }
 
     classic_limit = int(portal.get("classic_items_per_category", 2))
-    classic_counts: dict[str, int] = {}
     for rank, track in enumerate(config.get("classic_tracks", []), start=1):
-        category = clean_text(track.get("category"))
-        if not category or classic_counts.get(category, 0) >= classic_limit:
-            continue
         item = item_from_classic(track, config, rank, timezone)
         if not item:
             continue
-        classic_counts[category] = classic_counts.get(category, 0) + 1
         existing = tracks_by_id.get(item["id"])
         tracks_by_id[item["id"]] = merge_track(existing, item) if existing else {
             **item,
@@ -620,11 +686,7 @@ def main() -> int:
             "queries": [item["query"]],
         }
 
-    tracks = sorted(
-        tracks_by_id.values(),
-        key=lambda item: (item.get("published_ts", 0), item.get("score", 0)),
-        reverse=True,
-    )[:max_tracks]
+    tracks = select_diverse_tracks(list(tracks_by_id.values()), config.get("searches", []), config, max_tracks)
 
     output = {
         "generated_at": now.isoformat(),
@@ -635,6 +697,8 @@ def main() -> int:
         "classic_items_per_category": classic_limit,
         "cutoff_time": cutoff_time.isoformat(),
         "youtube_search_enabled": use_youtube_search,
+        "max_tracks_per_channel": int(portal.get("max_tracks_per_channel") or 1),
+        "max_tracks_per_category": int(portal.get("max_tracks_per_category") or 3),
         "tracks": tracks,
         "searches": config.get("searches", []),
         "audio_tracks": config.get("audio_tracks", []),

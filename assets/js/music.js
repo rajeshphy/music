@@ -9,15 +9,11 @@
   const tracksElement = document.querySelector("#tracks");
   const player = document.querySelector("#player");
   const emptyPlayer = document.querySelector("#empty-player");
-  const playerArt = document.querySelector("#player-art");
-  const playerTitle = document.querySelector("#player-title");
-  const playerSubtitle = document.querySelector("#player-subtitle");
   const youtubeSearch = document.querySelector("#youtube-search");
 
   let tracks = [];
   let searches = [];
   let activeCategory = "all";
-  let currentTrackIndex = -1;
 
   function formatGenerated(value) {
     if (!value) return "Not updated";
@@ -39,28 +35,9 @@
       const inCategory = activeCategory === "all" || (track.categories || []).includes(activeCategory);
       if (!inCategory) return false;
       if (!text) return true;
-      const haystack = [
-        track.title,
-        track.channel,
-        ...(track.category_labels || []),
-        ...(track.queries || [])
-      ].join(" ").toLowerCase();
-      return haystack.includes(text);
+      return [track.title, track.channel, ...(track.category_labels || []), ...(track.queries || [])]
+        .join(" ").toLowerCase().includes(text);
     });
-  }
-
-  function buildTabs() {
-    tabs.replaceChildren();
-    const allButton = tabButton("all", "All");
-    tabs.append(allButton);
-    const activeCategories = new Set(tracks.flatMap(track => track.categories || []));
-    for (const search of searches) {
-      if (!activeCategories.has(search.id)) continue;
-      tabs.append(tabButton(search.id, search.label));
-    }
-    if (activeCategory !== "all" && !activeCategories.has(activeCategory)) {
-      activeCategory = "all";
-    }
   }
 
   function tabButton(id, label) {
@@ -72,78 +49,25 @@
     return button;
   }
 
-  function setMediaSession(track) {
-    if (!("mediaSession" in navigator)) return;
-    navigator.mediaSession.metadata = new MediaMetadata({
-      title: track.title || "Music Radar",
-      artist: track.channel || "Background Audio",
-      album: (track.category_labels || [track.category_label || "Music"]).join(", "),
-      artwork: track.thumbnail ? [
-        { src: track.thumbnail, sizes: "512x512", type: "image/jpeg" }
-      ] : []
-    });
-    navigator.mediaSession.setActionHandler("play", () => player.play());
-    navigator.mediaSession.setActionHandler("pause", () => player.pause());
-    navigator.mediaSession.setActionHandler("previoustrack", () => playRelative(-1));
-    navigator.mediaSession.setActionHandler("nexttrack", () => playRelative(1));
-  }
-
-  function playRelative(offset) {
-    const visible = activeTracks();
-    if (!visible.length) return;
-    const currentId = tracks[currentTrackIndex]?.id;
-    const visibleIndex = Math.max(0, visible.findIndex(track => track.id === currentId));
-    const nextIndex = (visibleIndex + offset + visible.length) % visible.length;
-    play(visible[nextIndex]);
+  function buildTabs() {
+    tabs.replaceChildren(tabButton("all", "All"));
+    const activeCategories = new Set(tracks.flatMap(track => track.categories || []));
+    for (const search of searches) {
+      if (activeCategories.has(search.id)) tabs.append(tabButton(search.id, search.label));
+    }
+    if (activeCategory !== "all" && !activeCategories.has(activeCategory)) activeCategory = "all";
   }
 
   function play(track) {
-    if (!track.audio_url) {
-      youtubeSearch.href = track.url || "#";
-      return;
-    }
-    currentTrackIndex = tracks.findIndex(item => item.id === track.id);
-    player.src = track.audio_url;
-    player.play().catch(() => {});
-    playerTitle.textContent = track.title || "Music Radar";
-    playerSubtitle.textContent = track.channel || "Background Audio";
-    if (track.thumbnail) {
-      playerArt.src = track.thumbnail;
-      playerArt.hidden = false;
-    } else {
-      playerArt.removeAttribute("src");
-      playerArt.hidden = true;
-    }
+    if (!track.embed_url) return;
+    player.src = `${track.embed_url}?autoplay=1&rel=0`;
     emptyPlayer.classList.add("hidden");
-    youtubeSearch.href = track.url || track.audio_url;
-    setMediaSession(track);
-  }
-
-  function render() {
-    tabs.querySelectorAll("button").forEach(button => {
-      button.classList.toggle("active", button.dataset.category === activeCategory);
-    });
-
-    const visible = activeTracks();
-    tracksElement.replaceChildren();
-
-    if (!visible.length) {
-      const empty = document.createElement("div");
-      empty.className = "empty-list";
-      empty.textContent = "No tracks found";
-      tracksElement.append(empty);
-      return;
-    }
-
-    for (const track of visible) {
-      tracksElement.append(trackCard(track));
-    }
+    youtubeSearch.href = track.url || "https://www.youtube.com/";
   }
 
   function trackCard(track) {
     const article = document.createElement("article");
     article.className = "track";
-
     const playButton = document.createElement("button");
     playButton.type = "button";
     playButton.setAttribute("aria-label", `Play ${track.title}`);
@@ -151,11 +75,11 @@
 
     const thumb = document.createElement("div");
     thumb.className = "thumb";
-    const img = document.createElement("img");
-    img.src = track.thumbnail || "";
-    img.alt = "";
-    img.loading = "lazy";
-    if (track.thumbnail) thumb.append(img);
+    const image = document.createElement("img");
+    image.src = track.thumbnail || "";
+    image.alt = "";
+    image.loading = "lazy";
+    thumb.append(image);
     if (track.duration_text) {
       const duration = document.createElement("span");
       duration.className = "duration";
@@ -166,20 +90,18 @@
 
     const body = document.createElement("div");
     body.className = "track-body";
-
     const heading = document.createElement("h2");
     heading.textContent = track.title;
-
     const meta = document.createElement("div");
     meta.className = "meta";
     const channel = document.createElement("span");
     channel.textContent = track.channel || "YouTube";
     const open = document.createElement("a");
     open.className = "open";
-    open.href = track.url || track.audio_url || "#";
+    open.href = track.url || "#";
     open.target = "_blank";
     open.rel = "noopener";
-    open.textContent = track.audio_url ? "Source" : "Open";
+    open.textContent = "Open";
     meta.append(channel, open);
 
     const chips = document.createElement("div");
@@ -196,11 +118,25 @@
       chip.textContent = label;
       chips.append(chip);
     }
-
     body.append(heading, meta, chips);
     article.append(playButton, body);
-    article.classList.toggle("audio-ready", Boolean(track.audio_url));
     return article;
+  }
+
+  function render() {
+    tabs.querySelectorAll("button").forEach(button => {
+      button.classList.toggle("active", button.dataset.category === activeCategory);
+    });
+    const visible = activeTracks();
+    tracksElement.replaceChildren();
+    if (!visible.length) {
+      const empty = document.createElement("div");
+      empty.className = "empty-list";
+      empty.textContent = "No tracks found";
+      tracksElement.append(empty);
+      return;
+    }
+    visible.forEach(track => tracksElement.append(trackCard(track)));
   }
 
   async function load() {
@@ -209,15 +145,12 @@
       fetch(`data/searches.json?v=${stamp}`, { cache: "no-store" }),
       fetch(`data/tracks.json?v=${stamp}`, { cache: "no-store" })
     ]);
-    const config = await configResponse.json();
-    const data = await tracksResponse.json();
-
+    const [config, data] = await Promise.all([configResponse.json(), tracksResponse.json()]);
     title.textContent = config.portal?.title || "Music Radar";
     subtitle.textContent = config.portal?.subtitle || "";
     updated.textContent = formatGenerated(data.generated_at);
     searches = config.searches || data.searches || [];
     tracks = data.tracks || [];
-
     buildTabs();
     render();
   }
@@ -228,9 +161,7 @@
     activeCategory = button.dataset.category;
     render();
   });
-
   filter.addEventListener("input", render);
-
   load().catch(error => {
     console.error(error);
     updated.textContent = "Unavailable";

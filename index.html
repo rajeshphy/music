@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111316">
   <title>Music Radar</title>
-  <link rel="stylesheet" href="assets/css/music.css?v=2">
+  <link rel="stylesheet" href="assets/css/music.css?v=3">
 </head>
 <body>
   <header class="topbar">
@@ -15,21 +15,13 @@
     </div>
     <div class="status">
       <span id="updated">Loading</span>
-      <a id="youtube-search" href="https://somafm.com/" target="_blank" rel="noopener">Source</a>
+      <a id="youtube-search" href="https://www.youtube.com/results?search_query=soothing+instrumental+music+no+vocals" target="_blank" rel="noopener">YouTube</a>
     </div>
   </header>
 
   <main class="layout">
     <section class="player-shell" aria-label="Selected track">
-      <div class="now-playing">
-        <img id="player-art" alt="">
-        <div>
-          <p>Background audio</p>
-          <h2 id="player-title">Select a track</h2>
-          <span id="player-subtitle">Ready</span>
-        </div>
-      </div>
-      <audio id="player" controls preload="none"></audio>
+      <iframe id="player" title="YouTube player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <div id="empty-player" class="empty-player">Select a track</div>
     </section>
 
@@ -44,6 +36,6 @@
     <section id="tracks" class="tracks" aria-label="Tracks"></section>
   </main>
 
-  <script src="assets/js/music.js?v=2"></script>
+  <script src="assets/js/music.js?v=3"></script>
 </body>
 </html>

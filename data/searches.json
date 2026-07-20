@@ -1,68 +1,73 @@
 {
   "portal": {
     "title": "Music Radar",
-    "subtitle": "Fixed background audio longer than 20 minutes for relaxing, energy, meditation, focus, sleep, ambient, lo-fi and instrumental listening",
+    "subtitle": "Fresh long-form instrumental YouTube music, balanced across calming, meditation, focus, energy and ambient listening",
     "timezone": "Asia/Kolkata",
     "locale": "en-IN",
     "default_category": "all",
-    "max_tracks": 96,
+    "max_tracks": 24,
     "max_results_per_query": 10,
     "max_items_per_feed": 5,
     "search_sort": "date",
     "recent_hours": 24,
-    "youtube_search_enabled": false,
+    "youtube_search_enabled": true,
     "youtube_feeds_enabled": false,
     "live_streams_enabled": false,
+    "fixed_tracks_enabled": false,
     "min_duration_seconds": 1200,
-    "classic_items_per_category": 0
+    "classic_items_per_category": 1,
+    "max_tracks_per_channel": 1,
+    "max_tracks_per_category": 3,
+    "search_workers": 3,
+    "search_timeout_seconds": 25
   },
   "searches": [
     {
       "id": "relaxing",
       "label": "Relaxing",
-      "query": "relaxing ambient instrumental background audio",
+      "query": "soothing ambient instrumental music no vocals 20 minutes",
       "weight": 1.3
     },
     {
       "id": "energy",
       "label": "Energy Boost",
-      "query": "energy boost instrumental background audio",
+      "query": "energy boost electronic instrumental mix no vocals 20 minutes",
       "weight": 1.25
     },
     {
       "id": "meditation",
       "label": "Meditation",
-      "query": "meditation ambient background audio",
+      "query": "meditation ambient instrumental music no talking 20 minutes",
       "weight": 1.2
     },
     {
       "id": "focus",
       "label": "Work Focus",
-      "query": "work focus instrumental background audio",
+      "query": "work focus instrumental electronic music no vocals 20 minutes",
       "weight": 1.2
     },
     {
       "id": "sleep",
       "label": "Sleep",
-      "query": "sleep ambient background audio",
+      "query": "sleep ambient soundscape instrumental no talking 20 minutes",
       "weight": 1.15
     },
     {
       "id": "lofi",
       "label": "Lo-fi",
-      "query": "lofi instrumental background audio",
+      "query": "lofi instrumental mix no vocals 20 minutes",
       "weight": 1.1
     },
     {
       "id": "ambient",
       "label": "Ambient",
-      "query": "ambient soundscape background audio",
+      "query": "atmospheric ambient electronic instrumental mix 20 minutes",
       "weight": 1.1
     },
     {
       "id": "instrumental",
       "label": "Instrumental",
-      "query": "instrumental background audio",
+      "query": "cinematic chill instrumental electronic music no vocals 20 minutes",
       "weight": 1.0
     }
   ],
@@ -691,12 +696,13 @@
       "weight": 1.2
     },
     {
-      "category": "night_drive",
-      "category_label": "Night Drive",
+      "category": "lofi",
+      "category_label": "Lo-fi",
       "id": "6W0k5bXsy34",
       "duration": 4426,
       "title": "Best of Tycho",
       "channel": "Trip Hop Brasil",
+      "keywords": "lofi instrumental chill electronic mix",
       "url": "https://www.youtube.com/watch?v=6W0k5bXsy34",
       "weight": 1.2
     },
@@ -721,8 +727,8 @@
       "weight": 1.2
     },
     {
-      "category": "liquid",
-      "category_label": "Liquid DnB",
+      "category": "instrumental",
+      "category_label": "Instrumental",
       "id": "iYqDVqYSTxs",
       "duration": 2750,
       "title": "LTJ Bukem Presents Logical Progression 1996 CD 2",
