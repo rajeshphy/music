@@ -1,34 +1,32 @@
 {
-  "generated_at": "2026-11-09T04:40:32.350608+05:30",
+  "generated_at": "2026-11-10T07:54:26.232844+05:30",
   "mode": "latest",
   "search_sort": "date",
   "recent_hours": 24,
   "min_duration_seconds": 1200,
   "classic_items_per_category": 1,
-  "cutoff_time": "2026-11-08T04:40:32.350608+05:30",
+  "cutoff_time": "2026-11-09T07:54:26.232844+05:30",
   "youtube_search_enabled": true,
   "max_tracks_per_channel": 1,
   "max_tracks_per_category": 3,
   "tracks": [
     {
-      "id": "cp71Tu-cNAc",
-      "title": "MOBY Long Ambients 1 : Calm Sleep Full Album 2016 Zen Music 4K",
-      "channel": "Instants Transformers",
-      "url": "https://www.youtube.com/watch?v=cp71Tu-cNAc",
-      "embed_url": "https://www.youtube.com/embed/cp71Tu-cNAc",
-      "thumbnail": "https://i.ytimg.com/vi/cp71Tu-cNAc/hqdefault.jpg",
-      "duration": 14709,
-      "duration_text": "4:05:09",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 2,
+      "id": "9aqGYGaHsb4",
+      "title": "Focus Music • Zero Distractions for Deep Work and Study — Stay in the Zone While You Write or Code",
+      "channel": "Relaxing Music Journey",
+      "url": "https://www.youtube.com/watch?v=9aqGYGaHsb4",
+      "embed_url": "https://www.youtube.com/embed/9aqGYGaHsb4",
+      "thumbnail": "https://i.ytimg.com/vi/9aqGYGaHsb4/hqdefault.jpg",
+      "duration": "7376",
+      "duration_text": "2:02:56",
+      "published": "20261109",
+      "published_at": "2026-11-09T16:30:08+05:30",
+      "published_ts": 1794222008,
+      "latest_rank": 3,
       "category": "relaxing",
       "category_label": "Relaxing",
-      "query": "Classic",
-      "score": 25.1,
-      "method": "classic",
-      "classic": true,
+      "query": "soothing ambient instrumental music no vocals 20 minutes",
+      "score": 21.15,
       "categories": [
         "relaxing"
       ],
@@ -36,7 +34,250 @@
         "Relaxing"
       ],
       "queries": [
-        "Classic"
+        "soothing ambient instrumental music no vocals 20 minutes"
+      ]
+    },
+    {
+      "id": "6gnVxTbt0pE",
+      "title": "🎶 2026 Ultimate Mind Relaxing Lofi Beats | Study,Sleep & Chill 🎧🎵",
+      "channel": "Poswal Music",
+      "url": "https://www.youtube.com/watch?v=6gnVxTbt0pE",
+      "embed_url": "https://www.youtube.com/embed/6gnVxTbt0pE",
+      "thumbnail": "https://i.ytimg.com/vi/6gnVxTbt0pE/hqdefault.jpg",
+      "duration": "1800",
+      "duration_text": "30:00",
+      "published": "20261109",
+      "published_at": "2026-11-09T19:00:29+05:30",
+      "published_ts": 1794231029,
+      "latest_rank": 3,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "atmospheric ambient electronic instrumental mix 20 minutes",
+      "score": 20.85,
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "atmospheric ambient electronic instrumental mix 20 minutes"
+      ]
+    },
+    {
+      "id": "Xo5DkJ-XKFE",
+      "title": "ENDLESS VIBE – LOFI DREAMS 🌙 | 30 MIN Relaxing LoFi Mix | Cozy, Melancholic & Instrumental",
+      "channel": "ENDLESS VIBE",
+      "url": "https://www.youtube.com/watch?v=Xo5DkJ-XKFE",
+      "embed_url": "https://www.youtube.com/embed/Xo5DkJ-XKFE",
+      "thumbnail": "https://i.ytimg.com/vi/Xo5DkJ-XKFE/hqdefault.jpg",
+      "duration": "1797",
+      "duration_text": "29:57",
+      "published": "20261109",
+      "published_at": "2026-11-09T17:15:50+05:30",
+      "published_ts": 1794224750,
+      "latest_rank": 1,
+      "category": "lofi",
+      "category_label": "Lo-fi",
+      "query": "lofi instrumental mix no vocals 20 minutes",
+      "score": 20.65,
+      "categories": [
+        "lofi"
+      ],
+      "category_labels": [
+        "Lo-fi"
+      ],
+      "queries": [
+        "lofi instrumental mix no vocals 20 minutes"
+      ]
+    },
+    {
+      "id": "9v8YAZG12IY",
+      "title": "Relaxing Fantasy Music for Sleep & Study | Medieval Harbour Town at Night · 2 Hours",
+      "channel": "Still Pond",
+      "url": "https://www.youtube.com/watch?v=9v8YAZG12IY",
+      "embed_url": "https://www.youtube.com/embed/9v8YAZG12IY",
+      "thumbnail": "https://i.ytimg.com/vi/9v8YAZG12IY/hqdefault.jpg",
+      "duration": "7200",
+      "duration_text": "2:00:00",
+      "published": "20261109",
+      "published_at": "2026-11-09T17:00:12+05:30",
+      "published_ts": 1794223812,
+      "latest_rank": 6,
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "query": "soothing ambient instrumental music no vocals 20 minutes",
+      "score": 19.8,
+      "categories": [
+        "relaxing"
+      ],
+      "category_labels": [
+        "Relaxing"
+      ],
+      "queries": [
+        "soothing ambient instrumental music no vocals 20 minutes"
+      ]
+    },
+    {
+      "id": "H5s-sQbaTIA",
+      "title": "Dark Academia Study Music 📚 Gothic Library on a Rainy Night | Melancholic Piano for Reading & Focus",
+      "channel": "Through Dawn – Piano for Reading & Focus",
+      "url": "https://www.youtube.com/watch?v=H5s-sQbaTIA",
+      "embed_url": "https://www.youtube.com/embed/H5s-sQbaTIA",
+      "thumbnail": "https://i.ytimg.com/vi/H5s-sQbaTIA/hqdefault.jpg",
+      "duration": "7294",
+      "duration_text": "2:01:34",
+      "published": "20261109",
+      "published_at": "2026-11-09T18:00:03+05:30",
+      "published_ts": 1794227403,
+      "latest_rank": 4,
+      "category": "relaxing",
+      "category_label": "Relaxing",
+      "query": "soothing ambient instrumental music no vocals 20 minutes",
+      "score": 19.6,
+      "categories": [
+        "relaxing"
+      ],
+      "category_labels": [
+        "Relaxing"
+      ],
+      "queries": [
+        "soothing ambient instrumental music no vocals 20 minutes"
+      ]
+    },
+    {
+      "id": "XDZRoxrHnGM",
+      "title": "🎶 2026Ultimate Mind Relaxing Lofi Beats | Study, Sleep & Chill🎧",
+      "channel": "mind Relax loffy",
+      "url": "https://www.youtube.com/watch?v=XDZRoxrHnGM",
+      "embed_url": "https://www.youtube.com/embed/XDZRoxrHnGM",
+      "thumbnail": "https://i.ytimg.com/vi/XDZRoxrHnGM/hqdefault.jpg",
+      "duration": "1406",
+      "duration_text": "23:26",
+      "published": "20261109",
+      "published_at": "2026-11-09T18:20:32+05:30",
+      "published_ts": 1794228632,
+      "latest_rank": 4,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "atmospheric ambient electronic instrumental mix 20 minutes",
+      "score": 19.3,
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "atmospheric ambient electronic instrumental mix 20 minutes"
+      ]
+    },
+    {
+      "id": "NXy9JegDVxE",
+      "title": "🎶2026Ultimate Mind Relaxing Lofi Beats | Study, Sleep & Chill, Cool Mind🎧",
+      "channel": "Saghir Music Studio",
+      "url": "https://www.youtube.com/watch?v=NXy9JegDVxE",
+      "embed_url": "https://www.youtube.com/embed/NXy9JegDVxE",
+      "thumbnail": "https://i.ytimg.com/vi/NXy9JegDVxE/hqdefault.jpg",
+      "duration": "1233",
+      "duration_text": "20:33",
+      "published": "20261109",
+      "published_at": "2026-11-09T15:26:00+05:30",
+      "published_ts": 1794218160,
+      "latest_rank": 8,
+      "category": "ambient",
+      "category_label": "Ambient",
+      "query": "atmospheric ambient electronic instrumental mix 20 minutes",
+      "score": 18.6,
+      "categories": [
+        "ambient"
+      ],
+      "category_labels": [
+        "Ambient"
+      ],
+      "queries": [
+        "atmospheric ambient electronic instrumental mix 20 minutes"
+      ]
+    },
+    {
+      "id": "2q7Bn5DWt8Q",
+      "title": "Moonlit Deep Sleep | Soft Guzheng & Gentle Stream Sounds to Fall Asleep Fast – 1 Hour 20 Min",
+      "channel": "Warm Soul Meditation",
+      "url": "https://www.youtube.com/watch?v=2q7Bn5DWt8Q",
+      "embed_url": "https://www.youtube.com/embed/2q7Bn5DWt8Q",
+      "thumbnail": "https://i.ytimg.com/vi/2q7Bn5DWt8Q/hqdefault.jpg",
+      "duration": "4800",
+      "duration_text": "1:20:00",
+      "published": "20261110",
+      "published_at": "2026-11-10T06:00:08+05:30",
+      "published_ts": 1794270608,
+      "latest_rank": 1,
+      "category": "sleep",
+      "category_label": "Sleep",
+      "query": "sleep ambient soundscape instrumental no talking 20 minutes",
+      "score": 17.55,
+      "categories": [
+        "sleep"
+      ],
+      "category_labels": [
+        "Sleep"
+      ],
+      "queries": [
+        "sleep ambient soundscape instrumental no talking 20 minutes"
+      ]
+    },
+    {
+      "id": "J-F0WXc6tdk",
+      "title": "40 Minute Winter Lofi Timer | Snowy NYC Study & Classroom Focus",
+      "channel": "Study Hall Radio",
+      "url": "https://www.youtube.com/watch?v=J-F0WXc6tdk",
+      "embed_url": "https://www.youtube.com/embed/J-F0WXc6tdk",
+      "thumbnail": "https://i.ytimg.com/vi/J-F0WXc6tdk/hqdefault.jpg",
+      "duration": "2411",
+      "duration_text": "40:11",
+      "published": "20261109",
+      "published_at": "2026-11-10T00:40:06+05:30",
+      "published_ts": 1794251406,
+      "latest_rank": 4,
+      "category": "lofi",
+      "category_label": "Lo-fi",
+      "query": "lofi instrumental mix no vocals 20 minutes",
+      "score": 15.8,
+      "categories": [
+        "lofi"
+      ],
+      "category_labels": [
+        "Lo-fi"
+      ],
+      "queries": [
+        "lofi instrumental mix no vocals 20 minutes"
+      ]
+    },
+    {
+      "id": "dIGuvfmM4Z4",
+      "title": "Turkish Lo-Fi for Rainy Days 🌧 Saz Chill Beats for Study | 1 H",
+      "channel": "شَوْق · SHAWQ",
+      "url": "https://www.youtube.com/watch?v=dIGuvfmM4Z4",
+      "embed_url": "https://www.youtube.com/embed/dIGuvfmM4Z4",
+      "thumbnail": "https://i.ytimg.com/vi/dIGuvfmM4Z4/hqdefault.jpg",
+      "duration": "2486",
+      "duration_text": "41:26",
+      "published": "20261109",
+      "published_at": "2026-11-09T17:15:07+05:30",
+      "published_ts": 1794224707,
+      "latest_rank": 3,
+      "category": "lofi",
+      "category_label": "Lo-fi",
+      "query": "lofi instrumental mix no vocals 20 minutes",
+      "score": 15.15,
+      "categories": [
+        "lofi"
+      ],
+      "category_labels": [
+        "Lo-fi"
+      ],
+      "queries": [
+        "lofi instrumental mix no vocals 20 minutes"
       ]
     },
     {
@@ -63,35 +304,6 @@
       ],
       "category_labels": [
         "Energy Boost"
-      ],
-      "queries": [
-        "Classic"
-      ]
-    },
-    {
-      "id": "vNwYtllyt3Q",
-      "title": "Brian Eno - Ambient 1: Music for Airports [Full Album]",
-      "channel": "Methadone Methadone",
-      "url": "https://www.youtube.com/watch?v=vNwYtllyt3Q",
-      "embed_url": "https://www.youtube.com/embed/vNwYtllyt3Q",
-      "thumbnail": "https://i.ytimg.com/vi/vNwYtllyt3Q/hqdefault.jpg",
-      "duration": 2919,
-      "duration_text": "48:39",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 13,
-      "category": "ambient",
-      "category_label": "Ambient",
-      "query": "Classic",
-      "score": 21.3,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "ambient"
-      ],
-      "category_labels": [
-        "Ambient"
       ],
       "queries": [
         "Classic"
@@ -156,37 +368,6 @@
       ]
     },
     {
-      "id": "qYnA9wWFHLI",
-      "title": "Marconi Union - Weightless (Official 10 Hour Version)",
-      "channel": "JustMusicTV",
-      "url": "https://www.youtube.com/watch?v=qYnA9wWFHLI",
-      "embed_url": "https://www.youtube.com/embed/qYnA9wWFHLI",
-      "thumbnail": "https://i.ytimg.com/vi/qYnA9wWFHLI/hqdefault.jpg",
-      "duration": 36385,
-      "duration_text": "10:06:25",
-      "published": "classic",
-      "published_at": null,
-      "published_ts": 0,
-      "latest_rank": 1,
-      "category": "relaxing",
-      "category_label": "Relaxing",
-      "query": "Classic",
-      "score": 20.05,
-      "method": "classic",
-      "classic": true,
-      "categories": [
-        "relaxing",
-        "sleep"
-      ],
-      "category_labels": [
-        "Relaxing",
-        "Sleep"
-      ],
-      "queries": [
-        "Classic"
-      ]
-    },
-    {
       "id": "iYqDVqYSTxs",
       "title": "LTJ Bukem Presents Logical Progression 1996 CD 2",
       "channel": "Zertrex",
@@ -216,29 +397,29 @@
       ]
     },
     {
-      "id": "6W0k5bXsy34",
-      "title": "Best of Tycho",
-      "channel": "Trip Hop Brasil",
-      "url": "https://www.youtube.com/watch?v=6W0k5bXsy34",
-      "embed_url": "https://www.youtube.com/embed/6W0k5bXsy34",
-      "thumbnail": "https://i.ytimg.com/vi/6W0k5bXsy34/hqdefault.jpg",
-      "duration": 4426,
-      "duration_text": "1:13:46",
+      "id": "Q4BQxwpw4Co",
+      "title": "Moby - Long Ambients Two - Megamix",
+      "channel": "Moby",
+      "url": "https://www.youtube.com/watch?v=Q4BQxwpw4Co",
+      "embed_url": "https://www.youtube.com/embed/Q4BQxwpw4Co",
+      "thumbnail": "https://i.ytimg.com/vi/Q4BQxwpw4Co/hqdefault.jpg",
+      "duration": 13028,
+      "duration_text": "3:37:08",
       "published": "classic",
       "published_at": null,
       "published_ts": 0,
-      "latest_rank": 12,
-      "category": "lofi",
-      "category_label": "Lo-fi",
+      "latest_rank": 10,
+      "category": "sleep",
+      "category_label": "Sleep",
       "query": "Classic",
-      "score": 15.8,
+      "score": 17.1,
       "method": "classic",
       "classic": true,
       "categories": [
-        "lofi"
+        "sleep"
       ],
       "category_labels": [
-        "Lo-fi"
+        "Sleep"
       ],
       "queries": [
         "Classic"
@@ -607,7 +788,7 @@
       "fallback_duration": 3600
     }
   ],
-  "warning": "soothing ambient instrumental music no vocals 20 minutes: RuntimeError: ERROR: [youtube] BFYcjI9km8g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] B3iqkkATM_k: Premieres in 109 minutes\nERROR: [youtube] MEEOEBU0KjM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] vuK1Ud3FWeo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] qyD7_fHJEc0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] JFEXFVmBcts: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] p4hhuVVt-rw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] hm81-0muRoQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] mpDhTTForPE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 3__dre-fbKk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; energy boost electronic instrumental mix no vocals 20 minutes: RuntimeError: ERROR: [youtube] i65whSeCHrk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Tm_2F3bFYw0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 4CB3kT6wEYI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] T_PPetDLO4U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] o36kKIXMY6I: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; meditation ambient instrumental music no talking 20 minutes: RuntimeError: ERROR: [youtube] EAeQIywGT0A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] T-qTD0F6iNs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] VmcVPB0NamI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 7B3gex7vHns: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] PfmGQM7blKk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; work focus instrumental electronic music no vocals 20 minutes: RuntimeError: ERROR: [youtube] mpDhTTForPE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] PVAClSu0Ric: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 3__dre-fbKk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 2idNqvn8AqQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] UvnR-Hnpwos: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ps5075B4dUw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] oI_yDGnF690: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] pauzABVu7TE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] HukMHNUYzCk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] VqPdu0IoUHI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; sleep ambient soundscape instrumental no talking 20 minutes: RuntimeError: ERROR: [youtube] GeuQvWmGB4Q: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] VmcVPB0NamI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; lofi instrumental mix no vocals 20 minutes: RuntimeError: ERROR: [youtube] f-F_daX3peY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ypTlTb_EiQQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] b2Z55pumg7g: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] -aKuNAT6eKY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] X1NSDQnL5fk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] G5XR63ygHGc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; atmospheric ambient electronic instrumental mix 20 minutes: RuntimeError: ERROR: [youtube] UvnR-Hnpwos: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] pPaz0CUGGu8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] oPHeSXkPwJE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] s78PPPVoJck: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] BEDrz1b7JnI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] cj1YO00xTUc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] ktEV79nv630: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] Uh4hRrD5sss: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] tFnAKGi0R3A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] pZNz3eiCflM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies; cinematic chill instrumental electronic music no vocals 20 minutes: RuntimeError: ERROR: [youtube] 2idNqvn8AqQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] -eRoLNW1XQ0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] UlPYDlGPnVw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 4VPVjlAOocE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] M-D3XetuJC4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] VSej851I0PI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] JDR3UBM570M: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] sbuRjUnWD-M: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] NL2sKNjLOFg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] t2EvxoHBzwU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
+  "warning": "work focus instrumental electronic music no vocals 20 minutes: RuntimeError: ERROR: [youtube] yX2P7nx3_Dk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] WZOM05d9L-Q: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 26ngEzoWf1Q: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] TJAX0m4fnPw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 9aqGYGaHsb4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] jCn1eokpryw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] qeHEcAjcmYY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] 4il7FsYoDX4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] V-kRKTLzaAE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nERROR: [youtube] foqSt4SScsk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies",
   "error": null,
   "stale": false
 }
